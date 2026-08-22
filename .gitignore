@@ -2,11 +2,9 @@
 # SALTYMON-UNLEASHED MODPACK .GITIGNORE
 # =========================================
 
-# 1. Ignore raw jar files, but ALLOW Git to track the packwiz index .toml files
-mods/**/*.jar
-mods/*.jar
-!mods/.index/
-!mods/.index/**/*.pw.toml
+# 1. Ignore raw jar files, but allow packwiz .pw.toml files in mods/ to be tracked
+/mods/*.jar
+/mods/**/*.jar
 
 resourcepacks/**/*.zip
 resourcepacks/*.zip
