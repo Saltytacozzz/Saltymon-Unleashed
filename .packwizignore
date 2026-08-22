@@ -2,9 +2,10 @@
 # SALTYMON-UNLEASHED MODPACK .PACKWIZIGNORE
 # =========================================
 
-# 1. Physical Mod/Asset Files (Packwiz handles the .toml text files instead)
+# 1. Physical Mod/Asset Files & Index Folder
 mods/**/*.jar
 mods/*.jar
+mods/.index/
 resourcepacks/**/*.zip
 resourcepacks/*.zip
 shaderpacks/**/*.zip

@@ -2,9 +2,11 @@
 # SALTYMON-UNLEASHED MODPACK .GITIGNORE
 # =========================================
 
-# 1. Ignore raw jar files, but allow packwiz .pw.toml files in mods/ to be tracked
+# 1. Ignore raw jars, but ALLOW tracking of the mod index metadata
 /mods/*.jar
 /mods/**/*.jar
+!/mods/.index/
+!/mods/.index/**
 
 resourcepacks/**/*.zip
 resourcepacks/*.zip
