@@ -1,0 +1,25 @@
+filename = 'cobbledex-rei-emi-jei-neoforge-2.0.4.jar'
+name = 'Cobblemon Info for REI / EMI / JEI'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge] v2.0.5'
+
+[download]
+hash = 'f778151618e98d399af630cdd8dda0ca36f76803'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8634057
+project-id = 1458447
+
+[[x-prismlauncher-dependencies]]
+addonId = '687131'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '351264'
+type = 'REQUIRED'

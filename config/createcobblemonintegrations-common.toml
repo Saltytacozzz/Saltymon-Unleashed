@@ -1,0 +1,49 @@
+[systems]
+	#Allows Pokemon to be captured into Create blaze burners.
+	enableBurnerPokemonCapture = true
+	#Allows Pokemon stored in Create blaze burners to be released back into the world.
+	enableBurnerPokemonRelease = true
+	#Enables the Pokemon Infuser block, interaction behavior, and occupant storage.
+	enableInfuser = true
+	#Allows Infuser jobs to run. If false, Infusers can exist but will not perform work.
+	enableInfuserJobs = true
+	#Enables fatigue gain, fatigue slowdown, feeding recovery, and overwork penalties.
+	enablePokemonFatigue = true
+	#Enables client-side visual overlays/render helpers added by this mod.
+	enableClientOverlays = true
+
+[content]
+	#Allows custom Pokeball-related items to be visible and usable.
+	enablePokeballItems = true
+	#Allows custom fluids to be visible, obtainable, and usable. Fluids are still registered for safety.
+	enableFluids = true
+	#If true, disabled content can still appear in creative tabs for debugging.
+	showDisabledItemsInCreativeTabs = false
+
+[recipes]
+	#Allows recipes that create, consume, fill, drain, or process this mod's custom fluids.
+	enableFluidRecipes = true
+	#Allows custom Pokeball part and Pokeball processing recipes.
+	enablePokeballRecipes = true
+	#Allows recipes using this mod's custom freezing recipe type.
+	enableFreezingRecipes = true
+	#Allows miscellaneous Create processing recipes added by this mod, such as milling, pressing, mixing, deploying, cutting, or compacting recipes not covered by the other groups.
+	enableCreateProcessingRecipes = true
+
+[balance]
+	#Allows wild Pokemon to be captured into modded work/storage systems.
+	allowWildPokemonCapture = true
+	#Allows owned Pokemon to be captured into modded work/storage systems.
+	allowOwnedPokemonCapture = true
+	#Maximum fatigue value a working Pokemon can reach.
+	# Default: 100
+	# Range: 1 ~ 10000
+	maxPokemonFatigue = 100
+	#How many successful work actions add 1 fatigue.
+	# Default: 4
+	# Range: 1 ~ 10000
+	worksPerFatigue = 4
+	#How many exhausted work actions trigger an overwork penalty.
+	# Default: 4
+	# Range: 1 ~ 10000
+	worksPerOverworkPenalty = 4

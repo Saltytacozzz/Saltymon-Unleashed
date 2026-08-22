@@ -1,0 +1,18 @@
+filename = 'vaocorpmusicdiscs-1.5.0.jar'
+name = 'VaoCorp Music Discs'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'vaocorpmusicdiscs-1.5.0.jar'
+
+[download]
+hash = '5446303288ac87cc57a0220e5e23b5f70f8c0282'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8353246
+project-id = 1570167

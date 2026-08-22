@@ -1,0 +1,13 @@
+name = "SaltyMon-Unleashed"
+author = "SaltyTacozzz"
+version = "1.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7d8631829ac6c255f0416bd1c2bc98369275e87089257fa722c1d5a2aae041dd"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.248"

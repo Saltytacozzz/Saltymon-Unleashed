@@ -1,0 +1,21 @@
+filename = 'cobblemonextrastructures-1.21.1-1.3.0-neoforge.jar'
+name = 'Cobblemon: Extra Structures'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'cobblemonextrastructures-1.21.1-1.3.0-neoforge.jar'
+
+[download]
+hash = 'c32f83f5405d11482a453aba7210f6a58e64526c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8070687
+project-id = 1202622
+
+[[x-prismlauncher-dependencies]]
+addonId = '687131'
+type = 'REQUIRED'

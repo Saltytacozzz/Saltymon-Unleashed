@@ -1,0 +1,33 @@
+filename = 'mega_showdown-neoforge-1.9.4+1.7.3+1.21.1.jar'
+name = 'Cobblemon: Mega Showdown'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.9.4+1.7.3+1.21.1'
+
+[download]
+hash = 'bac6f893ccb472a4d8770cba61ed00d259c860f18bf2b706f03600257035da32c8053c7a69ade6d3a8998f5cab4c52b978b704c9cab6d77529e4ade901c075b5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/SszvX85I/versions/lLikG45V/mega_showdown-neoforge-1.9.4%2B1.7.3%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'SszvX85I'
+version = 'lLikG45V'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ccKDOlHs'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jtmvUHXj'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MdwFAVRL'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'lhGA9TYQ'
+type = 'REQUIRED'

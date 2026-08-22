@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "cooldownSeconds": 60,
+  "dynamaxScale": 2.0,
+  "showCooldownMessage": true,
+  "allowGigantamax": true,
+  "allowStandardDynamax": false,
+  "maintainBattleRequirements": true,
+  "requireDynamaxBand": true,
+  "requirePowerSpot": true,
+  "powerSpotRange": 20,
+  "dynamaxAnywhere": false,
+  "requireGmaxFactor": true,
+  "messages": {
+    "cooldownActive": "§cYour Pokémon is too tired to Dynamax! Wait {time} seconds.",
+    "cannotDynamax": "§cThis Pokémon cannot Dynamax! (Cannot Dynamax if Mega Evolved, Primal, or Ultra Burst)",
+    "dynamaxActivated": "§b{pokemon} has Dynamaxed!",
+    "dynamaxReverted": "§e{pokemon} returned to normal size.",
+    "noDynamaxBand": "§cYou need a Dynamax Band to use Dynamax! (Equip it in Accessories slots)",
+    "noPowerSpot": "§cYou must be near a Power Spot to Dynamax! (Range: {range} blocks)",
+    "noGmaxFactor": "§cThis Pokémon cannot Gigantamax! (Missing G-Max Factor)",
+    "noStandardDynamax": "§cStandard Dynamax is disabled! Only Gigantamax is allowed.",
+    "pokemonNotFound": "§cPokémon not found in your party!"
+  }
+}

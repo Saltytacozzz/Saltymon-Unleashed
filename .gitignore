@@ -1,0 +1,48 @@
+# =========================================
+# SALTYMON-UNLEASHED MODPACK .GITIGNORE
+# =========================================
+
+# 1. Physical Mod/Asset Files (Packwiz handles the .toml text files instead)
+mods/**/*.jar
+mods/*.jar
+resourcepacks/**/*.zip
+resourcepacks/*.zip
+shaderpacks/**/*.zip
+shaderpacks/*.zip
+
+# 2. Worlds & Player Data
+saves/
+local/
+essential/
+xaero/
+XaeroWaypoints*/
+exposures/
+patchouli_data.json
+options.txt
+servers.dat
+servers.dat_old
+servers.essential.dat
+usercache.json
+usernamecache.json
+
+# 3. Logs, Crashes & Diagnostics
+logs/
+crash-reports/
+debug/
+hs_err_pid*.log
+command_history.txt
+
+# 4. Caches & Generated Media
+.cache/
+.mixin.out/
+downloads/
+screenshots/
+schematics/
+moddata/
+
+# 5. Heavy Mod-Specific Generated Junk
+cobbledex-export/
+cobbledex-sprites/
+showdown/
+vaocorpmusicdiscs/
+bivrik/
