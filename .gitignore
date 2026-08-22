@@ -49,3 +49,6 @@ cobbledex-sprites/
 showdown/
 vaocorpmusicdiscs/
 bivrik/
+# AutoPlug local files and folders
+AutoPlug-Client.jar
+autoplug/

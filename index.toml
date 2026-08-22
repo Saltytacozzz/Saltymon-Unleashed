@@ -1219,7 +1219,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "0a82d90319b9ba9b5c9fa586a6fca0e2510c2617a9710e6aa738426c1ee87c1e"
+hash = "9897d053032dcfb345567234dd6fb57debb7a52dbe08c06c9bbaef12cdf2e0f2"
 metafile = true
 
 [[files]]
@@ -1234,7 +1234,7 @@ metafile = true
 
 [[files]]
 file = "mods/midnightlib.pw.toml"
-hash = "7f618fd1fa79ac4386d1864d521c6935d5d2c4951f6bb1fce29994dae7a1fd91"
+hash = "1e7a69de13ee96b512350358c746a7b3bf67b07bc532fe5b26f7b3b3f7ee8117"
 metafile = true
 
 [[files]]
@@ -1429,12 +1429,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "210cce3a74344d8ccbe0023ea0399b5573c5e622ae970d0cf81b753b18f1fc3f"
+hash = "2ba7eb6ca5c2c9886cfb1bb23ed56fbbcaac3d4d3b1b185dc550ed61b66ecce1"
 metafile = true
 
 [[files]]
 file = "mods/yungs-api-neoforge.pw.toml"
-hash = "7cb2156566e58df780f1e1248bc7c336fda5be86d8e5828e3485b951e3934471"
+hash = "1e326549d08f0f793d3972da239ec81b40c28498f87cf507a8dc7aa2bbea6550"
 metafile = true
 
 [[files]]
