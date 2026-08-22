@@ -1,0 +1,13 @@
+name = "Tomtaru's Cobblemon & Farmer's Delight Tweaks"
+filename = "TMTCF-NF-1.21.1-2.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5e0a33b5af457a23e0332169f7fd46aa538a4549"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8665648
+project-id = 930346

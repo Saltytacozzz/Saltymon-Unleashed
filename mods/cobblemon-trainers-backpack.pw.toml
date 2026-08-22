@@ -1,0 +1,13 @@
+name = "Cobblemon: Trainers Backpack"
+filename = "cobblemon_trainers_backpack-neoforge-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6164b4a6c3b1a58243587d1a309993fcaef8b98e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8467958
+project-id = 1607950

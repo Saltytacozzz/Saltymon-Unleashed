@@ -1,0 +1,13 @@
+name = "Cobblemarks+ (Cobblemon)"
+filename = "cobblemarks+-1.2.2-release.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e4cbda3c0c7a2ebe3aed2fd42109b3073015d52"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8494533
+project-id = 1427527

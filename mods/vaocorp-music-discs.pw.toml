@@ -1,0 +1,13 @@
+name = "VaoCorp Music Discs"
+filename = "vaocorpmusicdiscs-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5446303288ac87cc57a0220e5e23b5f70f8c0282"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8353246
+project-id = 1570167

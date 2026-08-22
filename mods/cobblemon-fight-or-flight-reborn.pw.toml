@@ -1,0 +1,13 @@
+name = "Cobblemon Fight or Flight Reborn"
+filename = "fightorflight-neoforge-0.10.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "96218ac07f938669bb6e5b57e6d5aca1cdbb30a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8404745
+project-id = 1168140

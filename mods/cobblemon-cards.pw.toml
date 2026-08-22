@@ -1,0 +1,13 @@
+name = "Cobblemon Cards"
+filename = "cobblemon-cards-neoforge-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "25b8748bcefeaf8bd3b3f000d5dda21d7ad31d39"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8426805
+project-id = 1565166

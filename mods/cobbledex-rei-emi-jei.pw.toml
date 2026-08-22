@@ -1,0 +1,13 @@
+name = "Cobblemon Info for REI / EMI / JEI"
+filename = "cobbledex-rei-emi-jei-neoforge-2.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f778151618e98d399af630cdd8dda0ca36f76803"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8634057
+project-id = 1458447

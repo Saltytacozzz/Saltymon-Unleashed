@@ -1,0 +1,13 @@
+name = "Create : Cobblemon Integrations"
+filename = "create-cobblemon-integrations-0.3.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "216789cc9ee6e8c244fafdbb55b1bc7a6287b3ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8400881
+project-id = 1522314

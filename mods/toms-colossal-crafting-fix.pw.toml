@@ -1,0 +1,13 @@
+name = "Toms Colossal Crafting Fix"
+filename = "toms_colossal_crafting_fix-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "422f7f5c393b12b5c7481a909fc740cbe2f4453a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8609059
+project-id = 1630614
