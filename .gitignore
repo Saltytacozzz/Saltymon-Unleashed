@@ -2,9 +2,12 @@
 # SALTYMON-UNLEASHED MODPACK .GITIGNORE
 # =========================================
 
-# 1. Physical Mod/Asset Files (Packwiz handles the .toml text files instead)
+# 1. Ignore raw jar files, but ALLOW Git to track the packwiz index .toml files
 mods/**/*.jar
 mods/*.jar
+!mods/.index/
+!mods/.index/**/*.pw.toml
+
 resourcepacks/**/*.zip
 resourcepacks/*.zip
 shaderpacks/**/*.zip
