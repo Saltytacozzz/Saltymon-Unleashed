@@ -938,6 +938,11 @@ hash = "f0989f93e80cbaaa051ca0737118efc7850ef48a75912053e67a9f937e442626"
 metafile = true
 
 [[files]]
+file = "mods/cobbreeding.pw.toml"
+hash = "51eaca16f5120b750d8a67d42245e0599753d3874839267a4816387a4ae1ae24"
+metafile = true
+
+[[files]]
 file = "mods/colossal-chests.pw.toml"
 hash = "cd650c4c7abff4149d98aad1d637d1d2b199ceae137f930488ad4f861c6321b8"
 metafile = true
