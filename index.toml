@@ -883,8 +883,8 @@ hash = "68c8c2cdc40bbb01787e2df6c84861263dcc4e20898c55b97bbde478ede256e3"
 metafile = true
 
 [[files]]
-file = "mods/cobblemarks-cobblemon.pw.toml"
-hash = "541a19392de7f6707ae01b0f47afef6bd1c7d9dd73b4bf75962b21d63b2dcab4"
+file = "mods/cobblemarks+.pw.toml"
+hash = "68278672793733c4c6fb7fb5b5905a6e57f43dbef65a090d43d503b0b67961d9"
 metafile = true
 
 [[files]]
@@ -929,7 +929,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "e8506cd3259cf74eb5297dc8995c958782ec5b1d9d5fe0b8b88ddd81031a5398"
+hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
 
 [[files]]
@@ -969,7 +969,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-design-n-decor.pw.toml"
-hash = "1c4ef917261df03afd366b0c34307ee0fa06374b52b8e88378ce7205ab58d4e1"
+hash = "e05bc0c3ee97da0dfcf9dabd3c3eaee0e90819091ead3f500ddc3b1caf77fe54"
 metafile = true
 
 [[files]]
@@ -984,7 +984,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
 
 [[files]]
@@ -1034,7 +1034,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "346f28e2ec19543a6b410bf2cf5389401bc6d1aa0189e39d07bf11d64d8bd321"
+hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
 metafile = true
 
 [[files]]
