@@ -1193,6 +1193,11 @@ hash = "f61a3526d323d232fbac74dedb5d89e07f45981db1c5a705c66dbe5da7507a68"
 metafile = true
 
 [[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
+metafile = true
+
+[[files]]
 file = "mods/libipn.pw.toml"
 hash = "5fe986225bb3dac6e7e4dc19d4d1c6d0e7a1ece5e7e07999bf17ddccf09f6348"
 metafile = true
@@ -1323,8 +1328,13 @@ hash = "30172206e910599e13e40746a425338f0aa010b8f5f12ecdbb8ee32d08c61f31"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "2b3710eb891a5f6c8a0db46f2b51b1505794ab10244353d35357d269279bbc86"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "bbb2dfb7d666f8096f759f622c1b5b401a7a9e8fe6f1229c287ea355307db6ac"
+hash = "1195de47e170215af4a3e946d29953605f5380c01e28cd50ac7061a59b77d209"
 metafile = true
 
 [[files]]
