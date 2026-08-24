@@ -1,0 +1,13 @@
+name = "Adaptive Performance Tweaks"
+filename = "adaptive_performance_tweaks-neoforge-1.21.1-12.9.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/kLawTYXp/versions/rEjn77qh/adaptive_performance_tweaks-neoforge-1.21.1-12.9.0.jar"
+hash-format = "sha512"
+hash = "b2b656794bc2d19a186764500171cbfc90559d30500fef640c7f680e10b6e5d6ccf4a0e16a58bdeb9725edbedca774a85facd8375e67dfe587ff2b94b4bfc1e6"
+
+[update]
+[update.modrinth]
+mod-id = "kLawTYXp"
+version = "rEjn77qh"

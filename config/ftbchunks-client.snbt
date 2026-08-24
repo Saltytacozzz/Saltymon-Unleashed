@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:donkey": true
 			"minecraft:spider": true
-			"minecraft:villager": true
-			"minecraft:slime": true
-			"minecraft:enderman": true
-			"minecraft:rabbit": true
-			"minecraft:goat": true
-			"minecraft:llama": true
-			"cobblemon:pokemon": true
-			"minecraft:armadillo": true
-			"minecraft:husk": true
-			"minecraft:camel": true
-			"minecraft:tropical_fish": false
-			"minecraft:bat": true
-			"minecraft:salmon": false
-			"minecraft:chicken": true
+			"minecraft:donkey": true
 			"minecraft:turtle": true
-			"minecraft:phantom": true
-			"minecraft:pufferfish": false
-			"minecraft:zombie_villager": true
-			"minecraft:cave_spider": true
-			"minecraft:squid": true
-			"minecraft:skeleton": true
-			"minecraft:pig": true
-			"minecraft:fox": true
-			"minecraft:bee": true
-			"minecraft:creeper": true
-			"minecraft:witch": true
+			"minecraft:tropical_fish": false
 			"minecraft:zombie": true
-			"minecraft:horse": true
-			"minecraft:sheep": true
-			"minecraft:iron_golem": true
-			"minecraft:cow": true
+			"minecraft:husk": true
+			"minecraft:slime": true
 			"minecraft:wolf": true
-			"minecraft:glow_squid": true
+			"minecraft:horse": true
+			"minecraft:llama": true
+			"minecraft:rabbit": true
+			"minecraft:salmon": false
+			"minecraft:armadillo": true
+			"minecraft:creeper": true
+			"minecraft:fox": true
+			"minecraft:villager": true
+			"minecraft:skeleton": true
+			"cobblemon:pokemon": true
+			"minecraft:pig": true
+			"minecraft:goat": true
+			"minecraft:camel": true
+			"minecraft:bat": true
 			"minecraft:axolotl": true
+			"minecraft:pufferfish": false
+			"minecraft:glow_squid": true
+			"minecraft:bee": true
+			"minecraft:cow": true
+			"minecraft:iron_golem": true
+			"minecraft:zombie_villager": true
+			"minecraft:witch": true
+			"minecraft:squid": true
+			"minecraft:phantom": true
+			"minecraft:cave_spider": true
+			"minecraft:enderman": true
+			"minecraft:chicken": true
+			"minecraft:sheep": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

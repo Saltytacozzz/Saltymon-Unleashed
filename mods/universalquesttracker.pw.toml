@@ -1,0 +1,13 @@
+name = "UniversalQuestTracker"
+filename = "UniversalQuestTracker-NeoForge-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NlDBOSOv/versions/X1EGQzQs/UniversalQuestTracker-NeoForge-1.21.1-1.1.1.jar"
+hash-format = "sha512"
+hash = "75f879693ceaa3f0121c01356d2807692d967a8612b51806d3b7029d4502704fa56a57347b3e3b3dbf8933e6f1e6b7bf8864fd87419d95cca67d7f8467e37e8b"
+
+[update]
+[update.modrinth]
+mod-id = "NlDBOSOv"
+version = "X1EGQzQs"
