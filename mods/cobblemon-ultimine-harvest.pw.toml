@@ -1,0 +1,13 @@
+name = "Cobblemon Ultimine Harvest"
+filename = "ultimine_cobblemon_harvest-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d18796c3b4d36dc4eec6726c275f61bfeb9c109"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7064206
+project-id = 1358405

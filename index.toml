@@ -2143,6 +2143,11 @@ hash = "8acd7bab3141db4c69f0127c9cb6f54650169d921d3c1594b2e110ec2d224e53"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-ultimine-harvest.pw.toml"
+hash = "ab34e0376967867bcaef85b7600ea6ad137a39cd77cb0c2f335073e201e55ded"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon.pw.toml"
 hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
 metafile = true
@@ -2505,6 +2510,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-ultimine-copycat-compat.pw.toml"
 hash = "28e15fa30808c9d090842547501f8a628243e963d3a82f818c47de7fe0a68cbd"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
 metafile = true
 
 [[files]]
