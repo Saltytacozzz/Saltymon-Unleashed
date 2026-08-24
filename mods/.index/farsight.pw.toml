@@ -1,0 +1,21 @@
+filename = 'farsight-1.21.1-5.1.jar'
+name = 'Farsight [Forge/Neo]'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'farsight-1.21.1-5.1.jar'
+
+[download]
+hash = '99b50f8d4fa8861444a7490aef9f4927a2427622'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8192566
+project-id = 495693
+
+[[x-prismlauncher-dependencies]]
+addonId = '326652'
+type = 'REQUIRED'

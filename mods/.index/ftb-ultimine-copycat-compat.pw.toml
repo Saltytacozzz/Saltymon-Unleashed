@@ -1,0 +1,18 @@
+filename = 'ftb_copycat_compat-1.0.0.jar'
+name = 'FTB Ultimine Copycat Compat'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ftb_copycat_compat-1.0.0.jar'
+
+[download]
+hash = '6695c231dd5c46865851715dc817f939980f24a3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8393495
+project-id = 1602429
