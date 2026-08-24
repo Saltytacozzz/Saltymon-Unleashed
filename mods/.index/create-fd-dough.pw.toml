@@ -1,0 +1,31 @@
+filename = 'createfddough-1.0.0.jar'
+name = 'Create & FD Dough'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '34feee6379fe6bf8ce3e9b424c5a4d6076270e5e10f58639746942eb4037a3cf43c7cede2d8272159ba028ad92d6be84991255e13a29fce7252202957dc24212'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UH3ZCkYf/versions/z8g4icbq/createfddough-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'UH3ZCkYf'
+version = 'z8g4icbq'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+version = 'tS7ygzAE'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'u6dRKJwZ'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'
+version = 'yCkges3O'

@@ -1,0 +1,13 @@
+name = "Small Ships Heraldry"
+filename = "smallshipsheraldry-0.3.0+mc.1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HDc7v9w9/versions/DLnRMA1E/smallshipsheraldry-0.3.0%2Bmc.1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "97c31f710579cbabf953c0446914ef3d5609f4f4e648e0e7b36d3210498e0058888f015438cb5176f9df3d95b45d87e4660e62b0cd938f95aaad94281f28b515"
+
+[update]
+[update.modrinth]
+mod-id = "HDc7v9w9"
+version = "DLnRMA1E"

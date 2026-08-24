@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:zombie": true
-			"minecraft:camel": true
-			"minecraft:bat": true
-			"minecraft:turtle": true
-			"minecraft:spider": true
-			"minecraft:zombie_villager": true
-			"minecraft:sheep": true
-			"minecraft:cave_spider": true
 			"minecraft:donkey": true
+			"minecraft:spider": true
 			"minecraft:villager": true
 			"minecraft:slime": true
-			"minecraft:skeleton": true
-			"minecraft:phantom": true
-			"minecraft:cow": true
-			"minecraft:squid": true
-			"minecraft:axolotl": true
-			"minecraft:llama": true
-			"minecraft:chicken": true
+			"minecraft:enderman": true
 			"minecraft:rabbit": true
+			"minecraft:goat": true
+			"minecraft:llama": true
+			"cobblemon:pokemon": true
+			"minecraft:armadillo": true
+			"minecraft:husk": true
+			"minecraft:camel": true
+			"minecraft:tropical_fish": false
+			"minecraft:bat": true
+			"minecraft:salmon": false
+			"minecraft:chicken": true
+			"minecraft:turtle": true
+			"minecraft:phantom": true
+			"minecraft:pufferfish": false
+			"minecraft:zombie_villager": true
+			"minecraft:cave_spider": true
+			"minecraft:squid": true
+			"minecraft:skeleton": true
+			"minecraft:pig": true
 			"minecraft:fox": true
 			"minecraft:bee": true
-			"minecraft:glow_squid": true
-			"minecraft:salmon": false
-			"cobblemon:pokemon": true
-			"minecraft:goat": true
-			"minecraft:horse": true
-			"minecraft:enderman": true
-			"minecraft:iron_golem": true
-			"minecraft:pufferfish": false
-			"minecraft:husk": true
 			"minecraft:creeper": true
-			"minecraft:tropical_fish": false
-			"minecraft:wolf": true
 			"minecraft:witch": true
-			"minecraft:armadillo": true
-			"minecraft:pig": true
+			"minecraft:zombie": true
+			"minecraft:horse": true
+			"minecraft:sheep": true
+			"minecraft:iron_golem": true
+			"minecraft:cow": true
+			"minecraft:wolf": true
+			"minecraft:glow_squid": true
+			"minecraft:axolotl": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

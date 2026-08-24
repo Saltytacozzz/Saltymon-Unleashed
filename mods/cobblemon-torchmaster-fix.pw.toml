@@ -1,0 +1,13 @@
+name = "Cobblemon Torchmaster Fix"
+filename = "cobblemon-torchmaster-fix-neoforge-1.1.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/8ntaVs6D/versions/QeXNgrJ6/cobblemon-torchmaster-fix-neoforge-1.1.0.jar"
+hash-format = "sha512"
+hash = "bd23b0ae59cdb8a6a00e7d34cf531e3639f703bea64482d6e51e04c0eb610338004e214040ef0cd38fa49bbb59fb640803ba5ecc236938696d6583072822f84a"
+
+[update]
+[update.modrinth]
+mod-id = "8ntaVs6D"
+version = "QeXNgrJ6"

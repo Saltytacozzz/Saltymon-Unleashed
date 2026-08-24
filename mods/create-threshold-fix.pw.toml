@@ -1,0 +1,13 @@
+name = "Create: Threshold Fix"
+filename = "thresholdswitchfix-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kDRBfYCz/versions/T5BkzY8P/thresholdswitchfix-1.0.0.jar"
+hash-format = "sha512"
+hash = "70d5994f8cd7faf02716592bd3f5db0f333ea80acc60d64c0053505394eb84687950bd241d5ecd720e1c146ee52ad532eb2abac552c851e4b56b5ea952c5e261"
+
+[update]
+[update.modrinth]
+mod-id = "kDRBfYCz"
+version = "T5BkzY8P"

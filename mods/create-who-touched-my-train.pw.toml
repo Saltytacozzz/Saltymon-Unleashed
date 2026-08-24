@@ -1,0 +1,13 @@
+name = "Create: Who Touched My Train"
+filename = "Who touched my train-1.4.0-Create6.0-beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HGhzofkm/versions/ZI94Ro0T/Who%20touched%20my%20train-1.4.0-Create6.0-beta.jar"
+hash-format = "sha512"
+hash = "828f47b5431bee25392b90c44824920eb93825a495d74d3e2e28fd4cac0af2a2bac0e89b9b50f62472aa5ab03f865af063ac5a5dcfd09bae7298e2ec25251b50"
+
+[update]
+[update.modrinth]
+mod-id = "HGhzofkm"
+version = "ZI94Ro0T"

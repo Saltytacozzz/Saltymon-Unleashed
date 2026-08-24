@@ -1,0 +1,21 @@
+filename = 'createcovered-1.0.7.jar'
+name = 'Create: Covered'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.7'
+
+[download]
+hash = '48e1284cf5c347885dd466578c7589c155cfa8fd24077618a398b185b995fcd4a11cb453a6cafd6f5b742431f43e366311211717f8ff93ff11378bc8109597e7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HcNVSR4n/versions/zKVZGzJR/createcovered-1.0.7.jar'
+
+[update.modrinth]
+mod-id = 'HcNVSR4n'
+version = 'zKVZGzJR'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

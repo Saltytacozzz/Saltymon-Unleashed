@@ -1,0 +1,13 @@
+name = "Create: Expanded Schedule Window"
+filename = "createexpandedschedule-1.0.0-mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/vZAlHFOj/versions/I15CLMKZ/createexpandedschedule-1.0.0-mc1.21.1.jar"
+hash-format = "sha512"
+hash = "125ec00845e8de81ca0f9874b9b46a53b51a00c5d452a0fae9b1b21ffb82583b696732aeaf85864b5f41d93e45a22d899843d99f3231318a1e0950059f198327"
+
+[update]
+[update.modrinth]
+mod-id = "vZAlHFOj"
+version = "I15CLMKZ"

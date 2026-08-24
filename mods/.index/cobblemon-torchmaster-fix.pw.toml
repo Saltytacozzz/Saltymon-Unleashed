@@ -1,0 +1,29 @@
+filename = 'cobblemon-torchmaster-fix-neoforge-1.1.0.jar'
+name = 'Cobblemon Torchmaster Fix'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = 'bd23b0ae59cdb8a6a00e7d34cf531e3639f703bea64482d6e51e04c0eb610338004e214040ef0cd38fa49bbb59fb640803ba5ecc236938696d6583072822f84a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8ntaVs6D/versions/QeXNgrJ6/cobblemon-torchmaster-fix-neoforge-1.1.0.jar'
+
+[update.modrinth]
+mod-id = '8ntaVs6D'
+version = 'QeXNgrJ6'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Tl8ESrhX'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MdwFAVRL'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sqEZOmQo'
+type = 'REQUIRED'

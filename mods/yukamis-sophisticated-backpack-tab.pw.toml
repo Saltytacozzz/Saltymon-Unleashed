@@ -1,0 +1,13 @@
+name = "Yukami's Sophisticated Backpack Tab"
+filename = "yukamibackpacktab-1.21.1-2.0.0-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/bibWUguy/versions/YbgqlWVg/yukamibackpacktab-1.21.1-2.0.0-neoforge.jar"
+hash-format = "sha512"
+hash = "5b177412091411f65d5e34b1df6110fcbaef57481bb0fc8a6cc227747c7ffadf9694936684927813307acf721cab5b60a2331a585ff55e74ecd62a235a9052be"
+
+[update]
+[update.modrinth]
+mod-id = "bibWUguy"
+version = "YbgqlWVg"

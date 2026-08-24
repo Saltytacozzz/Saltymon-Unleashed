@@ -1,0 +1,13 @@
+name = "Cobblemon KubeJS"
+filename = "cobblemon_kubejs-neoforge-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2YFzZT32/versions/DrtASIaO/cobblemon_kubejs-neoforge-1.0.1.jar"
+hash-format = "sha512"
+hash = "5f4495a860041892e29ff8dca91a624d3b21917d5ce6912bc50cce9b333c0d9180f668a31a973826d0ff494e76a6a0993754f660e2a6d244f46e9adecaf7eb1c"
+
+[update]
+[update.modrinth]
+mod-id = "2YFzZT32"
+version = "DrtASIaO"

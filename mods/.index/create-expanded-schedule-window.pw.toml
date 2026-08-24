@@ -1,0 +1,22 @@
+filename = 'createexpandedschedule-1.0.0-mc1.21.1.jar'
+name = 'Create: Expanded Schedule Window'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v1.0.0'
+
+[download]
+hash = '125ec00845e8de81ca0f9874b9b46a53b51a00c5d452a0fae9b1b21ffb82583b696732aeaf85864b5f41d93e45a22d899843d99f3231318a1e0950059f198327'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vZAlHFOj/versions/I15CLMKZ/createexpandedschedule-1.0.0-mc1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'vZAlHFOj'
+version = 'I15CLMKZ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+version = 'n7NADxiG'

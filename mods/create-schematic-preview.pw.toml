@@ -1,0 +1,13 @@
+name = "Create: Schematic Preview"
+filename = "createschematicpreview-1.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/7ljLUpZn/versions/G9UxGwmr/createschematicpreview-1.4.jar"
+hash-format = "sha512"
+hash = "1dcba252287feddb64b8eed17dcdaf488d6e2ff34e3bf336a7296e28ae08194cc029b18a35374b933508533d7869a50aba5e0810358f2ae58165be881b13076a"
+
+[update]
+[update.modrinth]
+mod-id = "7ljLUpZn"
+version = "G9UxGwmr"

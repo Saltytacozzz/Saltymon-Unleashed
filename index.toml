@@ -25,8 +25,28 @@ file = "config/appleskin-client.toml"
 hash = "7127a276c7305371397053cd8d0833e6825c828850626e4067b9fed1430ed217"
 
 [[files]]
+file = "config/artifacts/client.toml"
+hash = "fcc980a4e12e76dc42a3bc27db9fe237f628c63e2544048802b239a2a989c44c"
+
+[[files]]
+file = "config/artifacts/general.toml"
+hash = "b73793e634d1a441c12ed1c3d02ec074b2f19a24766512f78ff0b9d83cf9768b"
+
+[[files]]
+file = "config/artifacts/items.toml"
+hash = "85218a5af8b311d663c58a6c9b69c98eebd92fb8d1b8aaffab4118aa22519cdf"
+
+[[files]]
 file = "config/badoptimizations.txt"
 hash = "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
+
+[[files]]
+file = "config/bakeries-common.toml"
+hash = "104943bf4f585aa5da4231e94bdb3a18a89d25b0a1f8d5e3f91c79fb85b2a419"
+
+[[files]]
+file = "config/better-advanced-tooltips-client.toml"
+hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
 
 [[files]]
 file = "config/betteradvancements-client.toml"
@@ -125,6 +145,10 @@ file = "config/blueprint-common.toml"
 hash = "251f732f07620eab2bb5e56eb068e39e6d651d26aaa7094f59d090d9ce82ede7"
 
 [[files]]
+file = "config/bountiful/bountiful.json"
+hash = "eeead79d2c51bca73a1174aeadd2cef9c12feea8ae8083121c15e47b0563ebc0"
+
+[[files]]
 file = "config/brewinandchewin-client.toml"
 hash = "8e7861a1c13f1169b024f17922e99eed9e7b2c9799c949c00c51ebda216e56f9"
 
@@ -177,12 +201,28 @@ file = "config/colossalchests-common.toml"
 hash = "28961759018e394a773d34b78b5a93634c3568323d9ab0f679672bbfa277c9f5"
 
 [[files]]
+file = "config/comforts-common.toml"
+hash = "1f21c10bfce9cd25aea641046a79df88867f68ba8ba3838a5e1662521f9f06a2"
+
+[[files]]
+file = "config/comforts-server.toml"
+hash = "f6df47d3f1002fde8d9e59c8068acbc39e976b3392e8fd528dc9b38b2856c5a0"
+
+[[files]]
 file = "config/compasstomapxaeros-common.toml"
 hash = "6d956bf0be21c3dbdc926a51a6ab0be593a2b0a66a0e8e999540a8b0dbf5ca33"
 
 [[files]]
 file = "config/connector.json"
 hash = "67bee06b2b321ed25e0d4e9b5bac7ab76c8ae76442de6caf11f463ce2ae1ac5e"
+
+[[files]]
+file = "config/copycats-client.toml"
+hash = "381f51308cca7e8aaa1aebb9253a6be686f74ebc70d4da39dd7750d2ca2e9598"
+
+[[files]]
+file = "config/copycats-common.toml"
+hash = "4554d0df9a25e4f58c07df938806bb435fa2556263b60537bcd8f3f3cd28f1c3"
 
 [[files]]
 file = "config/corpse-server.toml"
@@ -201,12 +241,20 @@ file = "config/create-server.toml"
 hash = "36216a05f3ed63106ba587c8c24ed6315385829e7f3dae695dcf545aba41a270"
 
 [[files]]
+file = "config/create-track-map.json"
+hash = "e7218818015717389a52806a72ad45aaf6e0455851ec3d40b24e6d22b83bdebc"
+
+[[files]]
 file = "config/create_central_kitchen-client.toml"
 hash = "0a1393aff89a803f574fcdb72a6c39c7fcdc95fae4e9ccf3d53cbd155c405c9d"
 
 [[files]]
 file = "config/create_central_kitchen-common.toml"
 hash = "e211c5226a565d1affc5d6c2f752cc5856369a6118ca2fef3a2b61f3fa36a5a8"
+
+[[files]]
+file = "config/create_connected-common.toml"
+hash = "0c352f9d7c4bcf09d676222a1cd1cba8689b0dd1ca0847ff90427bae620a5ec6"
 
 [[files]]
 file = "config/create_dragons_plus-client.toml"
@@ -233,6 +281,14 @@ file = "config/create_enchantment_industry-server.toml"
 hash = "d6342da655e8afd4efbc59ed8745db21e2619bf9c1616f1643f257ed4eb1ade3"
 
 [[files]]
+file = "config/create_mtg-common.toml"
+hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
+
+[[files]]
+file = "config/create_multiplanar_crafters-client.toml"
+hash = "30aa444f59fd8f706de94ebde3c923aff1dd98046bcadc1b22edc0855793d2d7"
+
+[[files]]
 file = "config/createaddition-common.toml"
 hash = "a3e4db70c22ed9354b54e21de5c1875cddb43432ba4e4f83076a8751a75b7714"
 
@@ -241,12 +297,40 @@ file = "config/createcobblemonintegrations-common.toml"
 hash = "b00553093df47b7bb5d410c148ea909b5265a27d6df39730b0d949e26ab8a6f5"
 
 [[files]]
+file = "config/createexpandedschedule-client.toml"
+hash = "f622946634a6268f0a2bccbfa69fe81b966ef388f4eaded5f32c9c35927f6553"
+
+[[files]]
+file = "config/creategsrpm.json"
+hash = "7b9227dc88a08566a40e8721c106a862181a2c21d4499bc6405eee2bdf3381f2"
+
+[[files]]
 file = "config/createjeicompat-client.toml"
 hash = "58c7f3c2b28e70f2e9167ced3f60edf8d6f016647e463774bc5bb090d79ac062"
 
 [[files]]
+file = "config/createredstonelinkgui-client.toml"
+hash = "67b378c41b7ea75bbadeca5fa9c5edd1b065cf6e871926237faa31aa40e4e27b"
+
+[[files]]
+file = "config/createredstonelinkgui-common.toml"
+hash = "986988b85964dc79d7e87a6e03f1e8dbb1b26c5350583e57e181560da2cd72c9"
+
+[[files]]
+file = "config/createschematicpreview-client.toml"
+hash = "952f9e8a4b1ec8c739faf8b908ab284952f9cebb20bd5e5f55a702b1d31fb6f1"
+
+[[files]]
 file = "config/culturaldelights-common.toml"
 hash = "4502bef407cdfb04f45ac1da3516bdc52014420e80fbc44b195ff061332cd953"
+
+[[files]]
+file = "config/curios-client.toml"
+hash = "8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d"
+
+[[files]]
+file = "config/curios-common.toml"
+hash = "9f00a6b9904cf63a36c0c72f8346642962d538aaa78b59943b9de60dda82e6d0"
 
 [[files]]
 file = "config/cyclopscore-common.toml"
@@ -281,6 +365,10 @@ file = "config/embeddium-options.json"
 hash = "2e45fad8b1f64480f223f2c48be441d2e6d9768581fce2f247483574335b383c"
 
 [[files]]
+file = "config/enchdesc.json"
+hash = "7116b95a9b6797af8db84e410a2ca2fdf6f813461e37cd04bff5af933f31567b"
+
+[[files]]
 file = "config/entity_model_features.json"
 hash = "c633e3370aa256a71ab45aec68683a2ec4b29b6c5c2dfd430f9788a854ccf920"
 
@@ -295,6 +383,26 @@ hash = "e92e6772c4b6ec28b9c179c80831d56d11fc65064591424a120133d397b2ab49"
 [[files]]
 file = "config/etf_warnings.json"
 hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
+
+[[files]]
+file = "config/everycomp-client.toml"
+hash = "88b1db478a0ee9c37e9ec28335b204a966fe17e9ba0310bcf2caffd28b5589a5"
+
+[[files]]
+file = "config/everycomp-common.toml"
+hash = "6bccd9a5af80821fe4b83ea397da43adac0b8511bfb7d3b297c038f2b69da8f1"
+
+[[files]]
+file = "config/everycomp-entries-1.toml.bak"
+hash = "68ab0508fc2aa652c3a37ab0b49d7e7473b27fd0462a6559947809bc38914e5c"
+
+[[files]]
+file = "config/everycomp-entries.toml"
+hash = "149cc0519a2acf17a668df923063e24abbb12ebf23b64af937ccb12b4d4eebbf"
+
+[[files]]
+file = "config/everycomp-hazardous.toml"
+hash = "ee0a62a6343886f8c93798e6507e66020f2925844057c4d116f793ae6fb3e062"
 
 [[files]]
 file = "config/explorerscompass-client.toml"
@@ -357,6 +465,10 @@ file = "config/farmersdelight-common.toml"
 hash = "0cc639f1ce8ab5e63f754ab41be3ab09398fd149de6d0b5edc476034e3ed8b06"
 
 [[files]]
+file = "config/farmersrespite-common.toml"
+hash = "d9729651762e1dcef07d575e41637ee442c8b2ea16cc2b8103ea0210bd638e5b"
+
+[[files]]
 file = "config/fastbench.cfg"
 hash = "b9f2753df740086016ae47d0f9b69521b1233546fd564bf2797ed93fd5c60efb"
 
@@ -389,8 +501,12 @@ file = "config/fml.toml"
 hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
 
 [[files]]
+file = "config/framedblocks-client.toml"
+hash = "e44f042e65fb198f6681fddcd30cf29b2a567ff61b77a7518eb28a5345b8d6ab"
+
+[[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "390d41dab91e35582b1b213b0cd5fb8c7dcd0918fb3f78ea83d11e97c979c572"
+hash = "16c348e8456e9dbfa64d093dfddccdbf40831f99bedca4e74a68795ece1d93ea"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -458,11 +574,11 @@ hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "b61dc7f5188bd2fdabbc5d60c48b16b17c959fec2f3add088fa6c7438b16e3d7"
+hash = "30620b063eb6f6fb561da5c9d419fc37dbd800caae3743cb60b529b86fcb082a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "8d288c14ee9f87bbf92e9f51c2722c74e6301af7872c0cfe895f01b2790231b3"
+hash = "3e20e8561fd4baf3989fea5d4d031602b04bef310bc637d273183103a4292ece"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -525,12 +641,20 @@ file = "config/lithostitched.json"
 hash = "43e35f01fceb40ba4689584c447ae842edf22fe86131f30f5108aae55b1b5ca6"
 
 [[files]]
+file = "config/lodestone-client.toml"
+hash = "c088a5e2ac97282375f0c346ced0647f0b76d09e62f0e37342b52dcba17f43c3"
+
+[[files]]
 file = "config/lootr-client.toml"
 hash = "4da5bc00c2cc7db774e16f6905929303bfca802367d49133ba9742a6330238ad"
 
 [[files]]
 file = "config/lootr-common.toml"
 hash = "46f41bc157ac77f9a96b4a89a7652668cf910885e4fe868d46b42221377d4d35"
+
+[[files]]
+file = "config/matthiesen_core/metrics.properties"
+hash = "0ae5bad1d1c1f991233c574eda744cd88168bba5a58bd517552b83542a3b0f20"
 
 [[files]]
 file = "config/mega_showdown/config.json"
@@ -547,6 +671,14 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5"
+
+[[files]]
+file = "config/moonlight-client.toml"
+hash = "dce19661acd04241ac6d04fd2baa02c5a59cf1672c52ec07cfeeccd9a4e7ea62"
+
+[[files]]
+file = "config/moonlight-common.toml"
+hash = "a6d5e783dc1469e925d4cf62f17a94ee2dff4ff025d9ed9e61b129581019cdf3"
 
 [[files]]
 file = "config/naturescompass-client.toml"
@@ -570,7 +702,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "e30b4e01bcb93993d452c55a363a3eeb651171eaba273038cfda7d50f7ad0fd1"
+hash = "dda7b3504675a434fa0093779f45794df534fe0c5e1f4ed44d7b4f61a84b9a60"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -697,6 +829,18 @@ file = "config/sliceanddice-common.toml"
 hash = "8c17330d9f9804cd1540b0f442c7f7b7d1dbd3ccb3e22f6c4af222753ffd49ac"
 
 [[files]]
+file = "config/smallships-client.toml"
+hash = "ccb23764d475152ed86080fb0e07451315f2b1a59d2a94f7020cffc2c3d60196"
+
+[[files]]
+file = "config/smallships-common.toml"
+hash = "3857836632c9ede52ba052171fc45874ffa15127af9958adb5b13b486c6ac6fe"
+
+[[files]]
+file = "config/sophisticated_jei_index-common.toml"
+hash = "093d1564cb4bb1318e31a7c1ecdde0bda00ff2d463aa1c7e9f9f7b0dd5a325f6"
+
+[[files]]
 file = "config/sophisticatedbackpacks-common.toml"
 hash = "390cb983090cdc5ba9013c0551fcde8ecf579040f970e33de5ecfc500841cb7f"
 
@@ -713,6 +857,18 @@ file = "config/sophisticatedcore-common.toml"
 hash = "038d2b954cb4a3aa0aab2afe1a8c80f486566b3a692564da443a64c30d4dda26"
 
 [[files]]
+file = "config/sophisticatedinventoryinteractions-client.toml"
+hash = "598929bea3df1aec6078fee1e41e83cded42706062853f45945b8f7b4837e15d"
+
+[[files]]
+file = "config/sophisticatedinventoryinteractions-common.toml"
+hash = "39097720b4d16deef8bd47ae8acc2f6de6aa704038b1a21470db2ce80a924419"
+
+[[files]]
+file = "config/sophisticateditemactions-client.toml"
+hash = "ffc8cccffbb3d5bfa3d2acdaf8883b658b2ad9ff3e043464e35c583fbbefe48b"
+
+[[files]]
 file = "config/sophisticatedstorage-client.toml"
 hash = "45923fce3aebf26b0932687f1f06048fca5f716a865e98edf6066f5f2e99ec30"
 
@@ -725,8 +881,36 @@ file = "config/sophisticatedstorage-server.toml"
 hash = "1bc81bff3b3222fe52fb3cfc64f9d7df21628f38336d40ee5e85ec4ed4da6e70"
 
 [[files]]
+file = "config/sound_physics_remastered/occlusion.properties"
+hash = "ebbac45fbb3ca01487b85ffee9601b213b71896e6606fb297bcb0f3ac9c30ffb"
+
+[[files]]
+file = "config/sound_physics_remastered/reflectivity.properties"
+hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
+
+[[files]]
+file = "config/sound_physics_remastered/sound_rates.properties"
+hash = "c5a66039bec1dc63b939f7ba0fb87fb3d7d53785532332d449bc13f456d03ec7"
+
+[[files]]
+file = "config/sound_physics_remastered/soundphysics.properties"
+hash = "d29dede3f214ee4b1aa03314f92c3f973c21ee6e26d173eba3d01a2083237b6d"
+
+[[files]]
 file = "config/spark/tmp/about.txt"
 hash = "d7514c0ddb6ae8611a281527bf04ca6cbcea1fa21758534fdcd08ed0f51c19c0"
+
+[[files]]
+file = "config/supplementaries-client.toml"
+hash = "eff310dfa56205eaa889215cffb276c33d1ecc8629cb92356fc779fcc9f91e22"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+hash = "032a6e6d943d862f61b3c6d6a28b5da671afa566410d84177e8a324c2b8c7e8b"
+
+[[files]]
+file = "config/suppsquared-common.toml"
+hash = "a3440b61fdcd1dabfd525863005b3da7b281aab793a9a15ffa94d69b34f46449"
 
 [[files]]
 file = "config/tectonic.json"
@@ -747,6 +931,10 @@ hash = "a7ff87dbfa4587eda3e1aa9f8e05102bdf0e6f7961fde07a360e86c6cd69da1f"
 [[files]]
 file = "config/toms_storage-server.toml"
 hash = "a880e3220dd5051ed2901cfcba028d59bccfef4af8775232037ed8a2c2e81cf7"
+
+[[files]]
+file = "config/torchmaster.toml"
+hash = "4765c6a67959c7a4c0e5366eb28b13f4188577d8e54bde7d07b0adc9f92bb3ad"
 
 [[files]]
 file = "config/transition.json"
@@ -801,6 +989,18 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/yacl.json5"
+hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
+
+[[files]]
+file = "config/yukamibackpacktab-client.toml"
+hash = "b5d8b171fbd66352b07d310e59daf98b72d1759a7352546e48115d5b0ea0700a"
+
+[[files]]
+file = "config/yukamibackpacktab/screen_offsets.json"
+hash = "4d754b1c19bdf3730ee060871625b8f1b17fcc9f932954f0aee0873b3196b29e"
+
+[[files]]
 file = "data/fabricDefaultResourcePacks.dat"
 hash = "56dcdc36f4d3fe993c688cd6d60c2ef0d83480a63305425e068d171f8fcda7db"
 
@@ -809,8 +1009,924 @@ file = "defaultconfigs/ftbqoptimizer.snbt"
 hash = "44bfb991779a3327302e943a0ac918fe0d0484540fd6e3b918087326090e7178"
 
 [[files]]
+file = "dynamic-resource-pack-cache/hash.txt"
+hash = "e45fecc676b385de6c2b861a3e01c5d978f04053d8ee29b0ad9d862228afd15f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/minecraft/models/item/crossbow.json"
+hash = "cd291403f5f12fe5732dc8b8701ccf549309a6e6b1b97809a28057f94aecf39b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/minecraft/models/item/filled_map.json"
+hash = "fca32ba99e968fc9741d1e2a0717f0913b00043f4b70399238f25e8fe06442cc"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/minecraft/models/item/written_book.json"
+hash = "682fde22e6b0b06dd9d53640d17e668cb42a442125381328b40715e33c697717"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/cobblemon/way_sign_apricorn.json"
+hash = "ab00474b56c47f75ac1d5f9d46cfb26f80a7dcc677bae791e43964808f12b0f6"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/cobblemon/way_sign_saccharine.json"
+hash = "518ab8b71fe5d2a1ccaad7e8b36522b49e9beb63913b262a591176506d75860f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/deeperdarker/way_sign_bloom.json"
+hash = "9ade73a8d2943c4317437b4f1218cdfa889be66f1a510acdbb983dbff573e553"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/deeperdarker/way_sign_echo.json"
+hash = "c8bebee41c44d69a64183a47950fd3a4d00b88da2f2c486cc428e009406e5fe4"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/twilightforest/way_sign_canopy.json"
+hash = "a627f85ea815a16ee276a710824a594ffea1661992c2a75536194b0defd531a0"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/twilightforest/way_sign_dark.json"
+hash = "cd88e322aceba2a05baa00a2b2107554d6a60bff6f782a2d12ed78cb76643a2a"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/twilightforest/way_sign_mangrove.json"
+hash = "99dde9bd0121734ca9265696152ae02fccf908289c7b5d400bb60233d13731fe"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/twilightforest/way_sign_mining.json"
+hash = "e26f7af6b25bf44c812d3a36857b41c73c6d082e44869539a5907629a0115969"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/twilightforest/way_sign_sorting.json"
+hash = "13db46c52257a5ce0b1771f652f34497e85e55473dc23c8eafe3d29242c906dc"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/twilightforest/way_sign_time.json"
+hash = "060eb140e7542bd5ae54656cb51211eb9b9ead72c76fafcb2f6ab0b5206fca80"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/twilightforest/way_sign_transformation.json"
+hash = "36b75db764498020639a46e5cfb6214ab17a3b047b28f878748315ab418fdda4"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/block/way_signs/twilightforest/way_sign_twilight_oak.json"
+hash = "8394bf25f5fb28dd98ec2df05d1721fbbc2a3042ba0f3c365f1b68d3dc8362d3"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/cobblemon/cannon_boat_apricorn.json"
+hash = "312ff73ad0e780a6b566cb0e907f8ea1be31ab2a265ee2efecd8b39d5752d06d"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/cobblemon/cannon_boat_saccharine.json"
+hash = "83d7964518f643fc383b06a9c1ee7830405c03bfbd6f693c649717de7fca1375"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/cobblemon/way_sign_apricorn.json"
+hash = "e3696b9408b1bbeda257f6f4406b56d2daed995b576426787edeb1c28840484c"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/cobblemon/way_sign_saccharine.json"
+hash = "7b897cd67d9f971798760f612d3c0a301fa72511bb9eb5cd6bba6a7326f707c9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/deeperdarker/cannon_boat_bloom.json"
+hash = "911632cdeaa5e346daef17ce8380474ee1f11a16775760f09e084dcc33997ac9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/deeperdarker/cannon_boat_echo.json"
+hash = "6d3d639bf4e3dd3047ad1f66fd7defcc25aede5631629b26dfcdbab7fb54c528"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/deeperdarker/way_sign_bloom.json"
+hash = "821576c6e35f58b22635c456f7aed9fe066cc1119961af91bf86d5541de36644"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/deeperdarker/way_sign_echo.json"
+hash = "2911db0a2794e501268c10a345cab6f5c50ab94363477e53528b5031880591b0"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/cannon_boat_canopy.json"
+hash = "716f8884eb4e825ad8726e6d0ed5862ab6901cbd1720afce364948f06d59c383"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/cannon_boat_dark.json"
+hash = "4c56ad8780353ae9b62ad15797f64fe3c3516419d862dfcc8ca17beb1d00642f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/cannon_boat_mangrove.json"
+hash = "e7b493babd6b9ab58f8b5a78489867a2dbdd928f1148987c0e2d6d9b354bede0"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/cannon_boat_mining.json"
+hash = "daa1485a809e99b496b7d73a79a27ff0357b714596c097d16f66c67ee20937e8"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/cannon_boat_sorting.json"
+hash = "15c3b40b988283e68fd5cac5becf724519831d62ba5933fab87e7d0f28bad115"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/cannon_boat_time.json"
+hash = "ced81b391abd5d9f4b8ff80b07545a30c02249ed6b56e3e5557027964bc40e26"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/cannon_boat_transformation.json"
+hash = "652a36f36ce1897dc492ef0864cc24775df63db9dae88a7eb0fdd299ca3be803"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/cannon_boat_twilight_oak.json"
+hash = "2e3c3e261e20f111053958ef5bff902962ec0e22997982b7624a7a1cceb80578"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/way_sign_canopy.json"
+hash = "9da63398460bc17a4157ef8d67c06775238a7b18417dd67a68698260d6f5547f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/way_sign_dark.json"
+hash = "560a3c7435a61a5cd0aac30a708d2a6e0e17dd3bc6f1e0fe2762f36f4aa5b7ab"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/way_sign_mangrove.json"
+hash = "79bc403233cad01f1de0b2c05718b0db7993a6878868f39ca85c20ceaecaba43"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/way_sign_mining.json"
+hash = "8fe1a0edd5af333203c5927dcf8d377976f00ad36f31a92a01fea6c5b6acab7a"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/way_sign_sorting.json"
+hash = "c07d17c016c20347645993fb9e061b5c3795fa385aacbdd09835b2092be86793"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/way_sign_time.json"
+hash = "0d46c834b9192dedf90e1c0ccc220431cb70cb11c7dbbe0a256d8b20c94bbac6"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/way_sign_transformation.json"
+hash = "ff5cf88ba8dcb08f68aa0fe5f52a88818a36a6a3da3d55d7adf126b5d497a4f5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/models/item/twilightforest/way_sign_twilight_oak.json"
+hash = "a81d938be391cf117b6c0bb28d634f1ab417e4fd41f1a124084ff56ada91e12e"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/cobblemon/way_sign_apricorn.png"
+hash = "370068e23a74cda20bc7f7608dcc7781b69c0b1cf78db459e4ec5452a4d059d4"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/cobblemon/way_sign_saccharine.png"
+hash = "e0996d069da8df01cf9f06dc0cbf7199966da34bb4a6a58098ff8c6993fc9170"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/deeperdarker/way_sign_bloom.png"
+hash = "e85bc19e166dff4c52a4f9f5907de5967957928809e6c68427471938d542721b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/deeperdarker/way_sign_echo.png"
+hash = "68834aae7c313609bc4049462f991cc454436affca3302b8640d3b26d310e2cc"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/twilightforest/way_sign_canopy.png"
+hash = "7a63f388c63a15eb4cad0e54ea40b414ea964d41bd5129da12c39dc26a1270df"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/twilightforest/way_sign_dark.png"
+hash = "20624a05c33b9589cd81f1cab32eb2a050fe52c16039a3e7b9377f22657f4936"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/twilightforest/way_sign_mangrove.png"
+hash = "78ab0b555e184600b806e08b7688f7097129c46012a430aac43ee4f99866587d"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/twilightforest/way_sign_mining.png"
+hash = "b1f63602e5caf94e3bf6e4a2e250cea8dad692afb0ea8c0889cc426d1b4b6e4b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/twilightforest/way_sign_sorting.png"
+hash = "cab723a5097505df08a553ac2a68d81783c91e8a06f403d01a5c59dbb0ad2664"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/twilightforest/way_sign_time.png"
+hash = "6870a345e99aedd28b477a5ee408a58ce1a6f2fca24c215daf226339a3661567"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/twilightforest/way_sign_transformation.png"
+hash = "b93774a7ffcdec9b0b19a34e8496377c8f3df90a01dbc0c078db132a8aa908cf"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/block/way_signs/twilightforest/way_sign_twilight_oak.png"
+hash = "5a1ffac9c55fcc3b0875cccc18820d556862239c64e5d724c83dbe45cd9f3ad9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/alpha_yeti.png"
+hash = "2448188008ab2578cc4513567d4f5959cfb55fff3d31140e331ac4569c934a9d"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/hydra.png"
+hash = "d9fb435f5f9f6182787591e3da3a9cc845af789a5ba92a3c002927dbe5b3ce36"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/knight_phantom.png"
+hash = "cb9c19161161e12a0dbb95f8041b7c92efd78f9d7fcb0c8cfa6c8c939e61f445"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/lich.png"
+hash = "6285c1d1299207db56a797527acec8a9ea44442dfcf6ea8275bbaa715916b8a5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/minoshroom.png"
+hash = "8b0c411dc6565ca9f5ba1f028b48a05281b8a5ce3fe5f339bcd430ca9bc932c5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/naga.png"
+hash = "536959eae446180576d89f75e80794a22d18802db7b252d9bca2794df6c6696b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/quest_ram.png"
+hash = "189c4ba4e92410519c209a4ed5ff4cf2c25884f67a883bea19eca6398249a01c"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/snow_queen.png"
+hash = "ddc820395515ce39a81e845635d4772a1ca84a48d4b7a0b477491ca5c28dfc36"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/banner/flags/twilightforest/ur_ghast.png"
+hash = "3b35973260fbbe1317594f3c5ec28e67277e1435760ecdb848f1afad0c53b9aa"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/acacia.png"
+hash = "e44d2c1a3a6e06bacd2b5422ff243f1722e5c65c5d9242777427ffa5e97c22ac"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/bamboo.png"
+hash = "8d3f008d13220bcbc339f63127d9a7e9e83ba1af7b85bf5d3b8e984be3f55daf"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/birch.png"
+hash = "f3924da6eff2fddcc71461e7104fb9354c618eb70467c22dbb992ca3692387f3"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/cherry.png"
+hash = "3eea56bb15afa406ab93f243559696e837929233878cd04e8a54773aa9e48185"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/cobblemon/apricorn.png"
+hash = "ff6e813507faf5890c62cd4c53dfb5e78dca30f0f5d6430f48182bdc53ecbf89"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/cobblemon/saccharine.png"
+hash = "1a6ae7e394a70f9533084c815e7070e387cc36b5a6e30faa2cce29f704992442"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/dark_oak.png"
+hash = "c1f3e68929ed989603e5b46a625f0dab888e6e9561d99ad649abf26ca691569f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/deeperdarker/bloom.png"
+hash = "99ce18f35d273b82ad81c66458f1ec4756bd796048ec16fbad030935a938af0e"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/deeperdarker/echo.png"
+hash = "b919f7e9f49f0dbcdb39dedb643cb55e9931fc4158ef540f9ff94dd5477382aa"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/jungle.png"
+hash = "a7bfd8c1fd5860f931a7578f1427f7b026741dd0f4d2d4df5a264f8558fadfaa"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/mangrove.png"
+hash = "825bd25a50a7535300f58c8fc90ee9af625e306528819b7cc702219cfeee2ab7"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/spruce.png"
+hash = "06714173e4ea0d9b20b941b4f82d326741a02afcdd613bad871e1e37c2166110"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/twilightforest/canopy.png"
+hash = "2216d3bb256c1bb042c0b4bc657ce458acf4c803d2b61553887a0a60183c35b9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/twilightforest/dark.png"
+hash = "2e4d7133d8c1c285d887758c553504f333a1257ce63ce88f16e66b542ec0ae80"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/twilightforest/mangrove.png"
+hash = "e5fb2feaebbc8ed648e9acc158dcbdeaa761d39051dec969b34bcdcad4288cf7"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/twilightforest/mining.png"
+hash = "1224ff7cc95be7700a9e6b958f7bdbdcb357e0b4593f51406b15b2b73d422a54"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/twilightforest/sorting.png"
+hash = "9bf865106307eb765b04b869661d1d4339e17c68e65453496cb1bfc52f9e6598"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/twilightforest/time.png"
+hash = "f88b84c235c6c0ab8fa3ba0741d0f33932427ea69f655857fbda159342e8788f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/twilightforest/transformation.png"
+hash = "8d741f58bedc23ca873661a1648d8720491ec5096bc63709944ad21b57f1e123"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/cannon_boat/twilightforest/twilight_oak.png"
+hash = "e8679d27b70b194d5df408da7080fcf144d01aceda3adf7c6323f87017f3e88f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/enderman_head.png"
+hash = "9852951406c04e81bb602cd31014dfa09949f836d83aafb7f628f86c5a64f9c9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/enderman_head_eyes.png"
+hash = "5d40f4c473f8b795f18cb845795b6d754c138c4e6f4fba0b31eb3512dc3510bd"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/spider_head.png"
+hash = "926eeb2a2e1763291cda75f2df2a9aa91cdab90848f7547ed061c0764285c8c8"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/entity/spider_head_eyes.png"
+hash = "d48f425f97c4b4e912bbe2f69ce4391d4568fcc5cbbee1969e5e2d2fd4277dfe"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/cobblemon/cannon_boat_apricorn.png"
+hash = "4a52038e68cbb6b4805b1cbbbdda2bd80c07b715fde95fe925c791e58a1a18a9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/cobblemon/cannon_boat_saccharine.png"
+hash = "1814b7190f3c0a88fc14b8c5eea4052f943ceb7f6cb45fe6a2d568c20fe90eaa"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/deeperdarker/cannon_boat_bloom.png"
+hash = "2b110377a2a3b9d6dad32b2d122b33a49d1fb7ced9148ae810395c2c0a238b0b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/deeperdarker/cannon_boat_echo.png"
+hash = "9e382b7a216b35113255a7e6cd71cf9ab72ee0eb028c5c496c3881d533415da5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/twilightforest/cannon_boat_canopy.png"
+hash = "d542b628bbed935720d07657d8329b8d4c850c7254ca08fcf7e2843a0ca260c2"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/twilightforest/cannon_boat_dark.png"
+hash = "d17679ad77167202311a0c6f4a9757c7cb7a8f06c225e6fb1d38cafa1db68d7c"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/twilightforest/cannon_boat_mangrove.png"
+hash = "e256f8b6bd1233eefc7ce70e0013c3bb916e934b5a1501316ce7ed66eac25afd"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/twilightforest/cannon_boat_mining.png"
+hash = "0ae0de08436d8f9f368bebcdd71f024bab7497a74db2125a7a0eef9e54c2823c"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/twilightforest/cannon_boat_sorting.png"
+hash = "342ed3990b9f26532332dbae5b59ac2a7ab7ad20b253c1c87868b9d498f99bcf"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/twilightforest/cannon_boat_time.png"
+hash = "a782d7cc10b51616d31586318ab4d2517709947e805e60a8b77ed96ae8a7011c"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/twilightforest/cannon_boat_transformation.png"
+hash = "8f31e50b8139c1395aafecbcacab91f88279768cd6ac3c56d1368db1faffaaa1"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/cannon_boat/twilightforest/cannon_boat_twilight_oak.png"
+hash = "f41293ea87b01bfaf0d45895512a7858538351b9b759b422fb9e145207bdc576"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/cobblemon/way_sign_apricorn.png"
+hash = "9a7fb8121f6e0a2dfecd20852cb7f6f9b656fdc4e342ff3927fb6f8eae7a29b0"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/cobblemon/way_sign_saccharine.png"
+hash = "115204be4b7e013df188daa78aedabeebc7410a8c1436d119154c8021701f893"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/deeperdarker/way_sign_bloom.png"
+hash = "f93ead21b1e130f5f26fc5db363883c19f4f52b9c5a9789d30a6fb608d94757d"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/deeperdarker/way_sign_echo.png"
+hash = "de498ec6bcaf5bb62a063035e0031522b8b8f75a9f9dcd651fb3c5156d4ba7eb"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/twilightforest/way_sign_canopy.png"
+hash = "31e4ae1e53ebbe789537f34ad02f31737b1f0e18132d900ce045af39b4ff5ce4"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/twilightforest/way_sign_dark.png"
+hash = "d1c085e8938f7558c04c4bc792d8a8d7fa75ff67fc97c1c680607a427d92ac5b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/twilightforest/way_sign_mangrove.png"
+hash = "daa1e0edd0e514ea6e613bc58863b09d4abeb097e85410eafce36a17e8836c7d"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/twilightforest/way_sign_mining.png"
+hash = "bd0a35496917d8e46495f1af220f7625d0ea1f4dea0d76d9df80eefdd1b16a29"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/twilightforest/way_sign_sorting.png"
+hash = "55a79799177da508d4b6bf948ff13f98eaeaef46d811ce63db28237665fe3690"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/twilightforest/way_sign_time.png"
+hash = "f22461356016dcf88157a277d91731a027ecf8c4531d94af6bbaca66b4d006d8"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/twilightforest/way_sign_transformation.png"
+hash = "7c0edde5e82a67fd826c1671e68f74aebcd13e83676940ac13d555403e3e800d"
+
+[[files]]
+file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/supplementaries/textures/item/way_signs/twilightforest/way_sign_twilight_oak.png"
+hash = "9c765e46631de8df672c0fc539d0844e4ac3af039b2d72735e1627448f71789f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/cobblemon/item_shelf_apricorn.json"
+hash = "a581ab12b35a5318ca2616ed6338ac6273123777eb7c6bf960101e36633ceece"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/cobblemon/item_shelf_saccharine.json"
+hash = "6774b68ae9e72d70158a53c5f139e0f66685c8e3f31c9b01f1894d44371bef11"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/deeperdarker/item_shelf_bloom.json"
+hash = "078dd6ba4a5d5026a92c86ed9ce841bb130ce1128b4b69cc6438ca752cbedba9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/deeperdarker/item_shelf_echo.json"
+hash = "5959d736386ff436106754e2dfab1f711626e018755542e3c29abc9ab6178431"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_acacia.json"
+hash = "fbdf4bbb3eaa66d90e637b9b4a6c2217d33181f70e33dfdf613c1335f4be5173"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_bamboo.json"
+hash = "3f0baf220b8871fa7b821624c48fe2f553787ae3110620b7c11c5965ad2cd6f1"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_birch.json"
+hash = "4b1acaa9a385d0ab9b878273dd292db4cb87e0f48f26bdbed9134faa860da6f2"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_cherry.json"
+hash = "9ce8d35243654da15b60b0cdda2e70d0442b1dd9386045c817da8ca01ce30b23"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_crimson.json"
+hash = "bca133912238d2b0beddf91ba091b9b0f19dafa37495ae320d793306c7e7f089"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_dark_oak.json"
+hash = "2709cf29e79c533f86c0f92b2bb1209139aaccaf58fb7343ae60f4ac9374e52b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_jungle.json"
+hash = "c1ba0f3882288bea7fb34bb865ac8c5c41cafba99f8a1f35ef1d09a6cc67cc76"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_mangrove.json"
+hash = "4141404283391c1353ac08550a0022713ee2897b03582cf79bcef6789d62fef1"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_spruce.json"
+hash = "d9e3dc877190df9278212776375b44a43d8323630f0968c43b306bde034cfc26"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/item_shelf_warped.json"
+hash = "97c6fb7d6afb9cacc7fb29030ba7447821aa061e74675c77598d2acb9294db96"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/twilightforest/item_shelf_canopy.json"
+hash = "eefbf472b89a28b446bfd4358bd1fbb83a85d52c5db8bd1b5b4ada836f72e1cf"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/twilightforest/item_shelf_dark.json"
+hash = "d223f8935576f169346ff6fb79d3ccbaabd74691a15a4d8badd2d7cafc5164bd"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/twilightforest/item_shelf_mangrove.json"
+hash = "d78e8a6d70c9f0671c8f8e1da784acabaebe45fd67bd246c40d89372584467d3"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/twilightforest/item_shelf_mining.json"
+hash = "1861606652bd279385eaceb8518003e91393c06fb2612de371302bc8c410144b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/twilightforest/item_shelf_sorting.json"
+hash = "4e912dec91ecebe9a6b66441516a7a8b0378444273bf1a976473088d5ada0815"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/twilightforest/item_shelf_time.json"
+hash = "884472463a45dc5518b01f2e54d63ccb1e09addeaa97a61a44abe213e1852132"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/twilightforest/item_shelf_transformation.json"
+hash = "deacd2a64c6f155975f4228dd95fa13db99e883f7551a7f7968fca52e0457627"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/blockstates/twilightforest/item_shelf_twilight_oak.json"
+hash = "1a962f006027cff6caae677bb91206c396c1d6faf8dedd6aabd98b45bccc7884"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/acacia.json"
+hash = "869a3d9e7052155d38b531ab9710f703af70d47c257b9ad609d998380bc000e9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/bamboo.json"
+hash = "910d363eb5e9eb38de261d9baac26a9b7372902f9f02b098ddf64f95456c37cf"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/birch.json"
+hash = "959ce022ce8e0d2061d68dd2960727ded41d985f01cd075a98fbd53911073337"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/cherry.json"
+hash = "c1a3ac13b1e1478067588226e141f14a5f8739b1614c57f7d66cdb1845cee40e"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/cobblemon/apricorn.json"
+hash = "fdc66c952024a03cff32d5b52e458ef307fadb39e46e69c82cc70f7390dd9b09"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/cobblemon/saccharine.json"
+hash = "26ba80b6f82eed7aa877ab84d4cd5ae57896dab9b35a412250f4e1ab8b483207"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/crimson.json"
+hash = "211aa238ed34e9373f2d5c24a778f52fe5e7ca31cff47986d92ac7cf94aa5683"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/dark_oak.json"
+hash = "404002bff07b86b6e75f41a3d669cbe6a3c2751949fbea11e013c0cc215d05e1"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/deeperdarker/bloom.json"
+hash = "261d46391b5d2818b867a73d8871dfeae4ec5165901c6166f2cfddb31e2898c8"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/deeperdarker/echo.json"
+hash = "1223525800dbdf957efa76bdd9efd2bb89b8845797cf3ee9008ea0ba5c1685af"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/jungle.json"
+hash = "219afb4a5d5ee17ad1285590fd75a72c9d6f81634ac08700079ea9bc8513e58b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/mangrove.json"
+hash = "e198c88a1c06f1303e608b2117ea9dfa81cb5a60716a3f686aec34c48c54a66e"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/spruce.json"
+hash = "9e049e44cf2191f39208dcbae7af102fdf6e34cae3c0109f7bfcd23707f6e457"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/twilightforest/canopy.json"
+hash = "f285843223801c761aa3549db2578eff57fc98fd70598141f69b40baa8388a65"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/twilightforest/dark.json"
+hash = "476db9c0a600a5a765795b76d2453bad1d889d0f79524f282281572690bdb1e3"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/twilightforest/mangrove.json"
+hash = "d237fa39b29252bad67f3e969e12a2c3deb3e4e6194764fc3c6b033b143ad09a"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/twilightforest/mining.json"
+hash = "4922b284dc373e5baaf79744d191c95a2edfdc4bd45fa086c72bc107ee8ff96b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/twilightforest/sorting.json"
+hash = "1738880674592efc1fb3ca371e8dc4604a2b9a1c1df0b5f741780c9492332980"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/twilightforest/time.json"
+hash = "d32ab211d1a747e1737739c004bb3cfb8c6d3495300f1be4137406ce44d1fb9e"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/twilightforest/transformation.json"
+hash = "77b061ca921bee5c8630a493a0c0bc8621b393a84c327f5b13e643c8af4596d8"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/twilightforest/twilight_oak.json"
+hash = "1252f8ad8c2a4f37aa9ae9185b223027050ee85973df1a33e0ff34d91b44d6bd"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/block/item_shelves/warped.json"
+hash = "b986db6f92f7092b5d4861acc4ea6ec8f4c07f7923996a72a48c99de2419b0f0"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/cobblemon/item_shelf_apricorn.json"
+hash = "80a5f884b30dd591aedfc2a42ac5ad217f73e52a4ee61418a697e5c22c60fca3"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/cobblemon/item_shelf_saccharine.json"
+hash = "a10b87e71609c82ccc782a963fe8d47aea45d942513bbe8d57f4911419327e24"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/deeperdarker/item_shelf_bloom.json"
+hash = "9b9232c0784a9664e7f46e4ab1604ceaed408902f1bfe001806b9ccb4ef5e614"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/deeperdarker/item_shelf_echo.json"
+hash = "79e3b4e9e2f308f04f36296dadbd1d99423243033a2cf1dd5972f6b8ce6417b1"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_acacia.json"
+hash = "8a168c1cb3e675e425dad92120ae04d3d95a8c6acf1cb1837aeddb2615ca247f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_bamboo.json"
+hash = "d269c885b986a2ea42332a4050a931a5c52476e4330d9d1604e71ccf454ce84f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_birch.json"
+hash = "312d0b3d98ce4880357aa4a6ef4ed4277107bbd75224f17ab3950f179947e292"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_cherry.json"
+hash = "1b7f4113283b5aa95f1b0cb31deee71c94ffe518063bef75b86215b351bef729"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_crimson.json"
+hash = "d71f5473461e982f19f8872d9fb0ebe9999666f650cc65b8468667062531503a"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_dark_oak.json"
+hash = "52b78c00696e13ec8e7127311c67a83f4c4750176eac2d931fb41949bc6c9227"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_jungle.json"
+hash = "b9e709ea22e7fd1ec9dfd1480be32e5253ddbda938fe5321730fdeb98a00cd41"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_mangrove.json"
+hash = "09a2d141e4f65c666d1e38639dde22d4f4394bd23b8406ddd21330eff7c282f6"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_spruce.json"
+hash = "648880b5f1752ffc4d577914d5138971644d91decc39a695906cd8514a0a8502"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/item_shelf_warped.json"
+hash = "2f8ce5bf2eb9702853964c854a2da3a80e63f9b9dca9a7387f1e1a15d398f7a6"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/twilightforest/item_shelf_canopy.json"
+hash = "c6f4516907a5f5f1b9326d49a716c505fc3f0b78158367923058545892eb74a9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/twilightforest/item_shelf_dark.json"
+hash = "dc95e1868a465d26f242832119925c983f9d56950d5e92c4b1fbd1c6851788f6"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/twilightforest/item_shelf_mangrove.json"
+hash = "69bd44fa6a3f268b9b6529e54d5369b9eca4213e2bb4750e4ef224899c161038"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/twilightforest/item_shelf_mining.json"
+hash = "1d97ff48933cf1b73727df143bf3ca0d9c248e27c7549a153ed9c74f0f988818"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/twilightforest/item_shelf_sorting.json"
+hash = "df7ec8a5164bc0e222e984d2aec3d1255db520e839f21ceeceab680e215e4a70"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/twilightforest/item_shelf_time.json"
+hash = "cc2e41c0ad44af91f1f0493a94883965254ca3c7f20d5acfa7720c9c3eee32e5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/twilightforest/item_shelf_transformation.json"
+hash = "ed3e30252a759ce1fb85b496a11efef2bdd8cce3b9f60c99a4b2ee9a2d20260b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/models/item/twilightforest/item_shelf_twilight_oak.json"
+hash = "802c2f33cd54b80bcc628f4bae7f51e583742c903a07be41465bfc7fd1111976"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/acacia.png"
+hash = "bcab6dbbdaa49111aaed115ff753492b7458bbfb6d19981cc6689cbc472caff8"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/bamboo.png"
+hash = "a6c713a003059a575c06ff12959a4c507204f55704c9e0204218d1c983eb94b5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/birch.png"
+hash = "c1323e5fe8af786174d64a404603048dd35aec040510d05b3b58f1e7df5d94ac"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/cherry.png"
+hash = "acc8a5236be7ee96f2b07c0c97040bd9fa7e917629e268f9c7b9893c41e518fc"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/cobblemon/apricorn.png"
+hash = "4540aba1fabf8f368bef3cede09df0388d54dd88bf75e60d6bf61db3620e7b9c"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/cobblemon/saccharine.png"
+hash = "8f4579c24616ee0d794b64ff254f1c5764b0406525eee814438017455f202c14"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/crimson.png"
+hash = "1c5f0197e0f51a83a2aa0f8dd877a418df8869b3e77a6daad9ccd3e767496fc2"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/dark_oak.png"
+hash = "ca61fcf0a694038add30180405e8d7878ed242a0042d17c4e0daf2e9c5acf06f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/deeperdarker/bloom.png"
+hash = "528a816f5c0bce79f540c56fd9fd58708793ccae0b541356c287cbdb83e26a84"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/deeperdarker/echo.png"
+hash = "7b6e6be9a90c59145180f399334ab1d2af8279fcdf4d4a24ded54f22081efd26"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/item_shelf.png"
+hash = "26a521797dcbe485d8f07d195fcf8c425253ea513a17f7c53adff5f921ec80ee"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/jungle.png"
+hash = "bebf2d2e84efdb070898900f7e95160ad6ffeab0acd92d8d36271b1415f748c5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/mangrove.png"
+hash = "6023d28b25dbeeef301507e4ca87b4a4822801eb925b17bbd8dbd3bc21438c3f"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/spruce.png"
+hash = "2c108c7aaf8b145a9ef53659c6d34995d61c6235993bd18f4c58594dfc6f2d6b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/canopy.png"
+hash = "0529e15b21af64b7519d2bc262df66a52be3991222b9a63a4e93983b03a803e6"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/dark.png"
+hash = "24fb17eba5ea10a51b9872c27ae537ece429613fab0f24b7591f56fafa925d5a"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/mangrove.png"
+hash = "8ded4a47a657e3c6e3dc9e23ffd472d1b694023805d2498db3b2ceea01f04680"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/mining.png"
+hash = "7561765433973993574db4a600fda305dc34096dcc26a2476fb285e8124dc090"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/sorting.png"
+hash = "0f991ea9f0f1190d3e910a1fe27c56524900964dec039ea230f9ed143cf5b763"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/time.png"
+hash = "a88a9d954365da5828de5bda08524e71a6bd62bea938c2e44476eb84080cdb8c"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/transformation.png"
+hash = "97d67abccd1344b8e14392cb8fa24056364a14369c1eb6ffb9166fd3c15f255b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/twilight_oak.png"
+hash = "49c731cfc9d0480fe30aee8f40fb6f78f64301eebee9c784528c51c6f3ef5b10"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/warped.png"
+hash = "565ae6da793ae318d6b9ce804eda2b6f880e163a013f8fa629207456831a459b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/acacia.png"
+hash = "cd8c4e8e1db5e5683293e3459aaa20484ca42bb1ccc92f8ac159c7845e531826"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/bamboo.png"
+hash = "af4e5c72b202aaadab2ac62388f5d6fc11e92adbf52c7817bbbb1f32e5614cf5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/birch.png"
+hash = "02faca57d1fe412f15b34c488a9be420035cffd1d1ed8b022f68c14b106cd257"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/cherry.png"
+hash = "03162ce1a9fd9fe7ce015d75e1584adabca89a83e354d49d349daf253ee75b99"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/cobblemon/apricorn.png"
+hash = "2d7b16e81ee5b67312fcab0a7745ad639d1e6ebea2fc7a6f21d27d98f4afd12e"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/cobblemon/saccharine.png"
+hash = "5d966bfc1257358ec3bbfdf3421b962f87ea206cf4d4a7ec85e2c53cf7f348d8"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/crimson.png"
+hash = "256491803f365d8a3c3696c89fe01afd4c6e13e265ac92f5db460d7d31ad7e34"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/dark_oak.png"
+hash = "9d4a2d5dfe74d70873c4c7edc089dcbbb1f7c69e23399e9accae208c27fd389b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/deeperdarker/bloom.png"
+hash = "c9923e909f0f20d6aa52a5190accab817ea5386b46f4a56fa0f9786c2f082940"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/deeperdarker/echo.png"
+hash = "a4fab7a9c06365ad7e8368b1ed092b5cc12d6671e83ee30dcf03475634bd026c"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/item_shelf.png"
+hash = "7268426a46e958197966bb13b44fc4fb80930f1ba337a7c22053d793ba9812ac"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/jungle.png"
+hash = "e42bc851cd5b35993f16aeaedde3e8c490a7515bbf3b2fe7baa444df7678b961"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/mangrove.png"
+hash = "8a58861de225fed7076b2667ace8ac5c1321ee88282ba7abfd9a1dcfdd0540f9"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/spruce.png"
+hash = "b5cbad86012bf7303f269f000ba7d0546dbf1145611e433a95eb76ca6b6a3f96"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/canopy.png"
+hash = "c43291e2f2411565ad85d6c33854c8cfcc3b41b4fd003382e6052073892feced"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/dark.png"
+hash = "cf4b5f7a1292fff4fb8e6780199e47355a885ac888d9691b9fb39530e47e773d"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/mangrove.png"
+hash = "be8fe8922c1baebb2b34e4c6c2e44c2d1d17370895eb8180ec4bb2c712ff5b46"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/mining.png"
+hash = "ba1a9a407fd2a7d82655560f09173a186138a6480ad1a7b818f7dfb4cfb9d7c8"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/sorting.png"
+hash = "9f64892ff568bd711615ebfefe564fbaf195c62bf081c982067b4357577115b5"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/time.png"
+hash = "48fd2b852666860031b27421393272eb8b74bc227ea53a87f61366e9e14ac62b"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/transformation.png"
+hash = "bd57813e1e5b77aa809db62665456b6cd71e10d0b465a37516c8fd60f02b46a7"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/twilight_oak.png"
+hash = "e021c3eca8cbb5e506576c068c32f1a139afec4531494f7e028c39d17da4b249"
+
+[[files]]
+file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/warped.png"
+hash = "385feab97546ef7fea49de1ef6ca1af7e22593a25cd1fdb0a48654a9f6f2a696"
+
+[[files]]
 file = "icon.png"
-hash = "448bdcb051f15cd8386f20453a6c4f086d6a13615c49dbf76492d301d4d86462"
+hash = "e5ebfc8ce0abb19fcf780cc2c55842e53ad7e80168278cf86ff6352bac125735"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/example_item.png"
+hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/client_scripts/main.js"
+hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+
+[[files]]
+file = "kubejs/config/client.json"
+hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
+
+[[files]]
+file = "kubejs/config/common.json"
+hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
+
+[[files]]
+file = "kubejs/config/web_server.json"
+hash = "559aa39bda456675a33c2ece8741dd4fc944fd49117c29bc531aa2ef3b6f1152"
+
+[[files]]
+file = "kubejs/startup_scripts/main.js"
+hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "mods/accessories.pw.toml"
@@ -839,7 +1955,17 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "657a01a86bbf8617e4726c77df08f708e43a3db12db74b837eebd8eb1d93faae"
+hash = "187eafde5974beee1263538b462b7b8fe2fc8948c5d413980d9796d55928580b"
+metafile = true
+
+[[files]]
+file = "mods/artifacts.pw.toml"
+hash = "93c413ff9f724a5e296b5fd628e652af46bef38bcc2d9f720546797c96700f52"
+metafile = true
+
+[[files]]
+file = "mods/athena-ctm.pw.toml"
+hash = "f54cf71372645810ce22b0ba68e706139565437150e4cfd22bde4c14606099c4"
 metafile = true
 
 [[files]]
@@ -848,8 +1974,23 @@ hash = "e2f2a6f6ff38054ce8d91a43a20b79ea7b4e84cb924142fb7d2bcfdd95fe5b57"
 metafile = true
 
 [[files]]
+file = "mods/bakeries-renyigesai.pw.toml"
+hash = "1f028f0f8f9fa36c74dcee2361de96ca5038f5deca7c1adb71351915389b5a79"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "48ccf754257a1d140c12e4cee3bd7901392023fcd5a3fc961b7275448459fe73"
+metafile = true
+
+[[files]]
+file = "mods/bellsandwhistles.pw.toml"
+hash = "e1f4a53e3e52b534add5dd018597fefd345d9bd6350b9c46ef0ec281fc62af8e"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "03084ff4f74cedc1b8ac6c85a98842f75956fb4fa811d285d8ca7caa8d54da5d"
 metafile = true
 
 [[files]]
@@ -863,8 +2004,18 @@ hash = "c55fa4363fa59143627aba388dfb14546791ca58dce47c2d0521803bb5259411"
 metafile = true
 
 [[files]]
+file = "mods/bountiful.pw.toml"
+hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
+metafile = true
+
+[[files]]
 file = "mods/brewin-and-chewin.pw.toml"
 hash = "816ae53b09d3b3c2e3b4e74470bf2332fcde8a5ae322e1a39bd11656ef1fa8e6"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
 metafile = true
 
 [[files]]
@@ -898,6 +2049,11 @@ hash = "328126728c68d1208ceb9c56746bc304b2b8f82c85950cb6f18e51b007d99084"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-create-industries.pw.toml"
+hash = "f920f707995d836b8d0629910557b08520d07d38bf16076098c90a99ac714d24"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-extra-structures.pw.toml"
 hash = "41e26478fd51484ef96757a76fe572038a58e549f172fff6142241b0bb66a2f7"
 metafile = true
@@ -905,6 +2061,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-fight-or-flight-reborn.pw.toml"
 hash = "82b3050b2bba7c811efe7aaef54c7db02b49a8e58d2f7def8b9a154cbcf4cbaf"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-kubejs.pw.toml"
+hash = "c2971f14090ac440125406017c437c5bda3c9c4bffb5836e77013a7875274bc9"
 metafile = true
 
 [[files]]
@@ -923,13 +2084,23 @@ hash = "1a6224422eeaa9448f72bacd4b63b71cbbeb08c44e3b0b497ac7d8b40649b359"
 metafile = true
 
 [[files]]
+file = "mods/cobblemon-torchmaster-fix.pw.toml"
+hash = "e5f1612e9d70eb38046c936ff0ec679950cf4bb5040d00ab9e4fb52e505e3fd1"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-trainers-backpack.pw.toml"
 hash = "8acd7bab3141db4c69f0127c9cb6f54650169d921d3c1594b2e110ec2d224e53"
 metafile = true
 
 [[files]]
 file = "mods/cobblemon.pw.toml"
-hash = "e8506cd3259cf74eb5297dc8995c958782ec5b1d9d5fe0b8b88ddd81031a5398"
+hash = "bd0dd7ceb00c37cfaa945dfba23b5b2406e12be20709df8d9f82ba12a5a3a2be"
+metafile = true
+
+[[files]]
+file = "mods/cobblemore-library.pw.toml"
+hash = "b65f2b09d07b8db21de571c3353a8a2d3386aa0ee8b3f5abb00d736c3286910b"
 metafile = true
 
 [[files]]
@@ -948,6 +2119,11 @@ hash = "cd650c4c7abff4149d98aad1d637d1d2b199ceae137f930488ad4f861c6321b8"
 metafile = true
 
 [[files]]
+file = "mods/comforts.pw.toml"
+hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
+metafile = true
+
+[[files]]
 file = "mods/compass-to-map-xaeros.pw.toml"
 hash = "314dcef51d810af08facc9be68a166e4fb927f533773ee7860919c18adc9c93b"
 metafile = true
@@ -958,8 +2134,18 @@ hash = "42ffb6f5835250003da6ca3667ff751709ea295faee43b49c365b0f6c1e8f4d8"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "a7eb11401eda3779b7f2d6f32c2964511d5c71760573f2577d55c78ca800f8a3"
+metafile = true
+
+[[files]]
 file = "mods/corpse.pw.toml"
 hash = "e2edf339c98dbdcf04f46a15276e9b1b5bbdeee0f1ac8b7d9bddb1ee8e54b9a1"
+metafile = true
+
+[[files]]
+file = "mods/crafting-recipes-for-create.pw.toml"
+hash = "4d50a0d112301450f14a9e41e1c3591e2a0213dd66d1eb47dfb61ba5823ed4a0"
 metafile = true
 
 [[files]]
@@ -970,6 +2156,26 @@ metafile = true
 [[files]]
 file = "mods/create-cobblemon-integrations.pw.toml"
 hash = "9c00f8d8d7c67131c4d6560b77d74db54918a61b3a45e8dc512bdda76833cb02"
+metafile = true
+
+[[files]]
+file = "mods/create-collision-crashfix.pw.toml"
+hash = "c4576330dd89aada6c3d2598554152689ffa390db6b822ef95b356f167697ae0"
+metafile = true
+
+[[files]]
+file = "mods/create-configurable-crushing-wheel.pw.toml"
+hash = "7aaabe2566cff6ce0fc4c5570844040a96f5e48cdbd28786b77a85c3e10ea34e"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "61afa588fd3156a29418aef463c527308b014e72d86b5ca7c03f2f28973ca27a"
+metafile = true
+
+[[files]]
+file = "mods/create-covered.pw.toml"
+hash = "e5435f5720b68ca386593c8bdc212367df04340766e0a2eed14f4804e4e8b921"
 metafile = true
 
 [[files]]
@@ -988,6 +2194,56 @@ hash = "1e01471bf55881e9176a9d761da83d6995686fd417fb324d651305235e1cd28f"
 metafile = true
 
 [[files]]
+file = "mods/create-expanded-schedule-window.pw.toml"
+hash = "934be2793305c2d670a5d77beeb27bcb58b1f6a9c5176665a3b5ba36dda19633"
+metafile = true
+
+[[files]]
+file = "mods/create-fd-dough.pw.toml"
+hash = "734ac10c4af17fc334c9440e7919ea1621730f41f9edcaaf848d6ba3aa450a3e"
+metafile = true
+
+[[files]]
+file = "mods/create-mtg.pw.toml"
+hash = "2aa6e14f578b7fbd83ede637eaf2410b3c12369fbd0ca39fe7d0c64f640959ab"
+metafile = true
+
+[[files]]
+file = "mods/create-multiplanar-crafters.pw.toml"
+hash = "c4ee577b38200843c11f1358777b88c41bde621990fba56cdebde8516c550307"
+metafile = true
+
+[[files]]
+file = "mods/create-redstone-link-gui.pw.toml"
+hash = "ad1f77e1c24b2b07474122e1f14113531cf8fe63b16668e1dbe237920cbf099c"
+metafile = true
+
+[[files]]
+file = "mods/create-schematic-preview.pw.toml"
+hash = "fb8f57c879dfc039812fd58b63bdfc7b61d50372256fe69fe9129e8a5e2582aa"
+metafile = true
+
+[[files]]
+file = "mods/create-smoke-buffers.pw.toml"
+hash = "fcfad54d985bbb7065956bae52b949837644c51c639f99f1adb80f72f81728e9"
+metafile = true
+
+[[files]]
+file = "mods/create-threshold-fix.pw.toml"
+hash = "a70655339e6b392ddc5966573a9210db21c43258765e1647fcde2d782bd8a872"
+metafile = true
+
+[[files]]
+file = "mods/create-track-map-(unofficial-fork).pw.toml"
+hash = "8fd7565127609d043c8aaabf69b62f32cc27ba00273870b6188f350c193aaef0"
+metafile = true
+
+[[files]]
+file = "mods/create-who-touched-my-train.pw.toml"
+hash = "8c4dffa16d95b6f545fec8ac4b8d4fc5112423578fbc77cb3f6030c5993f86ba"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
 metafile = true
@@ -998,6 +2254,11 @@ hash = "c7f69b2de149dd01dd6b7a73b45c19d246d583c691a74c1e3ff0b80909481a9a"
 metafile = true
 
 [[files]]
+file = "mods/creategsrpm.pw.toml"
+hash = "2f345e172d1fb31903994be368dc92957cb72686f01aed3c0fcce464f9fec6f9"
+metafile = true
+
+[[files]]
 file = "mods/createjeicompat.pw.toml"
 hash = "7d46beda7bd22976a0af9bb4383d78fd0b6be39e67ef3b1f1d7c3a63b4d50b14"
 metafile = true
@@ -1005,6 +2266,11 @@ metafile = true
 [[files]]
 file = "mods/cultural-delights.pw.toml"
 hash = "21159e356236e85db39e95d6191e26be6a0a7b1ab1379ae5b2ded987ca68c823"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
@@ -1048,6 +2314,11 @@ hash = "fc78cc4e383f66dc310f06e92006e9013affe6c3b166079920a21f718aca3c17"
 metafile = true
 
 [[files]]
+file = "mods/every-compat.pw.toml"
+hash = "e7e24f7fa2aa5971660befc844caac9d06952bc6b4fd4fe80bdb6e5f371d821b"
+metafile = true
+
+[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "e206e53e79c196615bebfc9f5dfa943c11c1361e1c7dc4f8f952c86b95e0f0ca"
 metafile = true
@@ -1068,6 +2339,11 @@ hash = "b4b08d948a7cb2725e0703b54d2534a432a8d4a6dc97b4f49d04c164c6bc7515"
 metafile = true
 
 [[files]]
+file = "mods/extra-bounties.pw.toml"
+hash = "d66f7693fb18bc67e20106b3ac0770edd8b4fd9c671b3f554f68dc17170c4551"
+metafile = true
+
+[[files]]
 file = "mods/extralib.pw.toml"
 hash = "5980a2f674289032ed4c9c09ae71f2b52f749fef1a6251e09e59fd42282ef2b2"
 metafile = true
@@ -1084,7 +2360,12 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "748f98aed76975838bd79cb4f5d06eb68aad156394239de5fa70302a02448a5b"
+hash = "7f837101645afe275564c75605e3950352db2e3dc18e0ebcf7460bac272afde4"
+metafile = true
+
+[[files]]
+file = "mods/farmers-respite-unofficial-port.pw.toml"
+hash = "742a8e5e016d9f93549ce6b260d56ec30ef2b1270b35542530a3254e8e8d5f6e"
 metafile = true
 
 [[files]]
@@ -1105,6 +2386,16 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
+metafile = true
+
+[[files]]
+file = "mods/framed-maps-fix.pw.toml"
+hash = "45398314759bafa73e14e41247b7fd6a807f741d93b61ef95d1c1765c3a17003"
+metafile = true
+
+[[files]]
+file = "mods/framedblocks.pw.toml"
+hash = "20eee73cffcd55bfe041b16bbc3adc64c38859bf928486bf1db1368b6dba2058"
 metafile = true
 
 [[files]]
@@ -1198,8 +2489,28 @@ hash = "f61a3526d323d232fbac74dedb5d89e07f45981db1c5a705c66dbe5da7507a68"
 metafile = true
 
 [[files]]
+file = "mods/kambrik.pw.toml"
+hash = "8a5e76693f22343bb2306011ad8018337971256a6f3b25cb03680b1d7d7470c1"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create.pw.toml"
+hash = "531aa276b74eabc24566c57412527767238c74ee16b9c646dff511f56dba990c"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-delight.pw.toml"
+hash = "a7a202c25a36c3e7c20ef1696dad2243a76625211f80db813dbbcb84c35c4488"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "1db25211349d6526378c90de2ad12284b9abb66becd4945aebf9a26d4bdbb8d9"
 metafile = true
 
 [[files]]
@@ -1218,6 +2529,16 @@ hash = "1230e34068ee372b6991b094e2265c5b4a0d3b99df900df682a3f7e10c5db0ec"
 metafile = true
 
 [[files]]
+file = "mods/lodestonelib.pw.toml"
+hash = "f5d0701055478e980b50849f199f266e6ab1940277a17ad2e5060df0d978be83"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "9b32e1374a3d85ccdd4803c8932f72fbeb6357e69d895980e3f24e1974a07ca6"
+metafile = true
+
+[[files]]
 file = "mods/lootr.pw.toml"
 hash = "9897d053032dcfb345567234dd6fb57debb7a52dbe08c06c9bbaef12cdf2e0f2"
 metafile = true
@@ -1233,13 +2554,33 @@ hash = "de4007e4d9e63f4470c442bc9b568c2c5b6d93970ac881068cccde432ca0058c"
 metafile = true
 
 [[files]]
+file = "mods/matthiesen-core.pw.toml"
+hash = "0edf47b3d4f603b6c3ded2b3946607a9045d6d04f39131b714fef42c51865fd7"
+metafile = true
+
+[[files]]
 file = "mods/midnightlib.pw.toml"
 hash = "1e7a69de13ee96b512350358c746a7b3bf67b07bc532fe5b26f7b3b3f7ee8117"
 metafile = true
 
 [[files]]
+file = "mods/miners-delight.pw.toml"
+hash = "13481133d139f134bd3407983e29f86df835ff66bacb013d9d43e14f155241f4"
+metafile = true
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "b0364f6b95f6ed837239c232bad0e2d7317e58f0e4c040e66a4f533239d5775e"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+hash = "b91cb844a09b8a4accd27d3d2882f37aec5cef58e7b43b315da65ee8caf9e957"
+metafile = true
+
+[[files]]
+file = "mods/morejs.pw.toml"
+hash = "f53cc593da93578483624241ca1390829588bc5881a9d31ac512b74b0eb2f86b"
 metafile = true
 
 [[files]]
@@ -1303,6 +2644,11 @@ hash = "8b725f1822c0feab9e51bef600f2ee6f4c26efbb55aa3ee9073a027f1f134202"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+hash = "c99c5bac469e8d6ece5aae80f08635e3bbb8367f0c586b6288573c725faefe69"
+metafile = true
+
+[[files]]
 file = "mods/radical-cobblemon-trainers-api.pw.toml"
 hash = "bfd25da455b070b89c77ac91ce1ff567105dd6f8be7d31432c7a517a54a07a24"
 metafile = true
@@ -1314,12 +2660,22 @@ metafile = true
 
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
-hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
+hash = "c0b066684294c33972d562e0cb08ea17b2d31bcf86cd1d6c63b8e968f0eac7a2"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "6c0fac550bb053ee2728144a28819835823dcc6d04ad7897750431fe55100e53"
+metafile = true
+
+[[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "0bef7b3dd4758a661d3e6827bd390c12ff8a3ede4a66bb2e01e3c760f02bd509"
 metafile = true
 
 [[files]]
@@ -1330,6 +2686,16 @@ metafile = true
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
 hash = "30172206e910599e13e40746a425338f0aa010b8f5f12ecdbb8ee32d08c61f31"
+metafile = true
+
+[[files]]
+file = "mods/small-ships-heraldry.pw.toml"
+hash = "16053bd539885af890e4e07c3ccdd0478e9379bc674e6bc310462649b9078acd"
+metafile = true
+
+[[files]]
+file = "mods/small-ships.pw.toml"
+hash = "5f0d17d236aad8f111b519c006988c8bf536ee569028c0a34690c4cc229b6403"
 metafile = true
 
 [[files]]
@@ -1348,6 +2714,16 @@ hash = "12b0f46799fdfab546f65fdf4225dbc26ae46fcf0fd2a7a74b5037fdb1d0825b"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-item-actions.pw.toml"
+hash = "ce74e4df3ea274db3b8ffff320a94a6d27730d4e46c4bd115f1c8d74ef941596"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-jei-index.pw.toml"
+hash = "e11cde91ca0bd7218aca7d9fe486384879354dafb7594fd583b9992f6e07e343"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-storage-create-integration.pw.toml"
 hash = "78a821b1555c067aa6a1efb5a8a1a8f467ad958fcf2af7649534d61ea31c510e"
 metafile = true
@@ -1363,6 +2739,16 @@ hash = "1e4dd7bcdaa5fa5c66ebb3d10ed34992c8009294b048eaaa310377f10e1a733d"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-tags.pw.toml"
+hash = "99fb0ab4f58229040f17302993e8b826ec5f77b7e83a565bace1624b41f74d51"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "258a77de0a6db4c9ab045cbb240bcf4eac0dbbca3f6bc981fb461e55c247f23f"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
@@ -1370,6 +2756,16 @@ metafile = true
 [[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "a2681409a01e496281b21d383cb28043efc4425f7110d21dfd8b6362e258a817"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries-squared.pw.toml"
+hash = "46280c9487633e3bd1dd7bb24ccc4076058b2602d7dc2906f96509527346cf24"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "2845b7367289659770e8476125f5949c5705790e4a9335b10c82f433a24c6d76"
 metafile = true
 
 [[files]]
@@ -1408,6 +2804,11 @@ hash = "a78013d05f6e3f9c9fb0e17f6e18c83032638385cc606913f708bd6b29b069fb"
 metafile = true
 
 [[files]]
+file = "mods/torchmaster.pw.toml"
+hash = "23ea2c32834281723c63d45ffe42969172492d36309755a46bc47154c3014b3f"
+metafile = true
+
+[[files]]
 file = "mods/vaocorp-music-discs.pw.toml"
 hash = "bc7c1261ae85215f88f313c06dbf0ecb58ee770031de01435e27fb191f4b7c9d"
 metafile = true
@@ -1430,6 +2831,16 @@ metafile = true
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "2ba7eb6ca5c2c9886cfb1bb23ed56fbbcaac3d4d3b1b185dc550ed61b66ecce1"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "539f362e9e192cf3b2813e0dfdfc51a5e6814129c6e82a9733842529beea6242"
+metafile = true
+
+[[files]]
+file = "mods/yukamis-sophisticated-backpack-tab.pw.toml"
+hash = "cc1c30cf4eb93828aa828726b31619d159aa3de131e4c85c6fe5cb4388da2085"
 metafile = true
 
 [[files]]

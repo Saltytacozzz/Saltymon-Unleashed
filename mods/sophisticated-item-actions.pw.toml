@@ -1,0 +1,13 @@
+name = "Sophisticated Item Actions"
+filename = "sophisticateditemactions-1.21.1-0.5.15.409.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RMW7bKVL/versions/IPV8boor/sophisticateditemactions-1.21.1-0.5.15.409.jar"
+hash-format = "sha512"
+hash = "cf80221dc920b1116c6bd757619a14697a472d9e4147a7c9e9cc20d60a4e60fca3f5b571286387e66db8fa31846c5a1812ac32ce5abd171a2ea13e7d787d8e83"
+
+[update]
+[update.modrinth]
+mod-id = "RMW7bKVL"
+version = "IPV8boor"

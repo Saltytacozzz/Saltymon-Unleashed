@@ -1,0 +1,12 @@
+#How long (in milliseconds) the wrench mode HUD card stays on screen.
+# Default: 2000
+# Range: 500 ~ 15000
+wrenchHudDuration = 2000
+#How the mouse wheel changes the wrench mode.
+#AIMED    - sneak + scroll, only while looking at a mechanical crafter (default).
+#           Nothing else claims that gesture, so it cannot conflict with other mods.
+#ANYWHERE - sneak + scroll anywhere while holding a wrench. This is the pre-0.4.17
+#           behaviour; it also swallows sneak+scroll for JEI/EMI and inventory sorters.
+#DISABLED - the wheel is never used. Bind a key in Options > Controls instead.
+#Allowed Values: AIMED, ANYWHERE, DISABLED
+wrenchScrollInput = "AIMED"
