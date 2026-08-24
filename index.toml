@@ -2004,6 +2004,11 @@ hash = "c55fa4363fa59143627aba388dfb14546791ca58dce47c2d0521803bb5259411"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
+metafile = true
+
+[[files]]
 file = "mods/bountiful.pw.toml"
 hash = "ba3b9990bc44bedb8eacbe11b2beffb7457cc6ddd854e78fcaf8d73d8f2578db"
 metafile = true
