@@ -2017,24 +2017,8 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
-file = "kubejs/assets/minecraft/icons/icon_128x128.png"
-hash = "448bdcb051f15cd8386f20453a6c4f086d6a13615c49dbf76492d301d4d86462"
-
-[[files]]
-file = "kubejs/assets/minecraft/icons/icon_16x16.png"
-hash = "113c31a031cbde0b5472ba749c4fc63ab7747d11e9cc1e70a9f87b1fa5bf03ef"
-
-[[files]]
-file = "kubejs/assets/minecraft/icons/icon_256x256.png"
+file = "kubejs/assets/minecraft/icons/icon.png"
 hash = "4fc49b19092b6b00be7c6093856a7509a1a31c17d7326daef269416c2b0013be"
-
-[[files]]
-file = "kubejs/assets/minecraft/icons/icon_32x32.png"
-hash = "a02c4c9fc046649d7bbceca30bb390e812a9519dc2bea85fe27be867d7e3fceb"
-
-[[files]]
-file = "kubejs/assets/minecraft/icons/icon_48x48.png"
-hash = "16135b40397e32bd935b05a15fcad378678de3344a6ea8168208c55b603971fa"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
@@ -2051,6 +2035,10 @@ hash = "e00a67922942660d77c213379b5128a46c5abc894178b0be04006d325ff5f6b3"
 [[files]]
 file = "kubejs/config/web_server.json"
 hash = "559aa39bda456675a33c2ece8741dd4fc944fd49117c29bc531aa2ef3b6f1152"
+
+[[files]]
+file = "kubejs/server_scripts/tags.js"
+hash = "e8ad53dd26fb246de3bd3b240b30138c8ea2e8a3b25636e618fa8f54f13dc67e"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
