@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:pig": true
+			"minecraft:slime": true
+			"minecraft:squid": true
+			"minecraft:bee": true
+			"minecraft:tropical_fish": false
+			"minecraft:pufferfish": false
 			"minecraft:wolf": true
 			"minecraft:axolotl": true
-			"minecraft:fox": true
-			"minecraft:camel": true
-			"minecraft:glow_squid": true
-			"minecraft:donkey": true
-			"minecraft:phantom": true
-			"minecraft:zombie_villager": true
-			"minecraft:goat": true
-			"minecraft:bee": true
-			"minecraft:husk": true
-			"minecraft:slime": true
-			"minecraft:salmon": false
-			"minecraft:skeleton": true
-			"minecraft:horse": true
-			"minecraft:sheep": true
-			"cobblemon:pokemon": true
-			"minecraft:turtle": true
-			"minecraft:rabbit": true
-			"minecraft:pufferfish": false
-			"minecraft:tropical_fish": false
-			"minecraft:zombie": true
-			"minecraft:witch": true
-			"minecraft:bat": true
-			"minecraft:cave_spider": true
-			"minecraft:armadillo": true
-			"minecraft:enderman": true
-			"minecraft:iron_golem": true
-			"minecraft:chicken": true
-			"minecraft:spider": true
-			"minecraft:creeper": true
-			"minecraft:squid": true
-			"minecraft:llama": true
-			"minecraft:cow": true
 			"minecraft:villager": true
+			"minecraft:llama": true
+			"minecraft:pig": true
+			"minecraft:enderman": true
+			"minecraft:witch": true
+			"minecraft:turtle": true
+			"minecraft:glow_squid": true
+			"minecraft:zombie": true
+			"cobblemon:pokemon": true
+			"minecraft:creeper": true
+			"minecraft:phantom": true
+			"minecraft:rabbit": true
+			"minecraft:horse": true
+			"minecraft:spider": true
+			"minecraft:sheep": true
+			"minecraft:iron_golem": true
+			"minecraft:armadillo": true
+			"minecraft:goat": true
+			"minecraft:cow": true
+			"minecraft:bat": true
+			"minecraft:fox": true
+			"minecraft:husk": true
+			"minecraft:cave_spider": true
+			"minecraft:camel": true
+			"minecraft:salmon": false
+			"minecraft:chicken": true
+			"minecraft:zombie_villager": true
+			"minecraft:skeleton": true
+			"minecraft:donkey": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

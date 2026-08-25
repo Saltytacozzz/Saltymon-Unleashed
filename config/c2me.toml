@@ -75,12 +75,12 @@ globalExecutorParallelism = "default"
 	# 
 	# Set to false for the following reasons: 
 	# Incompatible with twilightforest@4.8.3345 (*) (defined in c2me) 
-	optimizeStructureWeightSampler = "default"
+	optimizeStructureWeightSampler = "false"
 
 [chunkSystem]
 	# (Default: true) Whether to enable async serialization
 	# 
-	asyncSerialization = "default"
+	asyncSerialization = "false"
 	# (Default: false) Whether to recover from errors when loading chunks 
 	#  This will cause errored chunk to be regenerated entirely, which may cause data loss 
 	#  Only applies when async chunk loading is enabled
@@ -103,7 +103,7 @@ globalExecutorParallelism = "default"
 	# 
 	# Set to false for the following reasons: 
 	# Incompatible with twilightforest@4.8.3345 (*) (defined in c2me) 
-	suppressGhostMushrooms = "default"
+	suppressGhostMushrooms = "false"
 	# (Default: true) Whether to synchronize the management of player tickets
 	# 
 	# In vanilla Minecraft, player tickets are not always removed immediately when players leave an area.
@@ -194,7 +194,7 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 46) Max render distance allowed in game options
+		# (Default: 56) Max render distance allowed in game options
 		maxViewDistance = "default"
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 		# This allows requesting render distances higher than 127 chunks from the server
