@@ -594,7 +594,7 @@ hash = "3aed4bf53145f470d213a1ea007bd3b489c8645a5fcf6a72477ba44fad9df67b"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "0eb9351e8ef14e49699a8d050135e876878a3f70dd698f5a9eae9f523e9f894c"
+hash = "6b0076c1348e221688da3929f7cfa5aae6485e78bd26dfb528f260faa52cea33"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -798,7 +798,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b6c69f70c0e936148ce5c0f802d673275dc80e3ab1b70561514f354f97309253"
+hash = "fb256aded42e956bf10e453deb473a7d34360d3787b28af55d843724e3e0741d"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -839,6 +839,14 @@ hash = "f101ec795ce2739e705e4aa8f00cde47ccdea103135d12425177afff27230db3"
 [[files]]
 file = "config/paxi/datapacks/MysticMons_v3.2.1.zip"
 hash = "9e3749f431fbffa6a0fc95d878a166aec15b9aa9066ce88de2419ec9c8232102"
+
+[[files]]
+file = "config/paxi/datapacks/brush_fix/data/c/tags/item/tools/brushes.json"
+hash = "ab51c5d4c65550ce12bfad5977d3c840b505e2599d71018fc109cadf2707326b"
+
+[[files]]
+file = "config/paxi/datapacks/brush_fix/pack.mcmeta"
+hash = "0b8be9c54671aea8d8ed02af298e7ac356c0e42252e05f8dc2645bd26984543d"
 
 [[files]]
 file = "config/paxi/resourcepack_load_order.json"
@@ -2450,6 +2458,11 @@ hash = "323a20df4c709c568fe64f0918e0f849201b861039317b0b9ec4a055e9278674"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "d89b50af502aab4416e07fa8f92433a18fac11285fe1c39ebccea610dbfdd1e7"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "732230fce4618b7b3f399e48a9fa632731ebbf4226e39cbcdac06586be15dd5f"
 metafile = true
@@ -2517,6 +2530,11 @@ metafile = true
 [[files]]
 file = "mods/fancy-toasts.pw.toml"
 hash = "16ca1522325a60eb96613ae239affcaac43732df55021af961f15edabdd571aa"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "d0adc31be18555660560ba36f0ebf079e135a552889b8f7a029ef3052484c569"
 metafile = true
 
 [[files]]
@@ -2680,6 +2698,11 @@ hash = "8a5e76693f22343bb2306011ad8018337971256a6f3b25cb03680b1d7d7470c1"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "054a1887da4f14b791910660a2a7a2035ac1382461b881a65fe07b224c03735f"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
 metafile = true
@@ -2742,6 +2765,11 @@ metafile = true
 [[files]]
 file = "mods/matthiesen-core.pw.toml"
 hash = "0edf47b3d4f603b6c3ded2b3946607a9045d6d04f39131b714fef42c51865fd7"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
