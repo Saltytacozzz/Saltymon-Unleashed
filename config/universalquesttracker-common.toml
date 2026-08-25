@@ -1,0 +1,38 @@
+
+[general]
+	#Full path to the shared UniversalQuestTrackerData folder.
+	#This folder is used to share progress across modpacks.
+	#Leave this as EMPTY until you choose a shared folder.
+	#Example Windows path: C:/Users/YourName/Desktop/UniversalQuestTrackerData
+	#Example Linux or macOS path: /home/YourName/Desktop/UniversalQuestTrackerData
+	UniversalQuestTrackerDataDirectory = "EMPTY"
+
+	#Shows the in-chat setup warning when UniversalQuestTrackerDataDirectory is EMPTY.
+	#Set this to false to stop the warning from appearing.
+	ShowOnWorldGenMessage = true
+
+[formatting]
+	#When true, quest progress can show up to two decimal places, such as 42.75% Completed.
+	#When false, progress is rounded to a whole number, such as 43% Completed.
+	ShowProgressWithTwoDecimals = false
+
+	#When true, the tracker text also includes the completed quest count, such as 15/42 quests completed.
+	#This count is added after the percentage.
+	ShowCompletedQuestCount = false
+
+[images]
+	#When true, the UniversalQuestTracker menu will show a PNG for the current modpack when one is available.
+	#UniversalQuestTracker stores these images in UniversalQuestTrackerData/UniversalQuestTrackerPNGs.
+	#It will try to copy or download the current modpack image and name it after the modpack.
+	#Example: if the tracker writes 'My Modpack - World - 50% Completed', use 'My Modpack.png'.
+	DisplayModpackPngs = false
+
+[sorting]
+	#Saved sort mode for the UniversalQuestTracker menu. Valid values: CUSTOM, COMPLETION, TITLE.
+	TrackerSortMode = "CUSTOM"
+
+	#Saved sort direction for the UniversalQuestTracker menu. Valid values: ASCENDING, DESCENDING.
+	TrackerSortDirection = "ASCENDING"
+
+	#Saved text alignment for tracker entries. Valid values: LEFT, MIDDLE, RIGHT.
+	TrackerTextAlignment = "MIDDLE"
