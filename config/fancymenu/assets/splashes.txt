@@ -1,0 +1,146 @@
+Welcome to the Mesetarra Region!
+Watch out for Shadow Lugia in the dark!
+Professor Aspen is counting on your Pokédex completion!
+SaltyMon Unleashed: The ultimate cobblemon adventure!
+Press V for proximity chat and server gossip!
+Did you check your Cobblemon PC today?
+Create mod: When in doubt, add more cogs!
+Powered by NeoForge and pure server dedication.
+Catch 'em, train 'em, automate the process!
+Don't feed the wild Cyndaquil after midnight.
+Featuring 242 mods of absolute modded chaos!
+Is that a Shiny, or did your graphics card glitch?
+Always carry a Create Wrench. Always.
+The floor is made of Cobblemon eggs.
+Don't stare into a MissingNo for too long.
+Bake some bread with Farmer's Delight while waiting for hatches!
+Mapping out the Mesetarra wilderness one chunk at a time.
+Better than vanilla Minecraft, guaranteed!
+Check out the Cobblemon cards in your inventory!
+Watch your step near the Mesetarra Mesa biomes!
+Create: Steam 'n' Rails - keeping your factory trains on time!
+Trade with fellow trainers, battle with honor!
+Catching a legendary takes patience and a lot of Ultra Balls.
+Did you remember to link your Waystone?
+Chipped blocks make your base look 10% cooler.
+Keep your items safe with a Corpse nearby!
+Explore the Twilight Forest at your own risk.
+Nullscape makes the End dimension look stunning.
+Terralith world generation is out of this world!
+Oculus and Embeddium keeping your frames buttery smooth.
+Don't step on the Aron!
+Cyndaquil is judging your base architecture.
+Scraggy says trousers are optional in Mesetarra.
+Aron can and will eat your iron automation factory.
+Use JEI to look up recipes you'll forget instantly.
+Mouse Tweaks saves your inventory clicking wrists!
+Clumps keeps your game from turning into a slideshow during spawns.
+FerriteCore keeping your RAM from exploding.
+ModernFix: the ultimate duct tape for Minecraft optimization!
+Spark: for when your server TPS is crying for help.
+Xaero's Minimap: so you don't get lost in the Mesetarra dunes.
+Explorer's Compass: find that biome you abandoned.
+Nature's Compass: because walking across biomes is overrated.
+Waystones: fast travel like a true regional champion.
+Sophisticated Backpacks: inventory management, solved.
+Tom's Simple Storage: vanilla chests are for peasants.
+Create Crush Wheels: efficient, automated, and slightly terrifying.
+Blaze Burners prefer a snack of coal over room temperature.
+Stress units are just spicy mechanical physics.
+If it doesn't move, use a mechanical piston.
+Gears turning, cogs burning in the SaltyMon factories!
+All the Leaks caught the server bugs before they bit!
+Advancement Plaques because you love in-game validation.
+AppleSkin: because starving in the wilderness is unstylish.
+Artifacts: rare trinkets that actually give you powers.
+BadOptimizations doing the heavy background lifting.
+Balm: soothing for your mod dependencies.
+Better Advancements because the vanilla screen is boring.
+Blueprint: because builders need structural love too.
+Bookshelf: reading has never been this heavily modded.
+Bountiful: quests and board jobs for days!
+Brewin' and Chewin': tavern vibes only for hungry trainers.
+Chipped: 50 shades of chiseled stone for builders.
+Colossal Chests for when a double chest just isn't enough.
+Comforts: sleeping bags are a nomad's best friend.
+Connectivity: keeping the SaltyMon server online and stable.
+Controlling: keybind conflicts are history.
+Create: because mechanical engineers rule the world.
+Cultural Delights: tacos, curries, and feasts!
+Curios: wear all the rings and amulets!
+Deeper and Darker: don't go into the dark unprepared.
+Enchantment Descriptions: know before you glow.
+Entity Model Features: mobs got a gorgeous upgrade.
+Entity Texture Features: fancy skins everywhere you look.
+EntityCulling: rendering things you can't see is illegal.
+Every Compat: wood types for every single building occasion.
+ExpandAbility: swim faster, jump higher in your base!
+Exposure: capture your Pokémon memories with a camera.
+FancyToasts: server achievements look gorgeous now.
+Farmer's Delight: master chef mode activated.
+Farsight: see across dimensions and chunks!
+FastSuite: crafting at the speed of light.
+FastWorkbench & FastFurnace: time is efficiency.
+Flywheel: Create mod optimization wizardry.
+FramedBlocks: make your own custom shapes!
+FTB Chunks: claim your land, protect your base.
+FTB Essentials: homes, warps, and server commands.
+FTB Quests: follow the golden progression path.
+FTB Ultimine: vein-mine your way to victory.
+GeckoLib: animations so smooth it hurts.
+Handcrafted: furnish your dream Pokémon mansion.
+Iceberg: UI styling at its absolute finest.
+ImmediatelyFast: frames go brrrr.
+Incendium: the Nether got a terrifying upgrade.
+Inventory Profiles Next: auto-sort is life.
+Jade: what are you looking at? Now you know.
+Just Enough Resources: drop rates demystified.
+KubeJS: custom script magic happening behind the scenes.
+Lithium: server-side optimization champion.
+Lithostitched: world generation sorcery.
+Lodestone: magic and particle effects everywhere.
+LootJS: custom loot table madness.
+Lootr: instanced loot so nobody steals your dungeon diamonds.
+Macaw's Bridges: architect mode engaged.
+MidnightLib: config menus made easy.
+Miner's Delight: watch out for cave-ins while mining.
+MissingMons: because you can never have enough Pokémon.
+Moonlight Lib: helper mod supreme.
+MoreJS: KubeJS got a massive upgrade.
+Mouse Tweaks: drag-crafting master class.
+NeOculus: shaders without destroying your FPS.
+Noisiumed: terrain noise optimized for performance.
+Nullscape: End dimension total overhaul.
+Patchouli: in-game guidebooks are elite.
+Paxi: datapacks made simple.
+Polymorph: never lose items to recipe conflicts again.
+Ponder: hold W to see how Create machines work!
+PrickleMC: server utilities working overtime.
+Radical Cobblemon Trainers: prepare for battle across Mesetarra!
+Resourceful Lib: standard library goodness.
+Rhino: JavaScript running your game logic.
+Searchables: find any item instantly.
+Shulker Box Tooltip: look inside boxes without placing them.
+Simple Voice Chat: shout at your friends across the map.
+Small Ships: sail the high blocky seas.
+Sophisticated Storage: upgradeable barrels and chests.
+Sound Physics Remastered: acoustics that sound real.
+The SaltyMon Unleashed experience!
+Explore the custom structures of Mesetarra.
+Build the ultimate automated Cobblemon breeding facility.
+May your shiny rates be ever in your favor.
+Legendary spawns are waiting in the shadows.
+Did you trade with the local villagers yet?
+A well-oiled Create line makes shiny hunting relaxing.
+Welcome to your new favorite Pokémon server.
+The Mesetarra wind whispers of rare spawns.
+Trainers assemble on SaltyMon!
+Automate your apricorn farm today!
+Poke Balls don't build themselves—get those machines running!
+Careful, a wild alpha Pokémon might be nearby.
+The factory must grow, and so must your team.
+Check your quest book for today's objectives.
+SaltyMon Unleashed: where tech meets tactical battles.
+Master the art of the type matchup.
+May your framerates stay high and your ping stay low.
+Welcome home, Trainer, to the Mesetarra Region.

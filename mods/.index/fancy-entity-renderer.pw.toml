@@ -1,0 +1,21 @@
+filename = 'fancy-entity-renderer-neoforge-1.21-0.4.9.jar'
+name = 'Fancy Entity Renderer'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.4.9'
+
+[download]
+hash = 'a823f155f7e103bab3cf7952e9b63b118e23ddfeb6abf4ff57ece8b737f5bcf123d52808d0d6c466dfaad4832699530ba389d6e8cbddb319579508338bc68b5f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/RQ6INv2n/versions/rxYHELTJ/fancy-entity-renderer-neoforge-1.21-0.4.9.jar'
+
+[update.modrinth]
+mod-id = 'RQ6INv2n'
+version = 'rxYHELTJ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MUSmF7iZ'
+type = 'OPTIONAL'

@@ -429,6 +429,10 @@ file = "config/dndecor-server.toml"
 hash = "c1048c2d0455dbc9510aee18da9ad728cf21ca7307aaea4c3a5490ac90f3bb2d"
 
 [[files]]
+file = "config/drippyloadingscreen/early_window_reference.properties"
+hash = "b5c7acc6780ff0a7b4cb6608ba35d979de78c67f5bef08f895a33a5f66d81d96"
+
+[[files]]
 file = "config/dynamax-unleashed.json"
 hash = "866891f8e052c6f421769ddd7e3cc10404634e386a5ce2c6292fad6b58410f39"
 
@@ -525,12 +529,76 @@ file = "config/extraquests/locale.yml"
 hash = "97461c56c8cd7ba14756413561a57aa83c21d6f0559850a593a508c3d692bd93"
 
 [[files]]
+file = "config/fancymenu/assets/icons/icon.png"
+hash = "4fc49b19092b6b00be7c6093856a7509a1a31c17d7326daef269416c2b0013be"
+
+[[files]]
+file = "config/fancymenu/assets/icons/icon16.png"
+hash = "31b9e4da06a9c20e3434ece4d6ac7d2a3440d7c50c6e45636be68d930c595820"
+
+[[files]]
+file = "config/fancymenu/assets/icons/icon32.png"
+hash = "41a5fed23576804273be8b4634bde1b77c88ed68a46a346890fd6ccb5288e757"
+
+[[files]]
+file = "config/fancymenu/assets/icons/mac_icon.icns"
+hash = "d5da0dc2c6d8f4ebf0a0819b77dca04b43a5b392dfdfd8f5e0d96d2feb9bb73a"
+
+[[files]]
+file = "config/fancymenu/assets/images/button_ac.png"
+hash = "cbbeff17bade958865cba857715ea44d5973de276b6cdeed5399622fa69c29db"
+
+[[files]]
+file = "config/fancymenu/assets/images/button_inac.png"
+hash = "d2145196a019727df24305bed419ffb7903752d14cd5d7db04c55e976d2d8e4b"
+
+[[files]]
+file = "config/fancymenu/assets/images/saltymonlogo.png"
+hash = "5fe77a550ef5a99c86c104a6040ab2076bc4889495039123bd84b24cad179a58"
+
+[[files]]
+file = "config/fancymenu/assets/music/area_zero_cinematic.ogg"
+hash = "565c96821d4c2768950ac37ca1129ad25ea574584aa7fd24face2a47a59d8c21"
+
+[[files]]
+file = "config/fancymenu/assets/music/legends_arceus_main.ogg"
+hash = "c75d070bba49fc899f6d2f04ac8660b580b3d35f7e435bec09ebed4523b0a132"
+
+[[files]]
+file = "config/fancymenu/assets/music/pmd2_dialga_theme.ogg"
+hash = "ae39a4f7d1dcbf69de19b284fbd93e24014d839b15feedcbde93796594f3efa7"
+
+[[files]]
+file = "config/fancymenu/assets/music/ptrod_oracion.ogg"
+hash = "f43b91bb6071a81a1a681b958d9fd398a33192a145ff8b099f225f0140d2b7fa"
+
+[[files]]
+file = "config/fancymenu/assets/music/route209.ogg"
+hash = "ecad768c4e44231eee8112f305c8ce6cda9bf959ecabcd6098ee7fa339e272ba"
+
+[[files]]
+file = "config/fancymenu/assets/splashes.txt"
+hash = "eb035b5a62626062ff76df97667f4bf08156f756ec6318bc188c6fea81973cb0"
+
+[[files]]
+file = "config/fancymenu/audio_element_controller_metas.json"
+hash = "60b154d3c4e74de3ee6f99e41e5a8f0d52b70ad1448af0612c6f0135970b160e"
+
+[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "a83e520716f7d5fa43025d5991acd6e2160fc43ba604bd4c258b9f5c0812830f"
+hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "00ebe4bba2f08f77d5dcfda741436a4ac8eda06eaa432fe56d6be96b12e8e3cb"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "2944df4531e0a0423bec84cd37f1f047a1a0db7ae8e8016ee205bf1ed0100f01"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -634,7 +702,7 @@ hash = "4ae4bcb313f7215d1466a36e008e0f20805c98e1aa5b46b154a81dbfdb098e9d"
 
 [[files]]
 file = "config/fml.toml"
-hash = "cc59fb1039726fda3ab1eb69b06d9b9aebb7496604ea579cfb735bc5377e7825"
+hash = "e5585be36be93b4030da6285edefa2810f184a4b94d95a0bab6eed9b8934f757"
 
 [[files]]
 file = "config/framedblocks-client.toml"
@@ -646,7 +714,7 @@ hash = "3aed4bf53145f470d213a1ea007bd3b489c8645a5fcf6a72477ba44fad9df67b"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "614e6d54841e4b18c340455489b01186d4995e5b2e3b044ad7b0e4a309260053"
+hash = "4ee51d8a27b63d69043118159e3bd7110311184fc19835d58302a12b1bca4a17"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -738,7 +806,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "2684ed63f12aee6590c1dc0e1e1c10ffffcb639067f46ccd8cf33b9d37d95247"
+hash = "e00e76dc698c398eb24197fac5628d2c291622ee3dbf741720b39cca8d3a5bb4"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -762,7 +830,7 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "67d0eef5e7bc8864431292a72fa44a0aba8fd78da61e98f0c8c657eb5207404e"
+hash = "62c445845e533c86ba93770e11d74a85ae421bbb3ce482d7d44dd6a46baf6695"
 
 [[files]]
 file = "config/jei/world/server/SaltyMon Unleashed (169_150_133_144)/lookupHistory.json"
@@ -834,7 +902,7 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "d3a3839bec8e21825fe791a24d6226c1dd3fc94b38588fa52d42cf773868b7c7"
+hash = "cda1de84880f439d9c8a025861a483d51972e76b8a5a6a253dd0196aec821ac5"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -866,7 +934,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "254517a2ef5409330d45812909e5db658bfc6e416330f8d873fae8e01d6bdcce"
+hash = "ef8453660285f4d951b141d38b9caa78267c33d6ea63d2132600ee1687d9f782"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1194,7 +1262,7 @@ hash = "44bfb991779a3327302e943a0ac918fe0d0484540fd6e3b918087326090e7178"
 
 [[files]]
 file = "dynamic-resource-pack-cache/hash.txt"
-hash = "e17ad876c61f2403507fef8f1419ecbebd3be0c6407201858178bcd2be23193f"
+hash = "9100860cd8e87831ccfc1350fef0233036c5f2dc88d99d60c03bee6927003bff"
 
 [[files]]
 file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/minecraft/models/item/crossbow.json"
@@ -1958,7 +2026,7 @@ hash = "24fb17eba5ea10a51b9872c27ae537ece429613fab0f24b7591f56fafa925d5a"
 
 [[files]]
 file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/mangrove.png"
-hash = "8ded4a47a657e3c6e3dc9e23ffd472d1b694023805d2498db3b2ceea01f04680"
+hash = "43d8c5718425fe7d1d64e29af6e5936632c2d477f5a3d54011064f5cf6102bcb"
 
 [[files]]
 file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/block/item_shelves/twilightforest/mining.png"
@@ -2050,7 +2118,7 @@ hash = "cf4b5f7a1292fff4fb8e6780199e47355a885ac888d9691b9fb39530e47e773d"
 
 [[files]]
 file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/mangrove.png"
-hash = "be8fe8922c1baebb2b34e4c6c2e44c2d1d17370895eb8180ec4bb2c712ff5b46"
+hash = "7789a0e9a7e6a3720b4aad8d669495d9ec857e55b95b3c6d720c7b4568989b7c"
 
 [[files]]
 file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquared/textures/item/item_shelves/twilightforest/mining.png"
@@ -2077,8 +2145,36 @@ file = "dynamic-resource-pack-cache/suppsquared-dynamic_assets/assets/suppsquare
 hash = "385feab97546ef7fea49de1ef6ca1af7e22593a25cd1fdb0a48654a9f6f2a696"
 
 [[files]]
+file = "fancymenu_data/action_favorites.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "fancymenu_data/browser_audio_settings.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "fancymenu_data/browser_video_settings.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_leveling_MzI5NzdhYmEtODZjOC00OTEwLThlYWEtMDBlYThiMWEzMGJlLTE3ODc2OTI3NTA3Mzc.json"
+hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_leveling_ZTZiNzE4OGMtZjlkZC00OWI1LTlhODUtOTU5ZmNlMDUwNjI1LTE3ODc2OTAyMjU4NDg.json"
+hash = "c79892b2e4d4e3d88bf708dd43000ede9759728a1f612d58acc26b7d984f8b50"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_save_MzI5NzdhYmEtODZjOC00OTEwLThlYWEtMDBlYThiMWEzMGJlLTE3ODc2OTI3NTA3Mzc.json"
+hash = "242de8ccae22625da6f8b5e6605bac640795b78d6fb0f7654f63ce5d747b1143"
+
+[[files]]
+file = "fancymenu_data/buddy/buddy_save_ZTZiNzE4OGMtZjlkZC00OWI1LTlhODUtOTU5ZmNlMDUwNjI1LTE3ODc2OTAyMjU4NDg.json"
+hash = "242de8ccae22625da6f8b5e6605bac640795b78d6fb0f7654f63ce5d747b1143"
+
+[[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "21b9907f842fec38df4b19c8e3de5e27887512ca30f022b9f0f0849dde0542c3"
+hash = "bf2c9c3fdfdf0f28142f59146a1d4157695cdab2f69505822aa5d9e502470c18"
 
 [[files]]
 file = "icon.png"
@@ -2521,6 +2617,11 @@ hash = "323a20df4c709c568fe64f0918e0f849201b861039317b0b9ec4a055e9278674"
 metafile = true
 
 [[files]]
+file = "mods/drippy-early-loading-module.pw.toml"
+hash = "5fea3c19a3984ad752fd965510c4f8847c5100d001c31cbe46373628de729e06"
+metafile = true
+
+[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "d89b50af502aab4416e07fa8f92433a18fac11285fe1c39ebccea610dbfdd1e7"
 metafile = true
@@ -2588,6 +2689,11 @@ metafile = true
 [[files]]
 file = "mods/extraquests.pw.toml"
 hash = "6d3059fed5bd156f40b224b24da17791e5eef3382b769d9835575d59d720cd87"
+metafile = true
+
+[[files]]
+file = "mods/fancy-entity-renderer.pw.toml"
+hash = "caf827968238a015dbf96f2ec7aa845b1f55dfd47b65580eed245fcc0d262457"
 metafile = true
 
 [[files]]
