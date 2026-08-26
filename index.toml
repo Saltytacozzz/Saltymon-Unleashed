@@ -622,7 +622,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "1294907e1880e6549898c823c3bbe29e129baa7c081242bcdc273c07e7ab5f6b"
+hash = "c3f263524b789db7035c7fb354c20bdf3ff83be6d018d402e9ec360dd3246ac1"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
