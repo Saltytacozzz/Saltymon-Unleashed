@@ -20,8 +20,8 @@ essential/
 xaero/
 XaeroWaypoints*/
 exposures/
+/options.txt
 patchouli_data.json
-options.txt
 servers.dat
 servers.dat_old
 servers.essential.dat

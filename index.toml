@@ -433,6 +433,10 @@ file = "config/drippyloadingscreen/early_window_reference.properties"
 hash = "b5c7acc6780ff0a7b4cb6608ba35d979de78c67f5bef08f895a33a5f66d81d96"
 
 [[files]]
+file = "config/drippyloadingscreen/options.txt"
+hash = "8d0edcad69219e217683bde3437b11318db348c7cce676c7c67de99b58f0ccd5"
+
+[[files]]
 file = "config/dynamax-unleashed.json"
 hash = "866891f8e052c6f421769ddd7e3cc10404634e386a5ce2c6292fad6b58410f39"
 
@@ -603,6 +607,10 @@ hash = "2944df4531e0a0423bec84cd37f1f047a1a0db7ae8e8016ee205bf1ed0100f01"
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
 hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "78f92020ce818e3a1c96eca80dd8efee5853978e9c8fc877146a058a33cd9518"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -2644,11 +2652,6 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "4fbe037c1ec3570be84f68e075c3e8293b15f64dda22bca4735924705fb38236"
-metafile = true
-
-[[files]]
-file = "mods/essential-mod.pw.toml"
-hash = "fc78cc4e383f66dc310f06e92006e9013affe6c3b166079920a21f718aca3c17"
 metafile = true
 
 [[files]]
