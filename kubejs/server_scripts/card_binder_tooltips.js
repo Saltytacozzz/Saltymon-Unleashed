@@ -1,7 +1,8 @@
-ClientEvents.itemTooltip(event => {
-    // ==========================================
-    // MESETARRA CARD BINDER LORE & TIER INFO
-    // ==========================================
+ItemEvents.tooltip(event => {
+    // Diamond Binder
+    event.add('cobblemon_cards:diamond_binder', [
+        Text.gold('A high-tier card binder.')
+    ])
 
     // Netherite Binder Tooltip
     event.add('cobblemon_cards:netherite_binder', [
@@ -17,7 +18,7 @@ ClientEvents.itemTooltip(event => {
         Text.aqua('The ultimate collector’s artifact of the Mesetarra region.')
     ])
 
-    // Incomplete Item Tooltip (Great for letting players know it's a factory part)
+    // Incomplete Item Tooltips
     event.add('kubejs:incomplete_netherite_binder', [
         Text.yellow('§oMachining in progress... Feed through a Create assembly line.')
     ])

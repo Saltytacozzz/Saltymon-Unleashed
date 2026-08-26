@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:slime": true
-			"minecraft:zombie": true
-			"minecraft:cow": true
-			"minecraft:iron_golem": true
-			"minecraft:llama": true
-			"minecraft:pig": true
-			"minecraft:witch": true
-			"minecraft:skeleton": true
-			"minecraft:villager": true
-			"minecraft:fox": true
-			"minecraft:wolf": true
-			"minecraft:armadillo": true
-			"minecraft:axolotl": true
-			"minecraft:chicken": true
-			"minecraft:zombie_villager": true
-			"minecraft:cave_spider": true
 			"minecraft:rabbit": true
-			"minecraft:bee": true
-			"minecraft:husk": true
-			"minecraft:glow_squid": true
-			"cobblemon:pokemon": true
-			"minecraft:pufferfish": false
+			"minecraft:zombie_villager": true
+			"minecraft:axolotl": true
 			"minecraft:tropical_fish": false
-			"minecraft:turtle": true
+			"minecraft:wolf": true
+			"minecraft:zombie": true
 			"minecraft:phantom": true
-			"minecraft:squid": true
-			"minecraft:creeper": true
-			"minecraft:camel": true
-			"minecraft:enderman": true
+			"minecraft:pig": true
 			"minecraft:spider": true
-			"minecraft:goat": true
+			"minecraft:squid": true
+			"minecraft:camel": true
 			"minecraft:bat": true
-			"minecraft:horse": true
-			"minecraft:donkey": true
+			"minecraft:fox": true
+			"minecraft:chicken": true
+			"minecraft:skeleton": true
+			"minecraft:husk": true
+			"minecraft:villager": true
+			"minecraft:turtle": true
+			"minecraft:slime": true
+			"minecraft:creeper": true
 			"minecraft:salmon": false
+			"minecraft:witch": true
+			"minecraft:llama": true
+			"cobblemon:pokemon": true
+			"minecraft:enderman": true
+			"minecraft:bee": true
+			"minecraft:iron_golem": true
+			"minecraft:horse": true
 			"minecraft:sheep": true
+			"minecraft:cave_spider": true
+			"minecraft:donkey": true
+			"minecraft:goat": true
+			"minecraft:glow_squid": true
+			"minecraft:armadillo": true
+			"minecraft:pufferfish": false
+			"minecraft:cow": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

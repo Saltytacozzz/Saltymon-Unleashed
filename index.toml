@@ -14,7 +14,7 @@ hash = "b9f6a56acdb02a286de9aa06578dac5485656fb476adc819fb3c63dd49ad0785"
 
 [[files]]
 file = "config/adaptive_performance_tweaks/ai_throttle.cfg"
-hash = "60afce8cf510d999cc3267318e7baae200351d8943074a537f440bc13605e62c"
+hash = "f3984d38c394b6909b0257932f8916dc42dac73f2216394ca70c246efceff280"
 
 [[files]]
 file = "config/adaptive_performance_tweaks/arrows.cfg"
@@ -22,7 +22,7 @@ hash = "f79c8f33ca9963d1e9ba2a06a10e808a0702c5bfa6da19f7944dbe3d964e8e0e"
 
 [[files]]
 file = "config/adaptive_performance_tweaks/chunk_gen_throttle.cfg"
-hash = "b7abc3fb1981eba3396a09c9f51e741a53132a860067a2fd19031eefaec5358c"
+hash = "5e15e453dd98fd478c86af5392ef15485d13d29028c3b70ddd92f3e3e543cdd7"
 
 [[files]]
 file = "config/adaptive_performance_tweaks/core.cfg"
@@ -62,7 +62,7 @@ hash = "be1a52b5dbf3c471f31799532afa9ba3f03dcd2b9af5976f045161b95356ef5d"
 
 [[files]]
 file = "config/adaptive_performance_tweaks/spawn.cfg"
-hash = "5a94b6d66134f2c50701eefad70dcd5444f2c2aa7d8764dc7f176a68ad341f07"
+hash = "ab6c02c63cf63e7eb22fee3332d862a9f5d559c10f6ad8265c9a34b6bc497861"
 
 [[files]]
 file = "config/adaptive_performance_tweaks/view_distance.cfg"
@@ -430,7 +430,7 @@ hash = "c1048c2d0455dbc9510aee18da9ad728cf21ca7307aaea4c3a5490ac90f3bb2d"
 
 [[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
-hash = "8c0fdb2cdf60be6baf847df61e2bb99d8929f0862931f6e961f92d9d8dbfb791"
+hash = "90976541144d9efd95371f4e9f779eb4e46c799a63e52b5c6b16d1dd23c5211e"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
@@ -734,7 +734,7 @@ hash = "3aed4bf53145f470d213a1ea007bd3b489c8645a5fcf6a72477ba44fad9df67b"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "64b3af6334570dfdf56d5706bd555fb81b138cfea32c997192e03010331a8f24"
+hash = "ea072719aa29015c6911ded108b72f012d0ff36295a6c9aca7b0bd051a25019d"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -826,7 +826,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "e00e76dc698c398eb24197fac5628d2c291622ee3dbf741720b39cca8d3a5bb4"
+hash = "0fa73593ba3fb3ddd23d0f0aa1eae2ebac932d7cb5f59f3ffbe5d107123a47ae"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -954,7 +954,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "5dac87b20fdf3d7d9bfa4fd8e8d6f2371af51cb6575bfb440ef32bfbbe628a6f"
+hash = "21eb1d529e7346c7f83d0d02c66c76be26c62007a6c208621b37d31ef0feb5db"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -2221,10 +2221,6 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
-file = "kubejs/client_scripts/card_binder_tooltips.js"
-hash = "7320ccc70bb3c2615e8401c40ab6f593f30f56c08a95ad572817e0259e97f500"
-
-[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
@@ -2241,12 +2237,12 @@ file = "kubejs/config/web_server.json"
 hash = "559aa39bda456675a33c2ece8741dd4fc944fd49117c29bc531aa2ef3b6f1152"
 
 [[files]]
-file = "kubejs/server_scripts/saltymon_integrations.js"
-hash = "4a043d2b60d35ba29054f5920fc1a119692451ac0188bedb848553fc0cba17c3"
+file = "kubejs/server_scripts/card_binder_tooltips.js"
+hash = "b7540b4b2b5a5c7ba5e32f03c9c56bd714b0017321869ce149b2d6cf7515a5c6"
 
 [[files]]
-file = "kubejs/server_scripts/tag_integration.js"
-hash = "4c10973209a2e7fa00565f6d239fa5052e754fc00b718fb448459330a5304c16"
+file = "kubejs/server_scripts/saltymon_integrations.js"
+hash = "4a043d2b60d35ba29054f5920fc1a119692451ac0188bedb848553fc0cba17c3"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -2262,7 +2258,7 @@ hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
 
 [[files]]
 file = "kubejs/startup_scripts/saltymon_items.js"
-hash = "5944ae6c4362209390a708a1ea03e6f4ef1e78034016d41c62dcaa12b3ee5b51"
+hash = "73b36fb9a25577e3152fd3f241c2995d0bce4fc8b872bcc14c58ec18d94dd897"
 
 [[files]]
 file = "mods/accessories.pw.toml"
