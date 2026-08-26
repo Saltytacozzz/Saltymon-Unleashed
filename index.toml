@@ -2221,6 +2221,10 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/client_scripts/card_binder_tooltips.js"
+hash = "7320ccc70bb3c2615e8401c40ab6f593f30f56c08a95ad572817e0259e97f500"
+
+[[files]]
 file = "kubejs/client_scripts/main.js"
 hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
 
@@ -2237,12 +2241,28 @@ file = "kubejs/config/web_server.json"
 hash = "559aa39bda456675a33c2ece8741dd4fc944fd49117c29bc531aa2ef3b6f1152"
 
 [[files]]
+file = "kubejs/server_scripts/saltymon_integrations.js"
+hash = "4a043d2b60d35ba29054f5920fc1a119692451ac0188bedb848553fc0cba17c3"
+
+[[files]]
+file = "kubejs/server_scripts/tag_integration.js"
+hash = "4c10973209a2e7fa00565f6d239fa5052e754fc00b718fb448459330a5304c16"
+
+[[files]]
 file = "kubejs/server_scripts/tags.js"
 hash = "e8ad53dd26fb246de3bd3b240b30138c8ea2e8a3b25636e618fa8f54f13dc67e"
 
 [[files]]
+file = "kubejs/server_scripts/tier_balancing.js"
+hash = "4efa5636f2749b0c203832a6c1a079e67107cb3387a5976d599d6b6cbfbc2675"
+
+[[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+
+[[files]]
+file = "kubejs/startup_scripts/saltymon_items.js"
+hash = "5944ae6c4362209390a708a1ea03e6f4ef1e78034016d41c62dcaa12b3ee5b51"
 
 [[files]]
 file = "mods/accessories.pw.toml"
