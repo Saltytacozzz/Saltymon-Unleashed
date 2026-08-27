@@ -1,0 +1,23 @@
+#Globally enable or disable horizontal mechanical crafter layouts.
+enableHorizontalGrid = true
+#Maximum number of connected mechanical crafters visited when detecting a grid's plane.
+#A component larger than this is only partially scanned, so its blocks can disagree
+#about their orientation. Keep it well above the size of your biggest crafter array.
+# Default: 4096
+# Range: 64 ~ 65536
+bfsSafetyLimit = 4096
+#If true, auto-detection ignores crafters stacked directly on top of each other,
+#which lets stacked floor grids be detected automatically at the cost of never
+#auto-detecting a wall grid that touches a floor one. Forcing the orientation with
+#a wrench always takes priority over this setting.
+allowHorizontalVerticalCohabitation = false
+#Automatically match a newly placed crafter to the grid it is placed against.
+autoAlignPlacement = true
+#If true, changing the orientation with the wrench applies it to every connected
+#crafter at once instead of a single block. Turning this off makes large grids
+#very tedious to convert, since intermediate states are inconsistent.
+wrenchAppliesToWholeGrid = true
+#Distance from the block centre where a horizontal grid drops its items.
+# Default: 0.65
+# Range: 0.1 ~ 1.5
+ejectSpawnOffset = 0.65

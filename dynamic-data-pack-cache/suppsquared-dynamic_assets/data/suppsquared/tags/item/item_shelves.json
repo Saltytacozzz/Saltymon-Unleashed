@@ -1,0 +1,27 @@
+{
+  "values": [
+    "supplementaries:item_shelf",
+    "suppsquared:item_shelf_spruce",
+    "suppsquared:item_shelf_birch",
+    "suppsquared:item_shelf_jungle",
+    "suppsquared:item_shelf_acacia",
+    "suppsquared:item_shelf_cherry",
+    "suppsquared:item_shelf_dark_oak",
+    "suppsquared:item_shelf_mangrove",
+    "suppsquared:item_shelf_bamboo",
+    "suppsquared:item_shelf_crimson",
+    "suppsquared:item_shelf_warped",
+    "suppsquared:deeperdarker/item_shelf_bloom",
+    "suppsquared:cobblemon/item_shelf_apricorn",
+    "suppsquared:cobblemon/item_shelf_saccharine",
+    "suppsquared:twilightforest/item_shelf_twilight_oak",
+    "suppsquared:twilightforest/item_shelf_canopy",
+    "suppsquared:twilightforest/item_shelf_mangrove",
+    "suppsquared:twilightforest/item_shelf_dark",
+    "suppsquared:twilightforest/item_shelf_time",
+    "suppsquared:twilightforest/item_shelf_transformation",
+    "suppsquared:twilightforest/item_shelf_mining",
+    "suppsquared:twilightforest/item_shelf_sorting",
+    "suppsquared:deeperdarker/item_shelf_echo"
+  ]
+}

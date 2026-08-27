@@ -1,0 +1,458 @@
+{
+  "manual_namespaces": {
+    "corpse": {
+      "mode": "exclude_namespace",
+      "category": "world_effect",
+      "reason": "Corpse entities are recovery containers and should not be tracked."
+    },
+    "toms_storage": {
+      "mode": "exclude_namespace",
+      "category": "storage_network",
+      "reason": "Tom\u0027s Simple Storage entities are system-managed helpers and should not be tracked."
+    },
+    "lootr": {
+      "mode": "exclude_namespace",
+      "category": "world_effect",
+      "reason": "Lootr helper entities are loot containers and should not be tracked."
+    },
+    "smallships": {
+      "mode": "exclude_namespace",
+      "category": "vehicle_structure",
+      "reason": "Small Ships sailable vessel entities should not be tracked."
+    },
+    "create": {
+      "mode": "exclude_namespace",
+      "category": "vehicle_structure",
+      "reason": "Create contraptions and structure helpers should not be tracked."
+    },
+    "cobblemon": {
+      "mode": "protect_namespace",
+      "category": "managed_living",
+      "reason": "Cobblemon creature entities should be protected from spawn tracking."
+    },
+    "railways": {
+      "mode": "exclude_namespace",
+      "category": "vehicle_structure",
+      "reason": "Create: Steam \u0027n\u0027 Rails train and conductor entities should not be tracked."
+    }
+  },
+  "manual_entity_ids": {},
+  "auto_excluded_namespaces": [
+    "exposure",
+    "handcrafted",
+    "sophisticatedbackpacks",
+    "farmersdelight",
+    "fightorflight",
+    "rctmod",
+    "artifacts",
+    "blueprint",
+    "bakeries",
+    "sophisticatedstorageinmotion"
+  ],
+  "auto_excluded_entity_ids": [
+    "minecraft:area_effect_cloud",
+    "minecraft:armor_stand",
+    "minecraft:arrow",
+    "minecraft:block_display",
+    "minecraft:boat",
+    "minecraft:breeze_wind_charge",
+    "minecraft:chest_boat",
+    "minecraft:chest_minecart",
+    "minecraft:command_block_minecart",
+    "minecraft:dragon_fireball",
+    "minecraft:egg",
+    "minecraft:end_crystal",
+    "minecraft:ender_pearl",
+    "minecraft:evoker_fangs",
+    "minecraft:experience_bottle",
+    "minecraft:experience_orb",
+    "minecraft:eye_of_ender",
+    "minecraft:falling_block",
+    "minecraft:firework_rocket",
+    "minecraft:furnace_minecart",
+    "minecraft:glow_item_frame",
+    "minecraft:hopper_minecart",
+    "minecraft:interaction",
+    "minecraft:iron_golem",
+    "minecraft:item",
+    "minecraft:item_display",
+    "minecraft:item_frame",
+    "minecraft:ominous_item_spawner",
+    "minecraft:fireball",
+    "minecraft:leash_knot",
+    "minecraft:lightning_bolt",
+    "minecraft:llama_spit",
+    "minecraft:marker",
+    "minecraft:minecart",
+    "minecraft:painting",
+    "minecraft:potion",
+    "minecraft:shulker_bullet",
+    "minecraft:small_fireball",
+    "minecraft:snow_golem",
+    "minecraft:snowball",
+    "minecraft:spawner_minecart",
+    "minecraft:spectral_arrow",
+    "minecraft:text_display",
+    "minecraft:tnt",
+    "minecraft:tnt_minecart",
+    "minecraft:trident",
+    "minecraft:villager",
+    "minecraft:wind_charge",
+    "minecraft:wither_skull",
+    "minecraft:player",
+    "minecraft:fishing_bobber",
+    "supplementaries:pearl_marker",
+    "supplementaries:dispenser_minecart",
+    "supplementaries:hat_stand",
+    "supplementaries:falling_urn",
+    "supplementaries:falling_ash",
+    "supplementaries:falling_sack",
+    "supplementaries:brick_projectile",
+    "supplementaries:slimeball_projectile",
+    "supplementaries:bomb",
+    "supplementaries:cannonball",
+    "supplementaries:rope_arrow",
+    "supplementaries:slingshot_projectile",
+    "supplementaries:cannon_boat",
+    "twilightforest:chain_block",
+    "twilightforest:charm_effect",
+    "twilightforest:cube_of_annihilation",
+    "twilightforest:falling_ice",
+    "twilightforest:hydra_mortar",
+    "twilightforest:ice_arrow",
+    "twilightforest:thrown_ice",
+    "twilightforest:ice_snowball",
+    "twilightforest:lich_bolt",
+    "twilightforest:lich_bomb",
+    "twilightforest:moonworm_shot",
+    "twilightforest:nature_bolt",
+    "twilightforest:magic_painting",
+    "twilightforest:protection_box",
+    "twilightforest:seeker_arrow",
+    "twilightforest:slider",
+    "twilightforest:slime_blob",
+    "twilightforest:thrown_block",
+    "twilightforest:thrown_wep",
+    "twilightforest:tome_bolt",
+    "twilightforest:wand_bolt",
+    "deeperdarker:boat",
+    "deeperdarker:chest_boat"
+  ],
+  "mixed_namespaces": [
+    "minecraft",
+    "supplementaries",
+    "cobblemon",
+    "railways",
+    "twilightforest",
+    "deeperdarker"
+  ],
+  "unknown_namespaces": [
+    "vaocorpmusicdiscs"
+  ],
+  "namespace_profiles": {
+    "minecraft": {
+      "total_entity_types": 130,
+      "non_misc_entity_types": 79,
+      "misc_entity_ids": [
+        "minecraft:area_effect_cloud",
+        "minecraft:armor_stand",
+        "minecraft:arrow",
+        "minecraft:block_display",
+        "minecraft:boat",
+        "minecraft:breeze_wind_charge",
+        "minecraft:chest_boat",
+        "minecraft:chest_minecart",
+        "minecraft:command_block_minecart",
+        "minecraft:dragon_fireball",
+        "minecraft:egg",
+        "minecraft:end_crystal",
+        "minecraft:ender_pearl",
+        "minecraft:evoker_fangs",
+        "minecraft:experience_bottle",
+        "minecraft:experience_orb",
+        "minecraft:eye_of_ender",
+        "minecraft:falling_block",
+        "minecraft:firework_rocket",
+        "minecraft:furnace_minecart",
+        "minecraft:glow_item_frame",
+        "minecraft:hopper_minecart",
+        "minecraft:interaction",
+        "minecraft:iron_golem",
+        "minecraft:item",
+        "minecraft:item_display",
+        "minecraft:item_frame",
+        "minecraft:ominous_item_spawner",
+        "minecraft:fireball",
+        "minecraft:leash_knot",
+        "minecraft:lightning_bolt",
+        "minecraft:llama_spit",
+        "minecraft:marker",
+        "minecraft:minecart",
+        "minecraft:painting",
+        "minecraft:potion",
+        "minecraft:shulker_bullet",
+        "minecraft:small_fireball",
+        "minecraft:snow_golem",
+        "minecraft:snowball",
+        "minecraft:spawner_minecart",
+        "minecraft:spectral_arrow",
+        "minecraft:text_display",
+        "minecraft:tnt",
+        "minecraft:tnt_minecart",
+        "minecraft:trident",
+        "minecraft:villager",
+        "minecraft:wind_charge",
+        "minecraft:wither_skull",
+        "minecraft:player",
+        "minecraft:fishing_bobber"
+      ],
+      "all_types_misc": false,
+      "mixed_types": true
+    },
+    "exposure": {
+      "total_entity_types": 3,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "exposure:photograph_frame",
+        "exposure:glass_photograph_frame",
+        "exposure:camera_stand"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "supplementaries": {
+      "total_entity_types": 15,
+      "non_misc_entity_types": 2,
+      "misc_entity_ids": [
+        "supplementaries:pearl_marker",
+        "supplementaries:dispenser_minecart",
+        "supplementaries:hat_stand",
+        "supplementaries:falling_urn",
+        "supplementaries:falling_ash",
+        "supplementaries:falling_sack",
+        "supplementaries:brick_projectile",
+        "supplementaries:slimeball_projectile",
+        "supplementaries:bomb",
+        "supplementaries:cannonball",
+        "supplementaries:rope_arrow",
+        "supplementaries:slingshot_projectile",
+        "supplementaries:cannon_boat"
+      ],
+      "all_types_misc": false,
+      "mixed_types": true
+    },
+    "corpse": {
+      "total_entity_types": 1,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "corpse:corpse"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "handcrafted": {
+      "total_entity_types": 2,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "handcrafted:seat",
+        "handcrafted:fancy_painting"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "cobblemon": {
+      "total_entity_types": 7,
+      "non_misc_entity_types": 2,
+      "misc_entity_ids": [
+        "cobblemon:empty_pokeball",
+        "cobblemon:generic_bedrock",
+        "cobblemon:poke_bobber",
+        "cobblemon:boat",
+        "cobblemon:chest_boat"
+      ],
+      "all_types_misc": false,
+      "mixed_types": true
+    },
+    "lootr": {
+      "total_entity_types": 2,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "lootr:lootr_minecart",
+        "lootr:item_frame"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "vaocorpmusicdiscs": {
+      "total_entity_types": 1,
+      "non_misc_entity_types": 1,
+      "misc_entity_ids": [],
+      "all_types_misc": false,
+      "mixed_types": false
+    },
+    "sophisticatedbackpacks": {
+      "total_entity_types": 1,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "sophisticatedbackpacks:everlasting_backpack_item"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "railways": {
+      "total_entity_types": 3,
+      "non_misc_entity_types": 1,
+      "misc_entity_ids": [
+        "railways:benchcart",
+        "railways:jukeboxcart"
+      ],
+      "all_types_misc": false,
+      "mixed_types": true
+    },
+    "twilightforest": {
+      "total_entity_types": 80,
+      "non_misc_entity_types": 59,
+      "misc_entity_ids": [
+        "twilightforest:chain_block",
+        "twilightforest:charm_effect",
+        "twilightforest:cube_of_annihilation",
+        "twilightforest:falling_ice",
+        "twilightforest:hydra_mortar",
+        "twilightforest:ice_arrow",
+        "twilightforest:thrown_ice",
+        "twilightforest:ice_snowball",
+        "twilightforest:lich_bolt",
+        "twilightforest:lich_bomb",
+        "twilightforest:moonworm_shot",
+        "twilightforest:nature_bolt",
+        "twilightforest:magic_painting",
+        "twilightforest:protection_box",
+        "twilightforest:seeker_arrow",
+        "twilightforest:slider",
+        "twilightforest:slime_blob",
+        "twilightforest:thrown_block",
+        "twilightforest:thrown_wep",
+        "twilightforest:tome_bolt",
+        "twilightforest:wand_bolt"
+      ],
+      "all_types_misc": false,
+      "mixed_types": true
+    },
+    "farmersdelight": {
+      "total_entity_types": 1,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "farmersdelight:rotten_tomato"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "deeperdarker": {
+      "total_entity_types": 13,
+      "non_misc_entity_types": 11,
+      "misc_entity_ids": [
+        "deeperdarker:boat",
+        "deeperdarker:chest_boat"
+      ],
+      "all_types_misc": false,
+      "mixed_types": true
+    },
+    "fightorflight": {
+      "total_entity_types": 9,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "fightorflight:tracing_bullet",
+        "fightorflight:arrow_projectile",
+        "fightorflight:bullet_projectile",
+        "fightorflight:spike_projectile",
+        "fightorflight:floating_spike_projectile",
+        "fightorflight:sticky_web",
+        "fightorflight:tornado",
+        "fightorflight:whirlpool",
+        "fightorflight:magic_effect"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "smallships": {
+      "total_entity_types": 6,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "smallships:cannon_ball",
+        "smallships:ground_cannon",
+        "smallships:cog",
+        "smallships:brigg",
+        "smallships:galley",
+        "smallships:drakkar"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "rctmod": {
+      "total_entity_types": 2,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "rctmod:trainer",
+        "rctmod:trainer_association"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "create": {
+      "total_entity_types": 9,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "create:contraption",
+        "create:stationary_contraption",
+        "create:gantry_contraption",
+        "create:carriage_contraption",
+        "create:super_glue",
+        "create:crafting_blueprint",
+        "create:potato_projectile",
+        "create:seat",
+        "create:package"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "artifacts": {
+      "total_entity_types": 1,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "artifacts:mimic"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "blueprint": {
+      "total_entity_types": 3,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "blueprint:boat",
+        "blueprint:chest_boat",
+        "blueprint:falling_block"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "bakeries": {
+      "total_entity_types": 1,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "bakeries:sofa"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    },
+    "sophisticatedstorageinmotion": {
+      "total_entity_types": 2,
+      "non_misc_entity_types": 0,
+      "misc_entity_ids": [
+        "sophisticatedstorageinmotion:storage_minecart",
+        "sophisticatedstorageinmotion:storage_boat"
+      ],
+      "all_types_misc": true,
+      "mixed_types": false
+    }
+  }
+}
