@@ -1,0 +1,13 @@
+name = "Gem Storage for Apotheosis"
+filename = "gemstorage-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f4513e2f45bc4e64a345213408e07b53f372abee"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7382545
+project-id = 1411540

@@ -1,0 +1,25 @@
+filename = 'botanypots-neoforge-1.21.1-21.1.44.jar'
+name = 'Botany Pots'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'botanypots-neoforge-1.21.1-21.1.44.jar'
+
+[download]
+hash = 'fcb58dfa5f52819c85da40025fa50d0ddccbbb47'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8243851
+project-id = 353928
+
+[[x-prismlauncher-dependencies]]
+addonId = '1023259'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '228525'
+type = 'REQUIRED'

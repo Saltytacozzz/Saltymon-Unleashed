@@ -1,0 +1,21 @@
+filename = 'gemstorage-1.1.0.jar'
+name = 'Gem Storage for Apotheosis'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'gemstorage-1.1.0.jar'
+
+[download]
+hash = 'f4513e2f45bc4e64a345213408e07b53f372abee'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7382545
+project-id = 1411540
+
+[[x-prismlauncher-dependencies]]
+addonId = '313970'
+type = 'REQUIRED'

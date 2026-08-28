@@ -1,0 +1,21 @@
+filename = 'apothic_compat-2.0.2.jar'
+name = 'Apothic Category Compat'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Apothic Compat 2.0.2 NeoForge (1.21.1)'
+
+[download]
+hash = '868506b8367be2c155acde0ef186b5a3e6ba8db9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8219980
+project-id = 1516278
+
+[[x-prismlauncher-dependencies]]
+addonId = '313970'
+type = 'REQUIRED'

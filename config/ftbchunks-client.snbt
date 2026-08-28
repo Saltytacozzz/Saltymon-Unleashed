@@ -138,44 +138,44 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:goat": true
-			"minecraft:chicken": true
 			"minecraft:rabbit": true
-			"minecraft:creeper": true
-			"minecraft:enderman": true
-			"minecraft:cod": false
 			"minecraft:cave_spider": true
-			"minecraft:tropical_fish": false
-			"minecraft:horse": true
-			"minecraft:pig": true
-			"minecraft:bat": true
-			"minecraft:glow_squid": true
-			"minecraft:husk": true
+			"minecraft:creeper": true
 			"artifacts:mimic": true
-			"minecraft:spider": true
-			"minecraft:squid": true
-			"minecraft:cow": true
-			"minecraft:zombie_villager": true
-			"minecraft:camel": true
-			"minecraft:skeleton": true
-			"minecraft:donkey": true
-			"minecraft:villager": true
-			"minecraft:bee": true
-			"minecraft:phantom": true
-			"minecraft:witch": true
-			"minecraft:wolf": true
-			"minecraft:fox": true
-			"minecraft:zombie": true
-			"minecraft:llama": true
-			"minecraft:sheep": true
-			"minecraft:slime": true
-			"minecraft:salmon": false
-			"cobblemon:pokemon": true
+			"minecraft:tropical_fish": false
 			"minecraft:iron_golem": true
-			"minecraft:armadillo": true
-			"minecraft:axolotl": true
-			"minecraft:turtle": true
+			"minecraft:glow_squid": true
+			"minecraft:cow": true
+			"minecraft:wolf": true
+			"minecraft:phantom": true
+			"minecraft:goat": true
+			"minecraft:squid": true
+			"cobblemon:pokemon": true
+			"minecraft:llama": true
+			"minecraft:donkey": true
 			"minecraft:pufferfish": false
+			"minecraft:turtle": true
+			"minecraft:villager": true
+			"minecraft:salmon": false
+			"minecraft:witch": true
+			"minecraft:horse": true
+			"minecraft:bee": true
+			"minecraft:sheep": true
+			"minecraft:zombie_villager": true
+			"minecraft:fox": true
+			"minecraft:pig": true
+			"minecraft:axolotl": true
+			"minecraft:chicken": true
+			"minecraft:skeleton": true
+			"minecraft:slime": true
+			"minecraft:enderman": true
+			"minecraft:camel": true
+			"minecraft:husk": true
+			"minecraft:armadillo": true
+			"minecraft:bat": true
+			"minecraft:spider": true
+			"minecraft:cod": false
+			"minecraft:zombie": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

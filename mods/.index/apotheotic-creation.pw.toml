@@ -1,0 +1,25 @@
+filename = 'apotheoticcreation-2.0.0.jar'
+name = 'Apotheotic Creation'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v2.0.0 (1.21.1/Create 6)'
+
+[download]
+hash = '6bbb91aea834941b47a6af3318b091f64e4375ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8391265
+project-id = 956637
+
+[[x-prismlauncher-dependencies]]
+addonId = '313970'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '328085'
+type = 'REQUIRED'

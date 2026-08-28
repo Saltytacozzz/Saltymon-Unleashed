@@ -1,0 +1,13 @@
+name = "Cobblemon Botany Pots"
+filename = "cobblemon_pots-neoforge-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a1232a4b7aec332c69645c9be62ac66d62fd5ad8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7073931
+project-id = 1359891
