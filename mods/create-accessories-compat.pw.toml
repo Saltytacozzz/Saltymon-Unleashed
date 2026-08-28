@@ -1,0 +1,25 @@
+filename = 'Create-Accessories-Compat.jar'
+name = 'Create Accessories Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0'
+
+[download]
+hash = '0e432b1154589ede7ceff167f97e3dde387b72e76c058851b372853a9a884e5150db19023c1d79369bc7973cbf43f180a9c501202c6e3843a991d9706ad934dd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2MhMVi7C/versions/2r7hvkCQ/Create-Accessories-Compat.jar'
+
+[update.modrinth]
+mod-id = '2MhMVi7C'
+version = '2r7hvkCQ'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'jtmvUHXj'
+type = 'REQUIRED'

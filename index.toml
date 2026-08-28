@@ -218,7 +218,7 @@ hash = "eeead79d2c51bca73a1174aeadd2cef9c12feea8ae8083121c15e47b0563ebc0"
 
 [[files]]
 file = "config/bountiful/errors.log"
-hash = "f3160214f084086df7484cfe2f9775aed46b2d3f0af5aedb64e15c1b7cfc495e"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/brewinandchewin-client.toml"
@@ -454,7 +454,7 @@ hash = "c1048c2d0455dbc9510aee18da9ad728cf21ca7307aaea4c3a5490ac90f3bb2d"
 
 [[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
-hash = "84be919e0891ccc83aad91b5938bcdc1d49ea3e1d7a4145b8441fb5d3c42e3a5"
+hash = "ce399310daf34db7b4a19a96b805ad832949c5ee0dce5ea5632290bde9f9c437"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
@@ -613,6 +613,10 @@ file = "config/fancymenu/assets/music/route209.ogg"
 hash = "ecad768c4e44231eee8112f305c8ce6cda9bf959ecabcd6098ee7fa339e272ba"
 
 [[files]]
+file = "config/fancymenu/assets/pack_version.txt"
+hash = "37b7fcbd7a74b68903771f6dc7bfe33b561bc05ecc1e79a946a33d3c907ee062"
+
+[[files]]
 file = "config/fancymenu/assets/splashes.txt"
 hash = "eb035b5a62626062ff76df97667f4bf08156f756ec6318bc188c6fea81973cb0"
 
@@ -634,11 +638,11 @@ hash = "9f703e2630fb37c06cf3b4e864331c8e630e677d1f9a68d719bf0790af046e78"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "00ebe4bba2f08f77d5dcfda741436a4ac8eda06eaa432fe56d6be96b12e8e3cb"
+hash = "7aaf1b9e1dea8821d5cd693ccfe19f16e3cf7f0c5e7ec93cf9dcc3f35bf84240"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "5f26f97003bbf5ff0a83705fa7955e024291c89d337be750d3f02a96186ceae0"
+hash = "521b07eba3cfed33befa3e33ad1322a0a946f83c3ae7356bfa463ffbfefc35ee"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -646,7 +650,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "c3f263524b789db7035c7fb354c20bdf3ff83be6d018d402e9ec360dd3246ac1"
+hash = "9a49361d9fc14170615d7a71d3aa387d51c431d43faeffcd24523edff83605a9"
 
 [[files]]
 file = "config/fancymenu/ui_themes/cherry_blossom.json"
@@ -762,7 +766,7 @@ hash = "3aed4bf53145f470d213a1ea007bd3b489c8645a5fcf6a72477ba44fad9df67b"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "da9f3fcb25dffb84d30de1c548758dc68e8aa01e48f0c8f18cd81180c50d5155"
+hash = "adcdcf5e4af18f7c59335b4667652bb78349b9eba2710f48f04373385c7a7a1e"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -986,7 +990,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "bdf06433b78e67a7c6636a0b3cf6854afc64ecb226fc7f0cb7d864e4a2067926"
+hash = "1cb4c801397c618a2d10f2467c3bdf25da47b610f497ad600d620d2d3e82699e"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -2787,6 +2791,11 @@ hash = "c55fa4363fa59143627aba388dfb14546791ca58dce47c2d0521803bb5259411"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "ba3081449d58c1d0b3438c1fa238c6de65067bb1f00b42c22604321e26ecf1fc"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
@@ -2952,6 +2961,11 @@ hash = "4d50a0d112301450f14a9e41e1c3591e2a0213dd66d1eb47dfb61ba5823ed4a0"
 metafile = true
 
 [[files]]
+file = "mods/create-accessories-compat.pw.toml"
+hash = "b56ffb8a424ae518662db5deb21108c19258162bf5613012aa2b1cf62ac7aea8"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "ee18c9b942d0f7902f387ebd144f998f564975b8258e05eb589ecea0a3f5dc17"
 metafile = true
@@ -3032,8 +3046,18 @@ hash = "fcfad54d985bbb7065956bae52b949837644c51c639f99f1adb80f72f81728e9"
 metafile = true
 
 [[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "bd3a743197af4a0daff2a3b825a5d66434ab67548c66662869c0fc9caa1cab73"
+metafile = true
+
+[[files]]
 file = "mods/create-threshold-fix.pw.toml"
 hash = "a70655339e6b392ddc5966573a9210db21c43258765e1647fcde2d782bd8a872"
+metafile = true
+
+[[files]]
+file = "mods/create-toolbox-tooltip.pw.toml"
+hash = "51321287b2b790ccdc1530f2d43372792b22a6e707e2ea129b0ce814ed13375f"
 metafile = true
 
 [[files]]
@@ -3109,6 +3133,11 @@ metafile = true
 [[files]]
 file = "mods/embeddium.pw.toml"
 hash = "732230fce4618b7b3f399e48a9fa632731ebbf4226e39cbcdac06586be15dd5f"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "77ea6a26595f32ff1c90690c484ae646a2691f233bc1d4094c7888f0921e68bc"
 metafile = true
 
 [[files]]

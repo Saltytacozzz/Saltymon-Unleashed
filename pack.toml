@@ -1,12 +1,12 @@
 name = "SaltyMon Unleashed"
 author = "Saltytacozzz"
-version = "1.1.67"
+version = "1.1.92"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "249df8c55d9153c66e15cd2a45bc982830a0b0cb1de7ae4507f4955f8f8e319c"
+hash = "8cde650fca2e2119955ec28d1c8f9300b58830a59a867b9b79a5b753b9aecf22"
 
 [versions]
 minecraft = "1.21.1"
