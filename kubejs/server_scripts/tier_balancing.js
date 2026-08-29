@@ -10,22 +10,72 @@ ServerEvents.recipes(event => {
     event.remove({ output: MASTER_BINDER })
     event.remove({ output: NETHERITE_BINDER })
 
-    event.recipes.create.sequenced_assembly([
-        NETHERITE_BINDER
-    ], DIAMOND_BINDER, [
-        event.recipes.create.pressing('kubejs:incomplete_netherite_binder', DIAMOND_BINDER),
-        event.recipes.create.deploying('kubejs:incomplete_netherite_binder', ['kubejs:incomplete_netherite_binder', 'minecraft:netherite_scrap']),
-        event.recipes.create.deploying('kubejs:incomplete_netherite_binder', ['kubejs:incomplete_netherite_binder', 'minecraft:obsidian'])
-    ]).transitionalItem('kubejs:incomplete_netherite_binder').loops(3)
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": DIAMOND_BINDER },
+        "transitional_item": { "id": "kubejs:incomplete_netherite_binder" },
+        "sequence": [
+            {
+                "type": "create:pressing",
+                "ingredients": [ { "item": "kubejs:incomplete_netherite_binder" } ],
+                "results": [ { "id": "kubejs:incomplete_netherite_binder", "count": 1 } ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    { "item": "kubejs:incomplete_netherite_binder" },
+                    { "item": "minecraft:netherite_scrap" }
+                ],
+                "results": [ { "id": "kubejs:incomplete_netherite_binder", "count": 1 } ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    { "item": "kubejs:incomplete_netherite_binder" },
+                    { "item": "minecraft:obsidian" }
+                ],
+                "results": [ { "id": "kubejs:incomplete_netherite_binder", "count": 1 } ]
+            }
+        ],
+        "results": [ { "id": NETHERITE_BINDER, "count": 1 } ],
+        "loops": 3
+    });
 
-    event.recipes.create.sequenced_assembly([
-        MASTER_BINDER
-    ], NETHERITE_BINDER, [
-        event.recipes.create.pressing('kubejs:incomplete_master_binder', NETHERITE_BINDER),
-        event.recipes.create.deploying('kubejs:incomplete_master_binder', ['kubejs:incomplete_master_binder', 'minecraft:tinted_glass']),
-        event.recipes.create.deploying('kubejs:incomplete_master_binder', ['kubejs:incomplete_master_binder', 'cobblemon:max_revive']),
-        event.recipes.create.pressing('kubejs:incomplete_master_binder', 'kubejs:incomplete_master_binder')
-    ]).transitionalItem('kubejs:incomplete_master_binder').loops(5)
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": NETHERITE_BINDER },
+        "transitional_item": { "id": "kubejs:incomplete_master_binder" },
+        "sequence": [
+            {
+                "type": "create:pressing",
+                "ingredients": [ { "item": "kubejs:incomplete_master_binder" } ],
+                "results": [ { "id": "kubejs:incomplete_master_binder", "count": 1 } ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    { "item": "kubejs:incomplete_master_binder" },
+                    { "item": "minecraft:tinted_glass" }
+                ],
+                "results": [ { "id": "kubejs:incomplete_master_binder", "count": 1 } ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    { "item": "kubejs:incomplete_master_binder" },
+                    { "item": "cobblemon:max_revive" }
+                ],
+                "results": [ { "id": "kubejs:incomplete_master_binder", "count": 1 } ]
+            },
+            {
+                "type": "create:pressing",
+                "ingredients": [ { "item": "kubejs:incomplete_master_binder" } ],
+                "results": [ { "id": "kubejs:incomplete_master_binder", "count": 1 } ]
+            }
+        ],
+        "results": [ { "id": MASTER_BINDER, "count": 1 } ],
+        "loops": 5
+    });
 
     // ==========================================
     // 2. WAYSTONES GATING
@@ -54,7 +104,7 @@ ServerEvents.recipes(event => {
         result: { id: "cobblemon:max_revive", count: 1 },
         experience: 3.0,
         cookingtime: 300
-    })
+    });
 
     event.custom({
         type: "farmersdelight:cooking",
@@ -67,27 +117,41 @@ ServerEvents.recipes(event => {
         result: { id: "cobblemon:hyper_potion", count: 1 },
         experience: 1.5,
         cookingtime: 200
-    })
+    });
 
     // ==========================================
     // 4. RE-BALANCING BACKPACKS
     // ==========================================
     event.remove({ output: 'sophisticatedbackpacks:netherite_backpack' })
     
-    event.recipes.create.sequenced_assembly([
-        'sophisticatedbackpacks:netherite_backpack'
-    ], 'sophisticatedbackpacks:diamond_backpack', [
-        event.recipes.create.pressing('kubejs:incomplete_netherite_tier', 'sophisticatedbackpacks:diamond_backpack'),
-        event.recipes.create.deploying('kubejs:incomplete_netherite_tier', ['kubejs:incomplete_netherite_tier', 'minecraft:netherite_scrap']),
-        event.recipes.create.deploying('kubejs:incomplete_netherite_tier', ['kubejs:incomplete_netherite_tier', 'cobblemon:max_revive'])
-    ]).transitionalItem('kubejs:incomplete_netherite_tier').loops(3)
-
-    // ==========================================
-    // 5. FIXING CHEAP APRICORN / POKÉ BALL RECIPES
-    // ==========================================
-    event.remove({ output: 'cobblemon:poke_ball' })
-    
-    event.recipes.create.cutting([
-        'cobblemon:poke_ball'
-    ], 'cobblemon:red_apricorn')
+    event.custom({
+        "type": "create:sequenced_assembly",
+        "ingredient": { "item": "sophisticatedbackpacks:diamond_backpack" },
+        "transitional_item": { "id": "kubejs:incomplete_netherite_tier" },
+        "sequence": [
+            {
+                "type": "create:pressing",
+                "ingredients": [ { "item": "kubejs:incomplete_netherite_tier" } ],
+                "results": [ { "id": "kubejs:incomplete_netherite_tier", "count": 1 } ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    { "item": "kubejs:incomplete_netherite_tier" },
+                    { "item": "minecraft:netherite_scrap" }
+                ],
+                "results": [ { "id": "kubejs:incomplete_netherite_tier", "count": 1 } ]
+            },
+            {
+                "type": "create:deploying",
+                "ingredients": [
+                    { "item": "kubejs:incomplete_netherite_tier" },
+                    { "item": "cobblemon:max_revive" }
+                ],
+                "results": [ { "id": "kubejs:incomplete_netherite_tier", "count": 1 } ]
+            }
+        ],
+        "results": [ { "id": "sophisticatedbackpacks:netherite_backpack", "count": 1 } ],
+        "loops": 3
+    });
 })

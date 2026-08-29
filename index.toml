@@ -490,7 +490,7 @@ hash = "c1048c2d0455dbc9510aee18da9ad728cf21ca7307aaea4c3a5490ac90f3bb2d"
 
 [[files]]
 file = "config/drippyloadingscreen/early_window_reference.properties"
-hash = "73b939513808ae987cf1693750351f5604c605623235c8cc9c8afe20f16aad28"
+hash = "ee026fbfe453e3d2c7571f7752106fa1db867d051c35aa36159bc7f5936a0b76"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
@@ -806,7 +806,7 @@ hash = "3aed4bf53145f470d213a1ea007bd3b489c8645a5fcf6a72477ba44fad9df67b"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "0a7fa57b19bcafcfd23a102dae4d9f0f4c2d54ce7370a229faa99187b6b3ad72"
+hash = "130cd3f7f9d339d9f119262c3aeb326c116899cfb3fafd6be2e95d1fff2b9436"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -827,6 +827,14 @@ hash = "e9b2aac274fca344993154713919afc40de44be68c2978e84efa6a74aa915a29"
 [[files]]
 file = "config/ftbquests-client.snbt"
 hash = "1032e8651b80ddc5ddc712a56ae0d5a3408e9c28d5dcac2578705cce9ea4bcd0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/chapter_1.snbt"
+hash = "414ccab363dbc58d18c0703072ce1b751308bdf390a2eb917fdd106346249e0d"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/2.snbt"
+hash = "4890d54c70afedff8ae78114d5f9eca3632ba2fec84ea237e27b9bea7ef48798"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -874,7 +882,7 @@ hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "a44027e5b5bf7106a7657a84978cbdb46b0d55ac9db0cf77636d4670c4ebfdc3"
+hash = "d9b6f68ff0d6d7e67881c5de35b0f7537f04ad60b28d0697178f775c48231c91"
 
 [[files]]
 file = "config/inventoryprofilesnext/villager-trading-config-v2.json"
@@ -910,7 +918,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "0fa73593ba3fb3ddd23d0f0aa1eae2ebac932d7cb5f59f3ffbe5d107123a47ae"
+hash = "88d5c425e15d77398d326745d6ce8d8aad1a05deafc21d2b4d13f073a733caf3"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -934,11 +942,11 @@ hash = "6a91c09d1cabc1980d90ab102a03ec58c0551213ab16a459b599d768b334d054"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "62c445845e533c86ba93770e11d74a85ae421bbb3ce482d7d44dd6a46baf6695"
+hash = "48c4dd8fe9a738b8f624595518f40a3ef811e341b643b314cf83e938f2e13367"
 
 [[files]]
 file = "config/jei/world/server/SaltyMon Unleashed (169_150_133_144)/lookupHistory.json"
-hash = "121a6fbea1d5d5dd470dc6fed76774419ad57be1b8c2edbbfacc1b8ae290ea66"
+hash = "0a4c80a3bb17c646e82639b6b03abe913d27171b567c3c435e27f1b65a07c3e7"
 
 [[files]]
 file = "config/jei_plus_plus-client.toml"
@@ -1038,7 +1046,7 @@ hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "27201e4317ca452ec8d666eca5d0f8fd3f818ce01b8e67a43e8d69cd3f4d8505"
+hash = "52198a3a6bad1772d18839e5ba43dc8249e144dcefad0d9cf2d53d1fbb85b89f"
 
 [[files]]
 file = "config/paraglider-common.toml"
@@ -1770,7 +1778,7 @@ hash = "b680b819da08007f9f371edd87901ee12997588335df1993773879558f53fcf2"
 
 [[files]]
 file = "dynamic-resource-pack-cache/hash.txt"
-hash = "60604d70dbedbe065a46d923b13f0d794c25461c2a20dbc20b25c7a23f268c2d"
+hash = "9260e79559fe20002aa1421fcc19e2df6a0eaaf8f981dc11d2d2fea8123b6911"
 
 [[files]]
 file = "dynamic-resource-pack-cache/supplementaries-generated_pack/assets/minecraft/models/item/crossbow.json"
@@ -2690,7 +2698,7 @@ hash = "242de8ccae22625da6f8b5e6605bac640795b78d6fb0f7654f63ce5d747b1143"
 
 [[files]]
 file = "fancymenu_data/last_world.fmdata"
-hash = "40203a44a40bb6a618a05b87024b5689557659ed4fd6477554de8f7f42201d04"
+hash = "bf2c9c3fdfdf0f28142f59146a1d4157695cdab2f69505822aa5d9e502470c18"
 
 [[files]]
 file = "icon.png"
@@ -2713,8 +2721,8 @@ file = "kubejs/client_scripts/card_binder_tooltips.js"
 hash = "8237655783cbaccf8286aa247f4608c8316251a12826835171d3e75e8b4ccdfc"
 
 [[files]]
-file = "kubejs/client_scripts/main.js"
-hash = "3df46f0add819bf2602642215b5c62f0581ffdaaf97e77c80a8c4d966e05adcf"
+file = "kubejs/client_scripts/jei_pokeball_cleanup.js"
+hash = "51e316677d654d600562b1509c033314c1d88dbfc48f48c45d48e67c4ad6c833"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -2729,12 +2737,12 @@ file = "kubejs/config/web_server.json"
 hash = "559aa39bda456675a33c2ece8741dd4fc944fd49117c29bc531aa2ef3b6f1152"
 
 [[files]]
-file = "kubejs/server_scripts/main.js"
-hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
+file = "kubejs/server_scripts/pokeball_factory.js"
+hash = "e959f1eede74a8f8912c1454d383eb6ed8e7f32eadd864e87652c710dc44840a"
 
 [[files]]
 file = "kubejs/server_scripts/saltymon_integrations.js"
-hash = "686d3f1ed3eeb6926376dda70d5b0874a98c4bf78c4dd3b4431c9fee28b47888"
+hash = "7fe0749d35777a8da69be52950d50cb7565f2edf7928591c2e555561e42b6f34"
 
 [[files]]
 file = "kubejs/server_scripts/soup_fix.js"
@@ -2750,15 +2758,11 @@ hash = "e8ad53dd26fb246de3bd3b240b30138c8ea2e8a3b25636e618fa8f54f13dc67e"
 
 [[files]]
 file = "kubejs/server_scripts/tier_balancing.js"
-hash = "7970e2be9f2a1885838ab055ae895a8deb91d790fefe4d11df1178447e4b51f0"
-
-[[files]]
-file = "kubejs/startup_scripts/main.js"
-hash = "5c4659e7bb368960801ccfce24ac3493fa14aae88a7e17b2a9cdfe1931985ffe"
+hash = "d76d93a0b20d3a42245d8b99136277065401bbdc9659e6badd5ce7180ce9cffa"
 
 [[files]]
 file = "kubejs/startup_scripts/saltymon_items.js"
-hash = "f77e101ec860f9930962d61f90e8158eb7df30574631ac44ab9c627b4e3b7de7"
+hash = "152e896f630ddf1c3f064006c50835ef9ea3bd6b4b0406f222673cbafe3176a9"
 
 [[files]]
 file = "mods/accessories.pw.toml"

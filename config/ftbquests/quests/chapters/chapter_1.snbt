@@ -1,0 +1,567 @@
+{
+	id: "0000000000000001"
+	group: ""
+	order_index: 0
+	filename: "chapter_1"
+	title: "Chapter 1: The Frontier Scout"
+	icon: "cobblemon:poke_ball"
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			id: "0A1E5F23BC490001"
+			title: "Arrival in Mesetara"
+			icon: "cobblemon:poke_ball"
+			subtitle: "Meet Professor Aspen and claim your native starter."
+			description: [
+				"&6Welcome to the Mesetara Region!&r"
+				""
+				"You've finally left the hustle and bustle of Unova behind. Out here, the sun-baked red dirt roads lead to unexplored ruins, towering pines, and high-altitude deserts."
+				""
+				"As Professor Aspen noted, your father taught you the trade of engineering. You will need those skills—out on the frontier, you must forge your own tools and automate your own survival."
+				""
+				"Because you are new to the region, Professor Aspen has authorized a &dNative Mesetara Starter&r to accompany your standard companion."
+				""
+				"Harvest your first timber, gather your heavy supply kit, and choose your native partner to begin your legend."
+			]
+			size: 1.5d
+			shape: "hexagon"
+			x: 0.0d
+			y: 0.0d
+			tasks: [
+				{
+					id: "7B22A14D0E990001"
+					type: "advancement"
+					title: "Choose Your Starter"
+					icon: "cobblemon:poke_ball"
+					advancement: "cobblemon:starter_chosen"
+					criterion: ""
+				}
+				{
+					id: "3D4C8A110F880002"
+					type: "item"
+					title: "Harvest Forest Timber"
+					icon: "minecraft:oak_log"
+					item: "minecraft:oak_log"
+					count: 4L
+				}
+			]
+			rewards: [
+				{ id: "1F4A6C880B110001", type: "item", item: "cobblemon:poke_ball", count: 10 }
+				{ id: "1F4A6C880B110002", type: "item", item: "cobblemon:potion", count: 5 }
+				{ id: "1F4A6C880B110003", type: "item", item: "minecraft:apple", count: 8 }
+				{ id: "1F4A6C880B110004", type: "item", item: "minecraft:leather", count: 6 }
+				{
+					id: "1F4A6C880B110005"
+					type: "choice"
+					title: "Choose Your Native Starter"
+					icon: "cobblemon:rare_candy"
+					table_id: 2L
+				}
+			]
+		}
+		{
+			id: "0000000000000010"
+			title: "The Frontier Camp"
+			icon: "minecraft:campfire"
+			subtitle: "Establish a safe haven."
+			description: [
+				"Before you can build sprawling mechanical factories, you need a safe place to sleep and store your scavenged goods."
+				""
+				"Craft a basic bed, a crafting table, and your first wooden chest."
+			]
+			dependencies: ["0A1E5F23BC490001"]
+			shape: "square"
+			x: 0.0d
+			y: 2.0d
+			tasks: [
+				{ id: "0A1E5F23BC49A001", type: "item", item: "minecraft:red_bed" }
+				{ id: "0A1E5F23BC49A002", type: "item", item: "minecraft:crafting_table" }
+				{ id: "0A1E5F23BC49A003", type: "item", item: "minecraft:chest" }
+			]
+			rewards: [
+				{ id: "0A1E5F23BC49B001", type: "item", item: "minecraft:stone_pickaxe" }
+				{ id: "0A1E5F23BC49B002", type: "item", item: "minecraft:coal", count: 16 }
+			]
+		}
+		{
+			id: "0000000000000011"
+			title: "Nomadic Rest"
+			icon: "comforts:sleeping_bag_white"
+			subtitle: "Sleep on the go."
+			description: [
+				"&e[Optional Offshoot]&r"
+				""
+				"A standard bed resets your spawn point. If you wander thousands of blocks away, sleeping in a bed deletes your home coordinates."
+				""
+				"Craft a Sleeping Bag to skip the dangerous nights in the wilderness without overriding your base spawn."
+			]
+			dependencies: ["0000000000000010"]
+			shape: "diamond"
+			size: 0.8d
+			x: -2.0d
+			y: 2.0d
+			tasks: [{ id: "0A1E5F23BC49A004", type: "item", item: "comforts:sleeping_bag_white" }]
+			rewards: [
+				{ id: "0A1E5F23BC49B003", type: "item", item: "comforts:hammock_white" }
+				{ id: "0A1E5F23BC49B004", type: "item", item: "minecraft:string", count: 4 }
+			]
+		}
+		{
+			id: "0000000000000020"
+			title: "The Ghost Town Harvest"
+			icon: "cobblemon:red_apricorn"
+			subtitle: "Scavenge the plains for wild resources."
+			description: [
+				"Wild Apricorns are the lifeblood of any trainer's journey."
+				""
+				"Trees growing among the abandoned pioneer ruins drop ripe fruit that can be stripped down for shells and medicinal extracts."
+			]
+			dependencies: ["0000000000000010"]
+			shape: "circle"
+			x: -4.5d
+			y: 3.5d
+			tasks: [
+				{ id: "0B2E5F23BC49A001", type: "item", item: "cobblemon:red_apricorn", count: 6L }
+				{ id: "0B2E5F23BC49A002", type: "item", item: "cobblemon:oran_berry", count: 4L }
+			]
+			rewards: [
+				{ id: "0B2E5F23BC49B001", type: "item", item: "cobblemon:red_apricorn_seed", count: 12 }
+				{ id: "0B2E5F23BC49B002", type: "item", item: "minecraft:bone_meal", count: 8 }
+			]
+		}
+		{
+			id: "0000000000000021"
+			title: "The Pioneer's Skillet"
+			icon: "farmersdelight:skillet"
+			subtitle: "Cook a hearty meal."
+			description: [
+				"Raw forage will only sustain you for so long."
+				""
+				"Cooking hot meals provides lasting nourishment and passive health regeneration when exploring far from shelter."
+			]
+			dependencies: ["0000000000000020"]
+			shape: "circle"
+			x: -6.0d
+			y: 5.0d
+			tasks: [
+				{ id: "0B2E5F23BC49A003", type: "item", item: "minecraft:campfire" }
+				{ id: "0B2E5F23BC49A004", type: "item", item: "farmersdelight:skillet" }
+			]
+			rewards: [
+				{ id: "0B2E5F23BC49B003", type: "item", item: "farmersdelight:beef_stew", count: 3 }
+			]
+		}
+		{
+			id: "0000000000000022"
+			title: "Passive Cultivation"
+			icon: "botanypots:terracotta_botany_pot"
+			subtitle: "Automate your agriculture."
+			description: [
+				"Running through the wilderness hunting for Apricorns is inefficient."
+				""
+				"Craft a Botany Pot, add dirt, and plant an Apricorn seed to generate materials passively over time."
+			]
+			dependencies: ["0000000000000021"]
+			shape: "square"
+			x: -7.5d
+			y: 6.5d
+			tasks: [{ id: "0B2E5F23BC49A005", type: "item", item: "botanypots:terracotta_botany_pot" }]
+			rewards: [
+				{ id: "0B2E5F23BC49B005", type: "item", item: "minecraft:hopper" }
+				{ id: "0B2E5F23BC49B006", type: "item", item: "farmersdelight:rich_soil", count: 4 }
+			]
+		}
+		{
+			id: "0000000000000023"
+			title: "Culinary Mastery"
+			icon: "farmersdelight:cooking_pot"
+			subtitle: "Brew advanced medicine."
+			description: [
+				"&e[Optional Offshoot]&r"
+				""
+				"The Skillet is great for quick meals, but the Cooking Pot allows you to boil berries into restorative syrups and craft high-tier foods that grant massive battle buffs."
+			]
+			dependencies: ["0000000000000022"]
+			shape: "diamond"
+			size: 0.8d
+			x: -9.0d
+			y: 6.5d
+			tasks: [{ id: "0B2E5F23BC49A006", type: "item", item: "farmersdelight:cooking_pot" }]
+			rewards: [
+				{ id: "0B2E5F23BC49B007", type: "item", item: "farmersdelight:tomato_seeds", count: 4 }
+				{ id: "0B2E5F23BC49B008", type: "item", item: "farmersdelight:onion", count: 4 }
+			]
+		}
+		{
+			id: "0000000000000030"
+			title: "The Rucksack"
+			icon: "sophisticatedbackpacks:backpack"
+			subtitle: "Expand your inventory."
+			description: [
+				"The Mesetara Region is vast, and your pockets are small."
+				""
+				"Use the leather from your survival kit to craft a Sophisticated Backpack. Press [B] to open it on the go."
+			]
+			dependencies: ["0000000000000010"]
+			shape: "circle"
+			x: 4.5d
+			y: 3.5d
+			tasks: [{ id: "0C3E5F23BC49A001", type: "item", item: "sophisticatedbackpacks:backpack" }]
+			rewards: [
+				{ id: "0C3E5F23BC49B001", type: "item", item: "sophisticatedbackpacks:pickup_upgrade" }
+				{ id: "0C3E5F23BC49B002", type: "item", item: "minecraft:iron_ingot", count: 4 }
+			]
+		}
+		{
+			id: "0000000000000031"
+			title: "The Windrider"
+			icon: "paraglider:paraglider"
+			subtitle: "Take to the skies."
+			description: [
+				"Traversing the massive frontier canyons and tectonic rifts on foot will quickly deplete your energy."
+				""
+				"Craft a Paraglider to soar across the high-desert winds."
+			]
+			dependencies: ["0000000000000030"]
+			shape: "circle"
+			x: 6.0d
+			y: 5.0d
+			tasks: [{ id: "0C3E5F23BC49A002", type: "item", item: "paraglider:paraglider" }]
+			rewards: [{ id: "0C3E5F23BC49B003", type: "item", item: "paraglider:spirit_orb", count: 2 }]
+		}
+		{
+			id: "0000000000000032"
+			title: "Charting the Expanse"
+			icon: "waystones:waystone"
+			subtitle: "Establish a fast-travel network."
+			description: [
+				"As you explore, you will find ancient Waystones scattered across the region."
+				""
+				"Harvest or craft one to establish a fast-travel network back to your camp."
+			]
+			dependencies: ["0000000000000031"]
+			shape: "square"
+			x: 7.5d
+			y: 6.5d
+			tasks: [{ id: "0C3E5F23BC49A003", type: "item", item: "waystones:waystone" }]
+			rewards: [{ id: "0C3E5F23BC49B004", type: "item", item: "waystones:warp_scroll", count: 5 }]
+		}
+		{
+			id: "0000000000000033"
+			title: "The Goddess Statue"
+			icon: "paraglider:heart_container"
+			subtitle: "Upgrade your vitals."
+			description: [
+				"&e[Optional Offshoot]&r"
+				""
+				"Gathering 4 Spirit Orbs from Goddess Statues allows you to permanently increase your Stamina or your Health. Seek out the towering ruins to find them."
+			]
+			dependencies: ["0000000000000031"]
+			shape: "diamond"
+			size: 0.8d
+			x: 7.5d
+			y: 5.0d
+			tasks: [{ id: "0C3E5F23BC49A004", type: "item", item: "paraglider:spirit_orb", count: 4L }]
+			rewards: [{ id: "0C3E5F23BC49B005", type: "item", item: "paraglider:heart_container" }]
+		}
+		{
+			id: "0000000000000040"
+			title: "Kinetic Foundations"
+			icon: "create:andesite_alloy"
+			subtitle: "The building blocks of industry."
+			description: [
+				"Your father taught you the basics of Create engineering."
+				""
+				"Combine Andesite and Iron/Zinc to forge Andesite Alloy, the foundational material for all kinetic components."
+			]
+			dependencies: ["0000000000000010"]
+			shape: "square"
+			x: -2.5d
+			y: 4.0d
+			tasks: [{ id: "0D4E5F23BC49A001", type: "item", item: "create:andesite_alloy", count: 16L }]
+			rewards: [
+				{ id: "0D4E5F23BC49B001", type: "item", item: "create:wrench" }
+				{ id: "0D4E5F23BC49B002", type: "item", item: "create:andesite_alloy", count: 32 }
+			]
+		}
+		{
+			id: "0000000000000041"
+			title: "Harnessing the River"
+			icon: "create:water_wheel"
+			subtitle: "Generate rotational force."
+			description: [
+				"Machines require power. Craft a Water Wheel and place it in flowing water to generate continuous Rotational Force (SU)."
+			]
+			dependencies: ["0000000000000040"]
+			shape: "square"
+			x: -3.0d
+			y: 6.0d
+			tasks: [{ id: "0D4E5F23BC49A002", type: "item", item: "create:water_wheel" }]
+			rewards: [
+				{ id: "0D4E5F23BC49B003", type: "item", item: "create:shaft", count: 8 }
+				{ id: "0D4E5F23BC49B004", type: "item", item: "create:cogwheel", count: 4 }
+			]
+		}
+		{
+			id: "0000000000000042"
+			title: "Mechanical Forging"
+			icon: "create:mechanical_press"
+			subtitle: "Automate your metalwork."
+			description: [
+				"Connect a Mechanical Press to your kinetic network."
+				""
+				"Placing ingots on a Depot beneath the press will instantly stamp them into sheets, saving you hours of manual hammering."
+			]
+			dependencies: ["0000000000000041"]
+			shape: "square"
+			x: -3.5d
+			y: 8.0d
+			tasks: [
+				{ id: "0D4E5F23BC49A003", type: "item", item: "create:mechanical_press" }
+				{ id: "0D4E5F23BC49A004", type: "item", item: "create:depot" }
+			]
+			rewards: [
+				{ id: "0D4E5F23BC49B006", type: "item", item: "minecraft:iron_ingot", count: 16 }
+				{ id: "0D4E5F23BC49B007", type: "item", item: "minecraft:copper_ingot", count: 16 }
+			]
+		}
+		{
+			id: "0000000000000043"
+			title: "The Engineer's Vision"
+			icon: "create:goggles"
+			subtitle: "Read the kinetic stress."
+			description: [
+				"&e[Optional Offshoot]&r"
+				""
+				"Crafting Engineer's Goggles allows you to actively see the exact Rotational Speed and Stress Impact of your machines just by looking at them."
+			]
+			dependencies: ["0000000000000042"]
+			shape: "diamond"
+			size: 0.8d
+			x: -5.0d
+			y: 8.0d
+			tasks: [{ id: "0D4E5F23BC49A005", type: "item", item: "create:goggles" }]
+			rewards: [{ id: "0D4E5F23BC49B008", type: "item", item: "create:precision_mechanism", count: 1 }]
+		}
+		{
+			id: "0000000000000050"
+			title: "Whispers of the Void"
+			icon: "apotheosis:gem_dust"
+			subtitle: "Discover ancient magic."
+			description: [
+				"Not all power in Mesetara comes from gears and belts. The ruins hum with an ancient, dark magic."
+				""
+				"Drop an anvil on socket gems or Apotheosis gear to crush them into Gem Dust, the catalyst for high-tier enchanting."
+			]
+			dependencies: ["0000000000000010"]
+			shape: "circle"
+			x: 2.5d
+			y: 4.0d
+			tasks: [{ id: "0E5E5F23BC49A001", type: "item", item: "apotheosis:gem_dust", count: 4L }]
+			rewards: [
+				{ id: "0E5E5F23BC49B001", type: "item", item: "apotheosis:gem_dust", count: 8 }
+				{ id: "0E5E5F23BC49B002", type: "item", item: "minecraft:obsidian", count: 4 }
+			]
+		}
+		{
+			id: "0000000000000051"
+			title: "The Arcane Altar"
+			icon: "minecraft:enchanting_table"
+			subtitle: "Tap into Eterna, Quanta, and Arcana."
+			description: [
+				"Craft an Enchanting Table."
+				""
+				"Apotheosis completely overhauls enchanting. You will need specialized bookshelves to reach the highest tiers of power."
+			]
+			dependencies: ["0000000000000050"]
+			shape: "circle"
+			x: 3.0d
+			y: 6.0d
+			tasks: [{ id: "0E5E5F23BC49A002", type: "item", item: "minecraft:enchanting_table" }]
+			rewards: [
+				{ id: "0E5E5F23BC49B003", type: "item", item: "minecraft:lapis_lazuli", count: 32 }
+				{ id: "0E5E5F23BC49B004", type: "item", item: "minecraft:book", count: 8 }
+			]
+		}
+		{
+			id: "0000000000000052"
+			title: "Taming the Animate"
+			icon: "minecraft:gold_nugget"
+			subtitle: "Feed the trinkets."
+			description: [
+				"Hidden in the ghost towns and high-altitude chests are rare, sentient trinkets known as Inventory Pets."
+				""
+				"Find one in the wild, and keep a stack of its favorite food in your inventory to maintain its loyalty and passive buffs."
+			]
+			dependencies: ["0000000000000051"]
+			shape: "square"
+			x: 3.5d
+			y: 8.0d
+			tasks: [{ id: "0E5E5F23BC49A003", type: "item", title: "Find an Inventory Pet", item: { id: "itemfilters:tag", Count: 1b, tag: { value: "inventorypets:all_pets" } } }]
+			rewards: [
+				{ id: "0E5E5F23BC49B006", type: "item", item: "minecraft:gold_nugget", count: 16 }
+			]
+		}
+		{
+			id: "0000000000000053"
+			title: "Salvaging the Past"
+			icon: "apotheosis:salvaging_table"
+			subtitle: "Recycle the magic."
+			description: [
+				"&e[Optional Offshoot]&r"
+				""
+				"You will inevitably find Apotheosis gear with terrible affixes. Craft a Salvaging Table to break them down into pristine forging materials."
+			]
+			dependencies: ["0000000000000052"]
+			shape: "diamond"
+			size: 0.8d
+			x: 5.0d
+			y: 8.0d
+			tasks: [{ id: "0E5E5F23BC49A004", type: "item", item: "apotheosis:salvaging_table" }]
+			rewards: [
+				{ id: "0E5E5F23BC49B007", type: "item", item: "apotheosis:common_material", count: 8 }
+				{ id: "0E5E5F23BC49B008", type: "item", item: "apotheosis:uncommon_material", count: 4 }
+			]
+		}
+		{
+			id: "0000000000000060"
+			title: "Your Father's Trade"
+			icon: "create:hand_crank"
+			subtitle: "Manually forge your first capture spheres."
+			description: [
+				"Before you connect an entire water-powered Create assembly line, you must forge your first batch of balls by hand."
+				""
+				"Hook a Hand Crank up to a Mechanical Press to manually stamp down iron bases and apricorn lids!"
+			]
+			dependencies: ["0000000000000010"]
+			shape: "square"
+			x: 0.0d
+			y: 4.5d
+			tasks: [
+				{ id: "0F6E5F23BC49A001", type: "item", item: "create:hand_crank" }
+				{ id: "0F6E5F23BC49A002", type: "item", item: "create:mechanical_press" }
+				{ id: "0F6E5F23BC49A003", type: "item", item: "create:depot" }
+			]
+			rewards: [
+				{ id: "0F6E5F23BC49B001", type: "item", item: "cobblemon:poke_ball", count: 32 }
+				{ id: "0F6E5F23BC49B002", type: "item", item: "cobblemon:great_ball", count: 16 }
+				{ id: "0F6E5F23BC49B003", type: "item", item: "createcobblemonintegrations:pokeball_bottom", count: 16 }
+			]
+		}
+		{
+			id: "0000000000000061"
+			title: "Advanced Tooling"
+			icon: "cobblemore_lib:great_ball_lid"
+			subtitle: "Upgrade your catch rate."
+			description: [
+				"&e[Optional Offshoot]&r"
+				""
+				"Basic Poké Balls won't cut it against the heavier, high-level wildlife. Route blue apricorns into your press to forge higher-tier Great Lids."
+			]
+			dependencies: ["0000000000000060"]
+			shape: "diamond"
+			size: 0.8d
+			x: 1.5d
+			y: 4.5d
+			tasks: [{ id: "0F6E5F23BC49A004", type: "item", item: "cobblemore_lib:great_ball_lid", count: 5L }]
+			rewards: [
+				{ id: "0F6E5F23BC49B004", type: "item", item: "cobblemon:ultra_ball", count: 5 }
+				{ id: "0F6E5F23BC49B005", type: "item", item: "cobblemore_lib:ultra_ball_lid", count: 5 }
+			]
+		}
+		{
+			id: "0000000000000062"
+			title: "Roster Management"
+			icon: "cobblemon:pc"
+			subtitle: "Build a Pokémon PC."
+			description: [
+				"As your team grows, you will need a place to store them."
+				""
+				"Craft a PC using glass, copper, and iron to manage your boxes and swap your active party members."
+			]
+			dependencies: ["0000000000000060"]
+			shape: "square"
+			x: 0.0d
+			y: 6.5d
+			tasks: [{ id: "0F6E5F23BC49A006", type: "item", item: "cobblemon:pc" }]
+			rewards: [{ id: "0F6E5F23BC49B006", type: "item", item: "cobblemon:exp_share" }]
+		}
+		{
+			id: "0000000000000063"
+			title: "The Regional Encyclopedia"
+			icon: "cobblepedia:cobblepedia"
+			subtitle: "Unlock the Cobblepedia."
+			description: [
+				"&e[Optional Offshoot]&r"
+				""
+				"To begin logging the creatures of Mesetara, you'll need a way to store data."
+				""
+				"Bring a blank book to Professor Aspen's assistant, and they will upgrade it into a fully functional Cobblepedia for tracking your catches."
+			]
+			dependencies: ["0000000000000062"]
+			shape: "diamond"
+			size: 0.8d
+			x: -1.5d
+			y: 6.5d
+			tasks: [{ id: "0F6E5F23BC49A007", type: "item", item: "minecraft:book" }]
+			rewards: [
+				{ id: "0F6E5F23BC49B007", type: "item", item: "cobblepedia:cobblepedia" }
+				{ id: "0F6E5F23BC49B008", type: "item", item: "cobblemon:rare_candy", count: 3 }
+			]
+		}
+		{
+			id: "0000000000000064"
+			title: "The Healing Machine"
+			icon: "cobblemon:healing_machine"
+			subtitle: "Keep your team in fighting shape."
+			description: [
+				"Potions are expensive to craft in the early game."
+				""
+				"Build a Healing Machine for your camp to instantly restore your entire party's HP and PP after tough battles."
+			]
+			dependencies: ["0000000000000062"]
+			shape: "square"
+			x: 0.0d
+			y: 8.5d
+			tasks: [{ id: "0F6E5F23BC49A008", type: "item", item: "cobblemon:healing_machine" }]
+			rewards: [
+				{ id: "0F6E5F23BC49B009", type: "item", item: "cobblemon:revive", count: 5 }
+				{ id: "0F6E5F23BC49B010", type: "item", item: "cobblemon:max_potion", count: 5 }
+			]
+		}
+		{
+			id: "0000000000000070"
+			title: "The Mesetara Pioneer"
+			icon: "minecraft:compass"
+			subtitle: "Chapter 1 Capstone"
+			description: [
+				"You have learned to forge your own equipment, automate your raw materials, conquer the vertical peaks, and expand your Pokémon roster."
+				""
+				"You are no longer a stranger to Mesetara. You are a Pioneer."
+				""
+				"Prepare to venture deeper into the region to hunt Legendaries, construct grand factories, and conquer the Twilight Forest."
+			]
+			dependencies: [
+				"0000000000000022"
+				"0000000000000032"
+				"0000000000000042"
+				"0000000000000052"
+				"0000000000000064"
+			]
+			size: 2.0d
+			shape: "hexagon"
+			x: 0.0d
+			y: 11.5d
+			tasks: [{ id: "0G7E5F23BC49A001", type: "stat", title: "Explore the Frontier", icon: "minecraft:filled_map", stat: "minecraft:walk_one_cm", value: 50000 }]
+			rewards: [
+				{ id: "0G7E5F23BC49B001", type: "item", item: "cobblemon:ability_capsule" }
+				{ id: "0G7E5F23BC49B002", type: "item", item: "cobblemon:rare_candy", count: 10 }
+				{ id: "0G7E5F23BC49B003", type: "item", item: "waystones:warp_stone" }
+				{ id: "0G7E5F23BC49B004", type: "item", item: "minecraft:diamond", count: 8 }
+				{ id: "0G7E5F23BC49B005", type: "item", item: "cobblemon:shiny_stone" }
+				{ id: "0G7E5F23BC49B006", type: "xp", xp: 1500 }
+			]
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	id: "0000000000000002"
+	order_index: 0
+	title: "Native Starters"
+	icon: "cobblemon:rare_candy"
+	loot_size: 1
+	rewards: [
+		{
+			title: "Aron (Steel/Rock)"
+			icon: "cobblemon:iron_base"
+			command: "/pokegive @p aron level=5"
+			elevate_perms: true
+			silent: true
+			type: "command"
+		}
+		{
+			title: "Gible (Dragon/Ground)"
+			icon: "minecraft:sand"
+			command: "/pokegive @p gible level=5"
+			elevate_perms: true
+			silent: true
+			type: "command"
+		}
+		{
+			title: "Ralts (Psychic/Fairy)"
+			icon: "minecraft:amethyst_shard"
+			command: "/pokegive @p ralts level=5"
+			elevate_perms: true
+			silent: true
+			type: "command"
+		}
+	]
+}
